@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+
+    Options -Multiviews
+
+    # Permite reescribir las peticiones de la URL
+    RewriteEngine On
+
+    # Si el archivo y la carpeta no existen, hacer la siguiente reescritura
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+    # Redirecciona la peticion al index
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+</IfModule> 
