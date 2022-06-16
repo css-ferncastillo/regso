@@ -11,7 +11,7 @@
                   <ul class="nav-main nav-main-dark nav-main-horizontal nav-main-hover">
                      <li class="nav-main-item">
                         <a class="nav-main-link" href="bd_dashboard.html">
-                           <i class="nav-main-link-icon si si-compass"></i>
+                           <i class="nav-main-link-icon fa-solid fa-hospitals"></i>
                            <span class="nav-main-link-name">Inicio</span>
                         </a>
                      </li>

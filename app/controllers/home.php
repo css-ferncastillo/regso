@@ -23,9 +23,14 @@ class Home{
          if (isset($_POST)) {
             $post = [];
             foreach ($_POST as $nombre_campo => $valor) {
-               $post[":" . $nombre_campo] = $valor;
+               $post[":" . $nombre_campo] = stripslashes(trim($valor));
             }
-            
+            $fecha = date("Y-m-d H:i:s");
+            $ip = $_SERVER['REMOTE_ADDR'];
+            $result = \App\Models\Auth::login($post);
+            if($result){
+               
+            }
          }
       }
       

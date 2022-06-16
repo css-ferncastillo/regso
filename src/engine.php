@@ -26,12 +26,12 @@ class Engine {
 			ob_end_clean();
 
 			\Src\Template::getHeader();
-			// \Src\Template::getNavbar();
+			\Src\Template::getNavbar();
 			echo "<main id='main-container'>";
-			// \Src\Template::getSidebar();
+			\Src\Template::getSidebar();
 			echo $str;
 			echo "</main>";
-			// \Src\Template::getFooter();
+			\Src\Template::getFooter();
 			\Src\Template::getButtom();
 
 		} else {
