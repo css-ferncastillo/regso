@@ -38,5 +38,14 @@ if (APP_DEBUG) {
    error_reporting(E_ALL);
 }
 
+const DATABASE = [
+    'driver'   => 'mysql',
+    'hostname' => 'localhost',
+    'database' => 'encuestas_sso',
+    'username' => 'regso',
+    'password' => '123456789',
+];
+
+
 // var path to log file
 

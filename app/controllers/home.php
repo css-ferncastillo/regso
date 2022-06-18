@@ -3,7 +3,7 @@ namespace App\Controllers;
 
 class Home{
       public function index(){
-         \Src\Engine::render();
+         \Core\Engine::render();
       }
 
       public function login($e=null){
@@ -13,10 +13,10 @@ class Home{
                "message"=> "Error de Autenticacion",
                "class"=> "alert-danger"
             ];
-            \Src\Engine::set('error', $data);
+            \Core\Engine::set('error', $data);
          }
 
-         \Src\Engine::render();
+         \Core\Engine::render();
       }
 
       public function autenticar(){

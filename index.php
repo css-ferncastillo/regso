@@ -2,12 +2,12 @@
 
 require_once './config/app.config.php';
 
-require_once ROOT . 'src' .DS . 'autoload.php';
+require_once ROOT . 'core' .DS . 'autoload.php';
 
-\Src\Autoload::load();
+\Core\Autoload::load();
 
-set_error_handler('Src\Log::errorHandler');
-set_exception_handler('Src\Log::exceptionHandler');
+set_error_handler('Core\Handler::errorHandler');
+set_exception_handler('Core\Handler::exceptionHandler');
 
 
-\Src\Router::run(new \Src\Request());
+\Core\Router::run(new \Core\Request());

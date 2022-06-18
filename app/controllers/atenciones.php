@@ -5,8 +5,8 @@ namespace App\Controllers;
 class Atenciones
 {
    public function index(){
-      \Src\Engine::set('title', 'Registro de Atenciones');
-      \Src\Engine::render();
+      \Core\Engine::set('title', 'Registro de Atenciones');
+      \Core\Engine::render();
    }
 
    public function nueva()
