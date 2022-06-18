@@ -69,7 +69,12 @@ class Handler
       //
       $trace = $e->getTrace();
       foreach ($trace as $key => $stackPoint) {
-         $trace[$key]['args'] = array_map('gettype', $trace[$key]['args']);
+         if(isset($trace[$key]['args'])){
+            $trace[$key]['args'] = array_map('gettype', $trace[$key]['args']);
+         } else {
+            $trace[$key]['args'] = array();
+         }
+         
       }
 
       // modifica las trazas del error
@@ -98,7 +103,6 @@ class Handler
          $e->getFile(),
          $e->getLine()
       );
-
       error_log($msg);
    }
 

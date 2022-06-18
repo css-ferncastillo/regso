@@ -1,0 +1,24 @@
+[17-Jun-2022 21:22:19 America/Panama] #Exception Controller not found: sadnub(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[17-Jun-2022 21:22:48 America/Panama] #Exception Controller not found: sadnub(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[17-Jun-2022 21:23:01 America/Panama] #Exception Controller not found: main(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

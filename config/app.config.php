@@ -3,10 +3,11 @@
 date_default_timezone_set('America/Panama');
 setlocale(LC_ALL, 'es_PA.UTF-8');
 
-define('APP_NAME', 'Sistema de Registro de Estadistico');
+define('APP_NAME', 'REGSO');
 define('APP_VERSION', '1.0.0');
 define('APP_DEBUG', true);
 define('APP_ENV', 'development');
+
 if (isset($_GET['url'])) {
    define('APP_URI', 'http://' . $_SERVER['HTTP_HOST'] . str_replace($_GET['url'], '', $_SERVER['REQUEST_URI']));
 } else {
@@ -38,11 +39,18 @@ if (APP_DEBUG) {
    error_reporting(E_ALL);
 }
 
+define('LOGIN', 'AUTH');
+define('__SECRET_KEY__', sha1(md5('1q2w3e4r5t')));
+define('memory_limit', '-1');
+
+ini_set('log_errors', 1);
+ini_set('error_log', LOGS . 'app_errors.log');
+
 const DATABASE = [
     'driver'   => 'mysql',
     'hostname' => 'localhost',
     'database' => 'encuestas_sso',
-    'username' => 'regso',
+    'username' => 'desarrollo',
     'password' => '123456789',
 ];
 

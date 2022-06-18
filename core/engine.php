@@ -26,13 +26,14 @@ class Engine {
 			ob_end_clean();
 
 			\Core\Template::getHeader();
+			\Core\Template::topBody();
 			\Core\Template::getNavbar();
 			echo "<main id='main-container'>";
 			\Core\Template::getSidebar();
 			echo $str;
 			echo "</main>";
 			\Core\Template::getFooter();
-			\Core\Template::getButtom();
+			\Core\Template::bottomBody();
 
 		} else {
 			throw new \Exception("Archivo de vista no encontrado {$c} {$f}");
