@@ -4,7 +4,7 @@ namespace App\Model;
 class Actividadeconomica{
 	public static function insertar($data = []){
 		if(!empty($data)){
-			$sql = "";
+			$sql = "INSERT INTO t_act_economica(actividad_economica) VALUES(:actividad_economica)";
 			try{
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -20,7 +20,7 @@ class Actividadeconomica{
 	}
 
 	public static function listar(){
-		$sql = '';
+		$sql = 'SELECT * FROM t_act_economica;';
 		try{
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);
@@ -36,7 +36,7 @@ class Actividadeconomica{
 
 	public static function editar($data = []){
 		if(!empty($data)){
-			$sql = "";
+			$sql = "UPDATE t_act_economica SET actividad_economica = :actividad_economica WHERE id = :id";
 			try{
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -53,7 +53,7 @@ class Actividadeconomica{
 
 	public static function eliminar($data = []){
 		if(!empty($data)){
-			$sql = "";
+			$sql = 'DELETE FROM t_act_economica WHERE id = :id';
 			try{
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);

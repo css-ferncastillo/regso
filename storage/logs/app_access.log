@@ -20,3 +20,6 @@
 1655517495 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
 1655517673 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
 1655519449 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
+1655519690 [ip] 127.0.0.1 [text] \App\Controllers\homeauth
+1655519698 [ip] 127.0.0.1 [text] \App\Controllers\homelogin
+1655519853 [ip] 127.0.0.1 [text] \App\Controllers\homelogin

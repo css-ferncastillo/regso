@@ -22,3 +22,19 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[17-Jun-2022 21:34:50 America/Panama] #Exception Method not found: auth(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[17-Jun-2022 21:34:58 America/Panama] #Exception Controller not found: public(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
