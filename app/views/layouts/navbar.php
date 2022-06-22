@@ -1,7 +1,7 @@
 <header id="page-header">
          <div class="content-header">
             <div class="d-flex align-items-center">
-               <a class="fw-semibold fs-5 tracking-wider text-dual me-3" href="index.html"> 
+               <a class="fw-semibold fs-5 tracking-wider text-dual me-3" href="<?=APP_URI ?>"> 
                <img class="img-avatar img-avatar32 m-2" src="<?= APP_URI ?>public/assets/media/photos/white_logo.jpg" alt="logo"/>
                   CSS<span class="fw-normal">Panam&aacute;</span> </a>
                

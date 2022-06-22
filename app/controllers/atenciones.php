@@ -4,28 +4,23 @@ namespace App\Controllers;
 
 class Atenciones
 {
-   public function index(){
-      \Core\Engine::set('title', 'Registro de Atenciones');
+   public function index()
+   {
+      \Core\Engine::set('title_page', 'Registro de Atenciones');
       \Core\Engine::render();
    }
 
-   public function nueva()
+   public function nueva_atencion($hoja)
    {
-      echo "Nueva atención";
+      if (isset($hoja)) {
+         \Core\Engine::set('title_page', 'Registro de Atenciones');
+         \Core\Engine::render();
+      }
    }
 
-   public function editar()
+   public function nueva_hoja()
    {
-      echo "Editar atención";
-   }
-
-   public function eliminar()
-   {
-      echo "Eliminar atención";
-   }
-
-   public function ver()
-   {
-      echo "Ver atención";
+      \Core\Engine::set('title_page', 'Registro de Atenciones');
+      \Core\Engine::render();
    }
 }

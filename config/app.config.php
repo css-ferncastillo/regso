@@ -40,7 +40,7 @@ if (APP_DEBUG) {
 }
 
 define('LOGIN', 'AUTH');
-define('__SECRET_KEY__', sha1(md5('1q2w3e4r5t')));
+define('SECRET_KEY', sha1(md5('1q2w3e4r5t')));
 define('memory_limit', '-1');
 
 ini_set('log_errors', 1);
@@ -48,10 +48,10 @@ ini_set('error_log', LOGS . 'app_errors.log');
 
 const DATABASE = [
     'driver'   => 'mysql',
-    'hostname' => 'localhost',
+    'hostname' => '127.0.0.1',
     'database' => 'encuestas_sso',
-    'username' => 'desarrollo',
-    'password' => '123456789',
+    'username' => 'root',
+    'password' => 'hola2020',
 ];
 
 

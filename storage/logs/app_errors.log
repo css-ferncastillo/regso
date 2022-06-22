@@ -1,4 +1,4 @@
-[17-Jun-2022 21:22:19 America/Panama] #Exception Controller not found: sadnub(/srv/http/regso/core/router.php): 29
+[20-Jun-2022 09:13:54 America/Panama] #Exception Method not found: va(/srv/http/regso/core/router.php): 19
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
 #1 {main} 
 	 (#0 /srv/http/regso/index.php(13): run
@@ -6,7 +6,615 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
-[17-Jun-2022 21:22:48 America/Panama] #Exception Controller not found: sadnub(/srv/http/regso/core/router.php): 29
+[20-Jun-2022 09:17:29 America/Panama] #TypeError Unsupported operand types: string + string(/srv/http/regso/helpers/helpers.php): 40
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 (#0 /srv/http/regso/core/model.php(27): debug
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#1 /srv/http/regso/core/model.php(98): __construct
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): getInstance
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#3 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#4 (): validar
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#5 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+#6 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/core/model.php(27): Helpers\Helpers::debug()
+#1 /srv/http/regso/core/model.php(98): Core\Model->__construct()
+#2 /srv/http/regso/app/models/actividadeconomica.php(25): Core\Model::getInstance()
+#3 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#4 [internal function]: App\Controllers\Home->validar()
+#5 /srv/http/regso/core/router.php(17): call_user_func()
+#6 /srv/http/regso/index.php(13): Core\Router::run()
+#7 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#7{main})
+[20-Jun-2022 09:18:26 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 39
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:19:23 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 39
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:19:24 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 39
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:20:14 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 39
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:21:33 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:22:53 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:27:38 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:27:38 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:30:13 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:30:14 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[20-Jun-2022 09:31:17 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 41
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/actividadeconomica.php(26): consulta
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(39): listar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): validar
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/models/actividadeconomica.php(26): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/home.php(39): App\Models\Actividadeconomica::listar()
+#2 [internal function]: App\Controllers\Home->validar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(13): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[21-Jun-2022 10:24:22 America/Panama] #Exception Controller not found: adninistracion(/srv/http/regso/core/router.php): 29
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
 #1 {main} 
 	 (#0 /srv/http/regso/index.php(13): run
@@ -14,7 +622,7 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
-[17-Jun-2022 21:23:01 America/Panama] #Exception Controller not found: main(/srv/http/regso/core/router.php): 29
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
 #1 {main} 
 	 (#0 /srv/http/regso/index.php(13): run
@@ -22,7 +630,7 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
-[17-Jun-2022 21:34:50 America/Panama] #Exception Method not found: auth(/srv/http/regso/core/router.php): 19
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
 #1 {main} 
 	 (#0 /srv/http/regso/index.php(13): run
@@ -30,11 +638,1578 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
-[17-Jun-2022 21:34:58 America/Panama] #Exception Controller not found: public(/srv/http/regso/core/router.php): 29
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
 #1 {main} 
 	 (#0 /srv/http/regso/index.php(13): run
 	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:34:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:37:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:38:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:39:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:40:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:41:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:43:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:46:49 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:47:12 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:48:10 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:51:39 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:52:42 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:53:17 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:29 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:32 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:33 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:34 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:35 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:36 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:37 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:52 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:53 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:55 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:56 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:57 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 10:57:58 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:02:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:02:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:03:07 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:06:57 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:06:58 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:07:00 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:07:00 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:11:41 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:11:52 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:12:31 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:13:20 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:13:59 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:15:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:15:41 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:15:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:15:46 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:20:32 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:52:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:53:44 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:53:45 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:53:47 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:55:43 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:58:06 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 11:58:21 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:01:05 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:01:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:03:48 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:03:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:04:51 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:06:00 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 12:18:30 America/Panama] #Exception Archivo de vista no encontrado atenciones nueva_hoja(/srv/http/regso/core/engine.php): 39
+	 #0 /srv/http/regso/app/controllers/atenciones.php(20): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/atenciones.php(20): render
+	 #0 /srv/http/regso/app/controllers/atenciones.php(20): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): nueva_hoja
+	 #0 /srv/http/regso/app/controllers/atenciones.php(20): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 /srv/http/regso/app/controllers/atenciones.php(20): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/controllers/atenciones.php(20): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#2 /srv/http/regso/core/router.php(23): call_user_func_array()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[21-Jun-2022 13:34:33 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 13:34:59 America/Panama] #Exception Archivo de vista no encontrado atenciones nueva_atencion(/srv/http/regso/core/engine.php): 39
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/atenciones.php(14): render
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): nueva_atencion
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(13): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[21-Jun-2022 13:35:09 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 14:20:54 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 14:20:58 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(13): run
+	 #0 /srv/http/regso/index.php(13): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 16:08:20 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[21-Jun-2022 16:23:16 America/Panama] #Exception Archivo de vista no encontrado administracion actividad_economica(/srv/http/regso/core/engine.php): 39
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/administracion.php(19): render
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): actividad_economica
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[22-Jun-2022 10:01:38 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 10:01:42 America/Panama] #Exception Archivo de vista no encontrado administracion actividad_economica(/srv/http/regso/core/engine.php): 39
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/administracion.php(19): render
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): actividad_economica
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/controllers/administracion.php(19): Core\Engine::render()
+#1 [internal function]: App\Controllers\Administracion->actividad_economica()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[22-Jun-2022 10:02:54 America/Panama] #Exception Archivo de vista no encontrado atenciones nueva_atencion(/srv/http/regso/core/engine.php): 39
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/atenciones.php(14): render
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): nueva_atencion
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/controllers/atenciones.php(14): Core\Engine::render()
+#1 [internal function]: App\Controllers\Atenciones->nueva_atencion()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[22-Jun-2022 10:04:13 America/Panama] #ArgumentCountError Too few arguments to function App\Controllers\Atenciones::nueva_hoja(), 0 passed and exactly 1 expected(/srv/http/regso/app/controllers/atenciones.php): 17
+	 #0 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 (#0 (): nueva_hoja
+	 #0 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#1 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#2 /srv/http/regso/index.php(12): run
+	 #0 [internal function]: App\Controllers\Atenciones->nueva_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[22-Jun-2022 13:59:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 13:59:30 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})

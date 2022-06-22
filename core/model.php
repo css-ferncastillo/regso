@@ -12,10 +12,13 @@ class Model{
           \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC
       ];
       $this->dsn = DATABASE['driver'] . ":host=" . DATABASE['hostname'] . ";dbname=" . DATABASE['database'];
+      
       try {
          $this->connect = new \PDO($this->dsn, DATABASE['username'], DATABASE['password'], $options);
          $this->connect->exec("SET CHARACTER SET UTF8");
+
       } catch (\PDOException $e) {
+         
          $result = [
              'response' => false,
              'class' => 'danger',
@@ -23,10 +26,7 @@ class Model{
              'mensjae' => $e->getMessage(),
              'data' => $e->getTraceAsString(),
          ];
-
-         header('Content-Type: appliction/json');
-         echo json_encode($result);
-         die();
+         
       }
    }
 
@@ -106,3 +106,7 @@ class Model{
       trigger_error("La clonacion de este objeto no esta permitida", E_USER_ERROR);
    }
 }
+
+/**
+ * 
+ */

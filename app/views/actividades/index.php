@@ -2,12 +2,12 @@
    <h1><?= $title_page ?></h1>
    <div class="block block-rounded block-mode-loading-oneui h-100 mb-2">
       <div class="block-header block-header-default">
-         <h3 class="block-title">Atenciones</h3>
+         <h3 class="block-title">Actividades</h3>
          <div class="block-options">
-            <a href="<?= APP_URI ?>atenciones/nueva_hoja" type="button" class="btn-block-option text-primary">
+            <button type="button" class="btn-block-option text-primary">
                <i class="si si-plus"></i>
                Nuevo Registro
-            </a>
+            </button>
          </div>
       </div>
       <div class="block-content block-content-full">
@@ -16,7 +16,7 @@
                <tr class="text-uppercase">
                   <th class="fw-bold">ID</th>
                   <th class="fw-bold">Fecha</th>
-                  <th class="fw-bold">Servicio</th>
+                  <th class="fw-bold">Tipo</th>
                   <th class="fw-bold">Orders</th>
                   <th class="fw-bold">Acciones</th>
                </tr>
@@ -27,22 +27,22 @@
                      <span class="fw-semibold">#01368</span>
                   </td>
                   <td class="d-none d-sm-table-cell text-center">
-                     data
+                     <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar13.jpg" alt="">
                   </td>
                   <td class="fw-semibold">
                      Jose Wagner </td>
                   <td class="d-none d-sm-table-cell text-center">
-                     data
+                     <a class="link-fx fw-semibold" href="javascript:void(0)">5</a>
                   </td>
                   <td class="text-center">
                      <div class="btn-group btn-group-sm me-2 mb-2" role="group" aria-label="Small Primary Second group">
-                        <button type="button" class="btn rounded-pill btn-danger" data-bs-toggle="popover" data-bs-placement="top" title="Eliminar" data-bs-content=" ">
+                        <button type="button" class="btn rounded-pill btn-danger">
                            <i class="si si-trash"></i>
                         </button>
-                        <a href="#editar" type="button" class="btn rounded-pill btn-success mx-sm-1" data-bs-toggle="popover" data-bs-placement="top" title="Editar" data-bs-content=" ">
+                        <a href="#editar" type="button" class="btn rounded-pill btn-success mx-sm-1">
                            <i class="si si-pencil"></i>
                         </a>
-                        <a href="<?= APP_URI ?>atenciones/nueva_atencion/1" type="button" class="btn rounded-pill btn-primary" data-bs-toggle="popover" data-bs-placement="top" title="Crear" data-bs-content=" ">
+                        <a href="#nuevo" type="button" class="btn rounded-pill btn-primary">
                            <i class="si si-plus"></i>
                         </a>
                      </div>

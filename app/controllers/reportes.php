@@ -1,11 +1,12 @@
 <?php
 namespace App\Controllers;
 
-class Actividades {
+class Reportes {
    
       public function index() {
-         \Core\Engine::set('title_page', 'Actividades');
+         \Core\Engine::set('title_page', 'Reportes');
          \Core\Engine::render();
       }
+      
    
 }
