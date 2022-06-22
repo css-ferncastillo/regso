@@ -15,10 +15,12 @@
             <thead>
                <tr class="text-uppercase">
                   <th class="fw-bold">ID</th>
-                  <th class="fw-bold">Fecha</th>
+                  <th class="fw-bold">Unidad Ejecutora</th>
                   <th class="fw-bold">Servicio</th>
-                  <th class="fw-bold">Orders</th>
+                  <th class="fw-bold">Fecha de Atenci&oacute;n</th>
+                  <th class="fw-bold">Especialista</th>
                   <th class="fw-bold">Acciones</th>
+                  
                </tr>
             </thead>
             <tbody>
@@ -31,6 +33,9 @@
                   </td>
                   <td class="fw-semibold">
                      Jose Wagner </td>
+                  <td class="d-none d-sm-table-cell text-center">
+                     data
+                  </td>
                   <td class="d-none d-sm-table-cell text-center">
                      data
                   </td>

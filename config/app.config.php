@@ -54,6 +54,7 @@ const DATABASE = [
     'password' => 'hola2020',
 ];
 
+require_once ROOT . 'config/app.config.php';
 
 // var path to log file
 

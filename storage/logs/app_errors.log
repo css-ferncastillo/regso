@@ -2213,3 +2213,27 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 14:08:14 America/Panama] #ArgumentCountError Too few arguments to function App\Controllers\Atenciones::detalle_hoja(), 0 passed and exactly 1 expected(/srv/http/regso/app/controllers/atenciones.php): 27
+	 #0 [internal function]: App\Controllers\Atenciones->detalle_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 (#0 (): detalle_hoja
+	 #0 [internal function]: App\Controllers\Atenciones->detalle_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#1 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 [internal function]: App\Controllers\Atenciones->detalle_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#2 /srv/http/regso/index.php(12): run
+	 #0 [internal function]: App\Controllers\Atenciones->detalle_hoja()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})

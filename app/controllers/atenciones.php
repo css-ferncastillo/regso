@@ -23,4 +23,12 @@ class Atenciones
       \Core\Engine::set('title_page', 'Registro de Atenciones');
       \Core\Engine::render();
    }
+
+   public function detalle_hoja($hoja)
+   {
+      if (isset($hoja)) {
+         \Core\Engine::set('title_page', 'Detalles de Hoja de Atencion');
+         \Core\Engine::render();
+      }
+   }
 }

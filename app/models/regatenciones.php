@@ -5,16 +5,35 @@ class Regatenciones {
    public static function insertar($data = []){
 		if(!empty($data)){
 			$sql = "INSERT INTO t_reg_atenciones(id_hoja_especialista, id_sexo, num_cedula, edad, nombre_empresa, num_patronal, id_tipo_empresa, id_tamano_empresa, id_tipo_asegurado, id_tipo_atencion, id_tipo_consulta, id_corregimiento, incapacidad, dias_incapacidad, id_referencia, descripcion_ref1, codigo_ref1, descripcion_ref2, codigo_ref2, descripcion_ref3, codigo_ref3, descripcion_esp1, codigo_esp1, descripcion_esp2, codigo_esp2, descripcion_esp3, codigo_esp3, id_alta_laboral, dt_registro, id_usuario, estado) VALUES(:id_hoja_especialista, :id_sexo, :num_cedula, :edad, :nombre_empresa, :num_patronal, :id_tipo_empresa, :id_tamano_empresa, :id_tipo_asegurado, :id_tipo_atencion, :id_tipo_consulta, :id_corregimiento, :incapacidad, :dias_incapacidad, :id_referencia, :descripcion_ref1, :codigo_ref1, :descripcion_ref2, :codigo_ref2, :descripcion_ref3, :codigo_ref3, :descripcion_esp1, :codigo_esp1, :descripcion_esp2, :codigo_esp2, :descripcion_esp3, :codigo_esp3, :id_alta_laboral, :dt_registro, :id_usuario, :estado)";
-			try{
+			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
-				if(!empty($result)){
-					return $result;
-				} else{
-					$result = false;
+				if (!empty($result)) {
+					$data = [
+						"title" => "Success",
+						"message" => "Informacion agregada satisfactoriamente",
+						"type" => "success",
+						"data" => $result
+					];
+				} else {
+					$data = [
+						"title" => "Warning",
+						"message" => "Información no creada, datos vacios",
+						"type" => "warning",
+						"data" => $result
+					];
 				}
-			}catch(\PDOException $e){
-				return $e->getMessage();
+				return $data;
+				die();
+			} catch (\PDOException $e) {
+				$data = [
+					"title" => "Warning",
+					"message" => "Error al crear la información",
+					"type" => "warning",
+					"data" => $e->getMessage()
+				];
+				return $data;
+				die();
 			}
 		}
 	}
@@ -84,32 +103,70 @@ class Regatenciones {
 		tdi.id = tco.id_distrito
 		LEFT JOIN t_provincias tpr ON
 		tpr.id = tdi.id_provincia;';
-		try{
+		try {
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);
-			if(!empty($result)){
-				return $result;
-			} else{
-				$result = false;
+			if (!empty($result)) {
+				$data = [
+					"title" => "Success",
+					"message" => "Informacion encontrada satisfactoriamente",
+					"type" => "success",
+					"data" => $result
+				];
+			} else {
+				$data = [
+					"title" => "Warning",
+					"message" => "Información no encontrada, datos vacios",
+					"type" => "warning",
+					"data" => $result
+				];
 			}
-		}catch(\PDOException $e){
-			return $e->getMessage();
+			return $data;
+			die();
+		} catch (\PDOException $e) {
+			$data = [
+				"title" => "Warning",
+				"message" => "Error al obtener la información",
+				"type" => "warning",
+				"data" => $e->getMessage()
+			];
+			return $data;
+			die();
 		}
 	}
 
 	public static function editar(array $data):array{
 		if(!empty($data)){
 			$sql = "UPDATE t_reg_atenciones SET id_hoja_especialista = :id_hoja_especialista, id_sexo = :id_sexo, num_cedula = :num_cedula, edad = :edad, nombre_empresa = :nombre_empresa, num_patronal = :num_patronal, id_tipo_empresa = :id_tipo_empresa, id_tamano_empresa = :id_tamano_empresa, id_tipo_asegurado = :id_tipo_asegurado, id_tipo_atencion = :id_tipo_atencion, id_tipo_consulta = :id_tipo_consulta, id_corregimiento = :id_corregimiento, incapacidad = :incapacidad, dias_incapacidad = :dias_incapacidad, id_referencia = :id_referencia, descripcion_ref1 = :descripcion_ref1, codigo_ref1 = :codigo_ref1, descripcion_ref2 = :descripcion_ref2, codigo_ref2 = :codigo_ref2, descripcion_ref3 = :descripcion_ref3, codigo_ref3 = :codigo_ref3, descripcion_esp1 = :descripcion_esp1, codigo_esp1 = :codigo_esp1, descripcion_esp2 = :descripcion_esp2, codigo_esp2 = :codigo_esp2, descripcion_esp3 = :descripcion_esp3, codigo_esp3 = :codigo_esp3, id_alta_laboral = :id_alta_laboral, dt_registro = :dt_registro, id_usuario = :id_usuario, estado = :estado WHERE id = :id";
-			try{
+			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
-				if(!empty($result)){
-					return $result;
-				} else{
-					$result = false;
+				if (!empty($result)) {
+					$data = [
+						"title" => "Success",
+						"message" => "Informacion modificada satisfactoriamente",
+						"type" => "success",
+						"data" => $result
+					];
+				} else {
+					$data = [
+						"title" => "Warning",
+						"message" => "Información no modificada, datos vacios",
+						"type" => "warning",
+						"data" => $result
+					];
 				}
-			}catch(\PDOException $e){
-				return $e->getMessage();
+				return $data;
+				die();
+			} catch (\PDOException $e) {
+				$data = [
+					"title" => "Warning",
+					"message" => "Error al obtener la información",
+					"type" => "warning",
+					"data" => $e->getMessage()
+				];
+				return $data;
+				die();
 			}
 		}
 	}
@@ -117,16 +174,35 @@ class Regatenciones {
 	public static function eliminar($data = []){
 		if(!empty($data)){
 			$sql = 'DELETE FROM t_reg_atenciones WHERE id = :id';
-			try{
+			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
-				if(!empty($result)){
-					return $result;
-				} else{
-					$result = false;
+				if (!empty($result)) {
+					$data = [
+						"title" => "Success",
+						"message" => "Informacion eliminada satisfactoriamente",
+						"type" => "success",
+						"data" => $result
+					];
+				} else {
+					$data = [
+						"title" => "Warning",
+						"message" => "Información no eliminada, datos vacios",
+						"type" => "warning",
+						"data" => $result
+					];
 				}
-			}catch(\PDOException $e){
-				return $e->getMessage();
+				return $data;
+				die();
+			} catch (\PDOException $e) {
+				$data = [
+					"title" => "Warning",
+					"message" => "Error al eliminar la información",
+					"type" => "warning",
+					"data" => $e->getMessage()
+				];
+				return $data;
+				die();
 			}
 		}
 	}
