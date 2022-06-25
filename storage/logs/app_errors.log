@@ -2237,3 +2237,261 @@
 #3 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[22-Jun-2022 15:48:14 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 20:31:38 America/Panama] #Exception Controller not found: actividad_economica(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 20:31:54 America/Panama] #ArgumentCountError Too few arguments to function App\Controllers\Rest::actividad_economica(), 1 passed and exactly 2 expected(/srv/http/regso/app/controllers/rest.php): 6
+	 #0 [internal function]: App\Controllers\Rest->actividad_economica()
+#1 /srv/http/regso/core/router.php(23): call_user_func_array()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 (#0 (): actividad_economica
+	 #0 [internal function]: App\Controllers\Rest->actividad_economica()
+#1 /srv/http/regso/core/router.php(23): call_user_func_array()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#1 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 [internal function]: App\Controllers\Rest->actividad_economica()
+#1 /srv/http/regso/core/router.php(23): call_user_func_array()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+#2 /srv/http/regso/index.php(12): run
+	 #0 [internal function]: App\Controllers\Rest->actividad_economica()
+#1 /srv/http/regso/core/router.php(23): call_user_func_array()
+#2 /srv/http/regso/index.php(12): Core\Router::run()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[22-Jun-2022 23:06:21 America/Panama] #Exception Controller not found: actividadeconomica(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[22-Jun-2022 23:06:40 America/Panama] #Exception Controller not found: actividadeconomica(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 00:10:28 America/Panama] #ValueError openssl_cipher_iv_length(): Argument #1 ($cipher_algo) cannot be empty(/srv/http/regso/app/libs/auth.php): 24
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(26): cifrado
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): metodo
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[23-Jun-2022 00:11:30 America/Panama] #ValueError openssl_cipher_iv_length(): Argument #1 ($cipher_algo) cannot be empty(/srv/http/regso/app/libs/auth.php): 24
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/home.php(26): cifrado
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): metodo
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/libs/auth.php(24): openssl_cipher_iv_length()
+#1 /srv/http/regso/app/controllers/home.php(26): App\Libs\Auth::cifrado()
+#2 [internal function]: App\Controllers\Home->metodo()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(12): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[23-Jun-2022 07:45:15 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 09:38:02 America/Panama] #Exception Method not found: listar(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 10:58:09 America/Panama] #Error Access to undeclared static property App\Controllers\Distrito::$model(/srv/http/regso/app/controllers/distrito.php): 7
+	 #0 /srv/http/regso/core/router.php(13): App\Controllers\Distrito->__construct()
+#1 /srv/http/regso/index.php(12): Core\Router::run()
+#2 {main} 
+	 (#0 /srv/http/regso/core/router.php(13): __construct
+	 #0 /srv/http/regso/core/router.php(13): App\Controllers\Distrito->__construct()
+#1 /srv/http/regso/index.php(12): Core\Router::run()
+#2 {main} 
+	 ()
+#1 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/core/router.php(13): App\Controllers\Distrito->__construct()
+#1 /srv/http/regso/index.php(12): Core\Router::run()
+#2 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#2{main})
+[23-Jun-2022 12:13:39 America/Panama] #Exception Method not found: filtrar(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 12:13:59 America/Panama] #Exception Method not found: filtrar(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 12:16:07 America/Panama] #ParseError syntax error, unexpected token "("(/srv/http/regso/app/controllers/unidad.php): 70
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 13:41:54 America/Panama] #TypeError Unsupported operand types: string + string(/srv/http/regso/helpers/helpers.php): 40
+	 #0 /srv/http/regso/app/controllers/usuario.php(60): Helpers\Helpers::debug()
+#1 [internal function]: App\Controllers\Usuario::create_or_update()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 (#0 /srv/http/regso/app/controllers/usuario.php(60): debug
+	 #0 /srv/http/regso/app/controllers/usuario.php(60): Helpers\Helpers::debug()
+#1 [internal function]: App\Controllers\Usuario::create_or_update()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#1 (): create_or_update
+	 #0 /srv/http/regso/app/controllers/usuario.php(60): Helpers\Helpers::debug()
+#1 [internal function]: App\Controllers\Usuario::create_or_update()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#2 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/controllers/usuario.php(60): Helpers\Helpers::debug()
+#1 [internal function]: App\Controllers\Usuario::create_or_update()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+#3 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/app/controllers/usuario.php(60): Helpers\Helpers::debug()
+#1 [internal function]: App\Controllers\Usuario::create_or_update()
+#2 /srv/http/regso/core/router.php(17): call_user_func()
+#3 /srv/http/regso/index.php(12): Core\Router::run()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[23-Jun-2022 14:46:04 America/Panama] #Exception Method not found: listar_uno1(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[23-Jun-2022 15:03:32 America/Panama] #Exception Controller not found: assets(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(12): run
+	 #0 /srv/http/regso/index.php(12): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

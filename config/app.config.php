@@ -24,6 +24,7 @@ define('APP', ROOT . 'app' . DS);
 define('STORAGE', ROOT . 'storage' . DS);
 define('CACHE', STORAGE . 'cache' . DS);
 define('LOGS', STORAGE . 'logs' . DS);
+define('SESSIONS', STORAGE . 'sessions' . DS);
 define('PUBLIC_PATH', ROOT . 'public' . DS);
 define('CONTROLLERS', ROOT . 'app' . DS . 'controllers' . DS);
 define('MODELS', ROOT . 'app' . DS . 'models' . DS);

@@ -10,7 +10,16 @@ class Administracion {
    
 
     public function usuarios() {
-        \Core\Engine::set('title_page', 'Login');
+        $usuarios = \App\Models\Usuarios::listar();
+        // echo '<pre>';
+        // print_r($usuarios);
+        // echo '</pre>';
+        \Core\Engine::set('title_page', 'Usuarios');
+        if($usuarios['type'] == 'success'){
+            \Core\Engine::set('usuarios', $usuarios['data']);
+        } else {
+            \Core\Engine::set('error', $usuarios);
+        }
         \Core\Engine::render();
     }
 

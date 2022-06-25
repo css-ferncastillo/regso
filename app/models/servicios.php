@@ -4,7 +4,7 @@ namespace App\Models;
 class Servicios {
 	public static function insertar($data = []){
 		if(!empty($data)){
-			$sql = "INSERT INTO tabla(campo) VALUES(:valor)";
+			$sql = "INSERT INTO t_servicios (descripcion, estado) VALUES(:descripcion, :estado)";
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -39,7 +39,7 @@ class Servicios {
 	}
 
 	public static function listar(){
-		$sql = 'SELECT * FROM tabla;';
+		$sql = 'SELECT * FROM t_servicios;';
 		try {
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);
@@ -74,7 +74,7 @@ class Servicios {
 
 	public static function editar($data = []){
 		if(!empty($data)){
-			$sql = "UPDATE tabla SET campo = :valor WHERE id = :id";
+			$sql = "UPDATE t_servicios SET descripcion = :descripcion, estado = :estado WHERE id = :id";
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -110,7 +110,7 @@ class Servicios {
 
 	public static function eliminar($data = []){
 		if(!empty($data)){
-			$sql = 'DELETE FROM tabla WHERE id = :id';
+			$sql = 'DELETE FROM t_servicios WHERE id = :id';
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);

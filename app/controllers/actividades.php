@@ -7,5 +7,4 @@ class Actividades {
          \Core\Engine::set('title_page', 'Actividades');
          \Core\Engine::render();
       }
-   
 }

@@ -4,7 +4,7 @@ namespace App\Models;
 class Tipoatencion{
 	public static function insertar($data = []){
 		if(!empty($data)){
-			$sql = "INSERT INTO tabla(campo) VALUES(:valor)";
+			$sql = "INSERT INTO t_tipo_atencion(tipo_atencion) VALUES(:tipo_atencion)";
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -39,7 +39,7 @@ class Tipoatencion{
 	}
 
 	public static function listar(){
-		$sql = 'SELECT * FROM tabla;';
+		$sql = 'SELECT * FROM t_tipo_atencion;';
 		try {
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);
@@ -74,7 +74,7 @@ class Tipoatencion{
 
 	public static function editar($data = []){
 		if(!empty($data)){
-			$sql = "UPDATE tabla SET campo = :valor WHERE id = :id";
+			$sql = "UPDATE t_tipo_atencion SET tipo_atencion = :tipo_atencion WHERE id = :id";
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
@@ -110,7 +110,7 @@ class Tipoatencion{
 
 	public static function eliminar($data = []){
 		if(!empty($data)){
-			$sql = 'DELETE FROM tabla WHERE id = :id';
+			$sql = 'DELETE FROM t_tipo_atencion WHERE id = :id';
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);

@@ -39,7 +39,7 @@ class Distritos {
 	}
 
 	public static function listar(){
-		$sql = 'SELECT * FROM  t_distritos;';
+		$sql = 'SELECT td.id, td.id_provincia, tp.desc_prov, td.desc_dist FROM t_distritos td LEFT JOIN t_provincias tp ON tp.id = td.id_provincia;';
 		try {
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);

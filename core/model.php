@@ -40,7 +40,7 @@ class Model{
       $link = $this->connect;
       $link->beginTransaction();
       $query = $link->prepare($sql);
-
+      
       if ($params) {
          if (!$query->execute($params)) {
             $link->rollBack();
