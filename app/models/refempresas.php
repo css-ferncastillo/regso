@@ -1,6 +1,6 @@
 <?php
 namespace App\Models;
-class Regempresas{
+class Refempresas{
    public static function insertar($data = []){
 		if(!empty($data)){
 			$sql = "INSERT INTO t_ref_empresas(ref_empresa) VALUES(:ref_empresa)";

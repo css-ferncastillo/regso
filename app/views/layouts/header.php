@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="<?= APP_URI ?>public/assets/fonts/fontawesome/css/all.css" />
    <link rel="stylesheet" href="<?= APP_URI ?>public/assets/css/oneui.min-5.2.css" />
    <link rel="stylesheet" href="<?= APP_URI ?>public/assets/css/animate.min.css" />
+   <link rel="stylesheet" href="<?= APP_URI ?>public/assets/js/plugins/datatables/jquery.dataTables.css" />
    <script src="<?= APP_URI ?>public/assets/js/lib/jquery.min.js"></script>
    <script src="<?= APP_URI ?>public/assets/js/main.js"></script>
 </head>

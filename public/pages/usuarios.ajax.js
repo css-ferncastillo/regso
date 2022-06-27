@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  
    getProvincias();
    getTipoUsuario();
    $("#id_provincia").change(() => {
@@ -6,6 +7,7 @@ $(document).ready(() => {
    })
    $("#tbl-usuarios").on("click", ".btn-editar", cargarDatos);
    $("#tbl-usuarios").on("click", ".btn-eliminar", eliminarUsuario);
+   
 })
 
 function getProvincias() {
@@ -88,7 +90,8 @@ function cargarDatos(){
       },
       error: function (data) {
          console.log(data);
-      }
+      },
+
    });
 }
 
@@ -106,26 +109,45 @@ function eliminarUsuario(){
     swalWithBootstrapButtons.fire({
       title: 'Desea eliminar este usuario?',
       text: "Al ser eliminado no podrá recuperarlo!",
-      // icon: 'warning',
+      icon: 'warning',
       showCancelButton: true,
       confirmButtonText: 'Si, eliminar!',
       cancelButtonText: 'No, cancelar!',
       reverseButtons: true
     }).then((result) => {
       if (result.isConfirmed) {
-        swalWithBootstrapButtons.fire(
-          'Deleted!',
-          'Your file has been deleted.',
-          'success'
-        )
+
+         $.ajax({
+            url: baseUrl + '/usuario/eliminar/' + id,
+            type: 'DELETE',
+            dataType: 'json',
+            success: function (data) {
+               swalWithBootstrapButtons.fire(
+                  `${data['title']}!`,
+                  `${data['message']}`,
+                  `${data['type']}`
+                )
+                location.reload()
+            },
+            error: function (data) {
+              
+               swalWithBootstrapButtons.fire(
+                  `${data['title']}!`,
+                  `${data['message']}`,
+                  `${data['type']}`
+                )
+            },
+         })
+
+        
       } else if (
         /* Read more about handling dismissals below */
         result.dismiss === Swal.DismissReason.cancel
       ) {
         swalWithBootstrapButtons.fire(
-          'Cancelled',
-          'Your imaginary file is safe :)',
-          'error'
+          'Cancelado',
+          'La acción no ha sido procesada :)',
+          'info'
         )
       }
     })

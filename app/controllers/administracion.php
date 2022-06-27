@@ -10,31 +10,46 @@ class Administracion {
    
 
     public function usuarios() {
-        $usuarios = \App\Models\Usuarios::listar();
-        // echo '<pre>';
-        // print_r($usuarios);
-        // echo '</pre>';
+        $data = \App\Models\Usuarios::listar();
         \Core\Engine::set('title_page', 'Usuarios');
-        if($usuarios['type'] == 'success'){
-            \Core\Engine::set('usuarios', $usuarios['data']);
+        if($data['type'] == 'success'){
+            \Core\Engine::set('usuarios', $data['data']);
         } else {
-            \Core\Engine::set('error', $usuarios);
+            \Core\Engine::set('error', $data);
         }
         \Core\Engine::render();
     }
 
     public function actividad_economica() {
+        $data = \App\Models\ActividadEconomica::listar();
         \Core\Engine::set('title_page', 'Actividad Economica');
+        if($data['type'] == 'success'){
+            \Core\Engine::set('data', $data['data']);
+        } else {
+            \Core\Engine::set('error', $data);
+        }
         \Core\Engine::render();
     }
 
     public function alta_laboral(){
+        $data = \App\Models\Altalaboral::listar();
         \Core\Engine::set('title_page', 'Alta Laboral');
+        if($data['type'] == 'success'){
+            \Core\Engine::set('data', $data['data']);
+        } else {
+            \Core\Engine::set('error', $data);
+        }
         \Core\Engine::render();
     }
 
     public function ref_empresas(){
         \Core\Engine::set('title_page', 'Referencias Empresas');
+        $data = \App\Models\Refempresas::listar();
+        if($data['type'] == 'success'){
+            \Core\Engine::set('data', $data['data']);
+        } else {
+            \Core\Engine::set('error', $data);
+        }
         \Core\Engine::render();
     }
 

@@ -11,7 +11,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
+USE encuestas_sso;
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `t_actividades`
 --
 
-CREATE TABLE `t_actividades` (
+CREATE TABLE IF NOT EXISTS `t_actividades` (
   `id` int(11) NOT NULL,
   `tipo_actividad` int(11) NOT NULL,
   `descripcion` varchar(120) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -75,7 +75,7 @@ INSERT INTO `t_actividades` (`id`, `tipo_actividad`, `descripcion`, `estado`) VA
 -- Estructura de tabla para la tabla `t_act_economica`
 --
 
-CREATE TABLE `t_act_economica` (
+CREATE TABLE IF NOT EXISTS `t_act_economica` (
   `id` int(11) NOT NULL,
   `actividad_economica` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -101,7 +101,7 @@ INSERT INTO `t_act_economica` (`id`, `actividad_economica`) VALUES
 -- Estructura de tabla para la tabla `t_alta_laboral`
 --
 
-CREATE TABLE `t_alta_laboral` (
+CREATE TABLE IF NOT EXISTS `t_alta_laboral` (
   `id` int(11) NOT NULL,
   `alta_laboral` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -121,7 +121,7 @@ INSERT INTO `t_alta_laboral` (`id`, `alta_laboral`) VALUES
 -- Estructura de tabla para la tabla `t_control_usuario`
 --
 
-CREATE TABLE `t_control_usuario` (
+CREATE TABLE IF NOT EXISTS `t_control_usuario` (
   `id` int(11) NOT NULL,
   `id_usuario` int(11) NOT NULL,
   `ultimo_acceso` datetime NOT NULL,
@@ -136,7 +136,7 @@ CREATE TABLE `t_control_usuario` (
 -- Estructura de tabla para la tabla `t_corregimientos`
 --
 
-CREATE TABLE `t_corregimientos` (
+CREATE TABLE IF NOT EXISTS `t_corregimientos` (
   `id` int(11) NOT NULL,
   `cod_correg` smallint(6) DEFAULT NULL,
   `id_distrito` int(11) NOT NULL,
@@ -786,7 +786,7 @@ INSERT INTO `t_corregimientos` (`id`, `cod_correg`, `id_distrito`, `desc_correg`
 -- Estructura de tabla para la tabla `t_distritos`
 --
 
-CREATE TABLE `t_distritos` (
+CREATE TABLE IF NOT EXISTS `t_distritos` (
   `id` int(11) NOT NULL,
   `cod_dist` smallint(6) DEFAULT NULL,
   `id_provincia` int(11) NOT NULL,
@@ -882,7 +882,7 @@ INSERT INTO `t_distritos` (`id`, `cod_dist`, `id_provincia`, `desc_dist`) VALUES
 -- Estructura de tabla para la tabla `t_hoja_especialista`
 --
 
-CREATE TABLE `t_hoja_especialista` (
+CREATE TABLE IF NOT EXISTS `t_hoja_especialista` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_servicio` int(11) NOT NULL,
@@ -911,7 +911,7 @@ CREATE TABLE `t_hoja_especialista` (
 -- Estructura de tabla para la tabla `t_provincias`
 --
 
-CREATE TABLE `t_provincias` (
+CREATE TABLE IF NOT EXISTS `t_provincias` (
   `id` int(11) NOT NULL,
   `cod_prov` smallint(6) DEFAULT NULL,
   `desc_prov` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -943,7 +943,7 @@ INSERT INTO `t_provincias` (`id`, `cod_prov`, `desc_prov`, `estado`) VALUES
 -- Estructura de tabla para la tabla `t_ref_empresas`
 --
 
-CREATE TABLE `t_ref_empresas` (
+CREATE TABLE IF NOT EXISTS `t_ref_empresas` (
   `id` int(11) NOT NULL,
   `ref_empresa` varchar(35) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -964,7 +964,7 @@ INSERT INTO `t_ref_empresas` (`id`, `ref_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_reg_actividades`
 --
 
-CREATE TABLE `t_reg_actividades` (
+CREATE TABLE IF NOT EXISTS `t_reg_actividades` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_servicio` int(11) NOT NULL,
@@ -991,7 +991,7 @@ CREATE TABLE `t_reg_actividades` (
 -- Estructura de tabla para la tabla `t_reg_atenciones`
 --
 
-CREATE TABLE `t_reg_atenciones` (
+CREATE TABLE IF NOT EXISTS `t_reg_atenciones` (
   `id` int(11) NOT NULL,
   `id_hoja_especialista` int(11) NOT NULL,
   `id_sexo` int(11) NOT NULL,
@@ -1022,7 +1022,7 @@ CREATE TABLE `t_reg_atenciones` (
 -- Estructura de tabla para la tabla `t_servicios`
 --
 
-CREATE TABLE `t_servicios` (
+CREATE TABLE IF NOT EXISTS `t_servicios` (
   `id` int(11) NOT NULL,
   `desctipcion` varchar(35) COLLATE utf8mb4_unicode_ci NOT NULL,
   `estado` int(11) NOT NULL
@@ -1059,7 +1059,7 @@ INSERT INTO `t_servicios` (`id`, `desctipcion`, `estado`) VALUES
 -- Estructura de tabla para la tabla `t_tamano_empresa`
 --
 
-CREATE TABLE `t_tamano_empresa` (
+CREATE TABLE IF NOT EXISTS `t_tamano_empresa` (
   `id` int(11) NOT NULL,
   `tamano_empresa` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1080,7 +1080,7 @@ INSERT INTO `t_tamano_empresa` (`id`, `tamano_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_actividad`
 --
 
-CREATE TABLE `t_tipo_actividad` (
+CREATE TABLE IF NOT EXISTS `t_tipo_actividad` (
   `id` int(11) NOT NULL,
   `tipo_actividad` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1101,7 +1101,7 @@ INSERT INTO `t_tipo_actividad` (`id`, `tipo_actividad`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_asegurado`
 --
 
-CREATE TABLE `t_tipo_asegurado` (
+CREATE TABLE IF NOT EXISTS `t_tipo_asegurado` (
   `id` int(11) NOT NULL,
   `tipo_asegurado` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1123,7 +1123,7 @@ INSERT INTO `t_tipo_asegurado` (`id`, `tipo_asegurado`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_atencion`
 --
 
-CREATE TABLE `t_tipo_atencion` (
+CREATE TABLE IF NOT EXISTS `t_tipo_atencion` (
   `id` int(11) NOT NULL,
   `tipo_atencion` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1143,7 +1143,7 @@ INSERT INTO `t_tipo_atencion` (`id`, `tipo_atencion`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_consulta`
 --
 
-CREATE TABLE `t_tipo_consulta` (
+CREATE TABLE IF NOT EXISTS `t_tipo_consulta` (
   `id` int(11) NOT NULL,
   `tipo_consulta` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1172,7 +1172,7 @@ INSERT INTO `t_tipo_consulta` (`id`, `tipo_consulta`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_empresa`
 --
 
-CREATE TABLE `t_tipo_empresa` (
+CREATE TABLE IF NOT EXISTS `t_tipo_empresa` (
   `id` int(11) NOT NULL,
   `tipo_empresa` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1193,7 +1193,7 @@ INSERT INTO `t_tipo_empresa` (`id`, `tipo_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_referencias`
 --
 
-CREATE TABLE `t_tipo_referencias` (
+CREATE TABLE IF NOT EXISTS `t_tipo_referencias` (
   `id` int(11) NOT NULL,
   `tipo_referencia` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1214,7 +1214,7 @@ INSERT INTO `t_tipo_referencias` (`id`, `tipo_referencia`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_usuario`
 --
 
-CREATE TABLE `t_tipo_usuario` (
+CREATE TABLE IF NOT EXISTS `t_tipo_usuario` (
   `id` int(11) NOT NULL,
   `tipo_usuario` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1233,7 +1233,7 @@ INSERT INTO `t_tipo_usuario` (`id`, `tipo_usuario`) VALUES
 -- Estructura de tabla para la tabla `t_unidades`
 --
 
-CREATE TABLE `t_unidades` (
+CREATE TABLE IF NOT EXISTS `t_unidades` (
   `id` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
   `desc_unidad_alterno` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -1378,7 +1378,7 @@ INSERT INTO `t_unidades` (`id`, `id_provincia`, `desc_unidad_alterno`, `desc_uni
 -- Estructura de tabla para la tabla `t_usuarios`
 --
 
-CREATE TABLE `t_usuarios` (
+CREATE TABLE IF NOT EXISTS `t_usuarios` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_tipo_usuario` int(11) NOT NULL,

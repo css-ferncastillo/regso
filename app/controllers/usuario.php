@@ -59,15 +59,18 @@ class Usuario {
             }
          }
          
-         if (isset($post[":id"])) {
+         if ($post[":id"] != "" || $post[":id"] != null) {
             $data = \App\Models\Usuarios::editar($post);
+            \Helpers\UsrFlash::setFlash($data['type'], $data['message']);
          } else {
             // TODO: Cambiar el usuario por la sesion
+          //  unset($post[":id"]);
             $post[':creador'] = 'ferncastillo';//$_SESSION['id'];
             $post[':creacion_dt'] = date('Y-m-d H:i:s');
             $post[':clave'] = \App\Libs\Auth::encrypt_password($post[':clave']);
             
             $data = \App\Models\Usuarios::insertar($post);
+            \Helpers\UsrFlash::setFlash($data['type'], $data['message']);
          }
          header('Content-Type: appliction/json');
          echo json_encode($data);
@@ -76,8 +79,7 @@ class Usuario {
       } else {
          $data = [
             "title" => "Error",
-            "message" => "Solicitud <?php 
-            namespace App\Controllers;incorrecta",
+            "message" => "Solicitud " . $_SERVER['REQUEST_METHOD'] . " incorrecta",
             "class" => "alert-danger"
          ];
          header('HTTP/1.1 405 Method Not Allowed');
