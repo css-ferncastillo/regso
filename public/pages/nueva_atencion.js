@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
    // Agregar fila de diagnostico
    $("#add_row_diagnostico").on('click', add_row_diagnostico);
    $(document).on('click', "#remove_row_diagnostico", remove_row_diagnostico);
@@ -9,7 +9,7 @@ $(document).ready(function() {
    $("#id_provincia").on('change', getDistritos);
    $("#id_distrito").on('change', getCorregimientos);
    $("#submit").on('click', submitForm);
-   
+
 })
 
 function add_row_diagnostico() {
@@ -61,39 +61,39 @@ function remove_row_referencia() {
 function getDistritos() {
    let id_provincia = $("#id_provincia").val();
    $.ajax({
-      url: url + 'distrito/filtrar/' + id_provincia,
+      url: url + 'listfilters/filter_distrito/' + id_provincia,
       type: 'GET',
       dataType: 'json',
-      success: function(data) {
+      success: function (data) {
          $("#id_distrito").empty();
          $("#id_corregimiento").empty();
-         
+
          $("#id_distrito").append('<option value="">Seleccione Distrito</option>');
          $("#id_corregimiento").append('<option value="">Seleccione Corregimiento</option>');
-         $.each(data['data'], function(index, value) {
+         $.each(data['data'], function (index, value) {
             $("#id_distrito").append('<option value="' + value.id + '">' + value.desc_dist + '</option>');
          });
       },
-      error: function(data) {
+      error: function (data) {
          console.log(data);
       }
    });
 }
 
-function getCorregimientos(){
+function getCorregimientos() {
    let id_distrito = $("#id_distrito").val();
    $.ajax({
-      url: url + 'corregimiento/filtrar/' + id_distrito,
+      url: url + 'listfilters/filter_corregimiento/' + id_distrito,
       type: 'GET',
       dataType: 'json',
-      success: function(data) {
+      success: function (data) {
          $("#id_corregimiento").empty();
          $("#id_corregimiento").append('<option value="">Seleccione Corregimiento</option>');
-         $.each(data['data'], function(index, value) {
+         $.each(data['data'], function (index, value) {
             $("#id_corregimiento").append('<option value="' + value.id + '">' + value.desc_correg + '</option>');
          });
       },
-      error: function(data) {
+      error: function (data) {
          console.log(data);
       }
    });
@@ -101,71 +101,67 @@ function getCorregimientos(){
 
 
 
-function submitForm(){
-   let data = [];
+function submitForm() {
+   let data = {};
 
-   let cod_diagnostico = [];
-   let desc_diagnostico = [];
-   let especialidad = [];
-   let cod_especialidad = [];
+   let diagnostico = [];
+   let referencia = [];
+   
 
    // TODO: agregar tipos a un solo array
 
    for (let i = 0; i < $(".cod_diagnostico").length; i++) {
-      cod_diagnostico.push($(".cod_diagnostico").eq(i).val());
+      var dia = {};
+      dia.diagnostico = $(".desc_diagnostico").eq(i).val();
+      dia.codigo = $(".cod_diagnostico").eq(i).val();
+      diagnostico.push(dia);
    }
 
-   for (let i = 0; i < $(".desc_diagnostico").length; i++) {
-      desc_diagnostico.push($(".desc_diagnostico").eq(i).val());
-   }
+  
 
    for (let i = 0; i < $(".especialidad").length; i++) {
-      especialidad.push($(".especialidad").eq(i).val());
+      var esp = {}
+      esp.especialidad = $(".especialidad").eq(i).val();
+      esp.codigo = $(".cod_especialidad").eq(i).val();
+      referencia.push(esp);
    }
 
-   for (let i = 0; i < $(".cod_especialidad").length; i++) {
-      cod_especialidad.push($(".cod_especialidad").eq(i).val());
-   }
+   
 
    var t = [
-      "id", "id_hoja_especialista", "id_sexo", "num_cedula", "edad", "nombre_empresa", "num_patronal", "id_tipo_empresa", "id_actividad_economica","id_tamano_empresa", "id_tipo_asegurado", "id_tipo_atencion", "id_tipo_consulta", "id_corregimiento", "incapacidad", "dias_incapacidad", "id_referencia", "diagnosticos", "referencias", "id_alta_laboral", "dt_registro", "id_usuario", "estado"
+      "id", "id_hoja_especialista", "id_sexo", "num_cedula", "edad", "nombre_empresa", "num_patronal", "id_tipo_empresa", "id_actividad_economica", "id_tamano_empresa", "id_tipo_asegurado", "id_tipo_atencion", "id_tipo_consulta", "id_corregimiento", "incapacidad", "dias_incapacidad", "id_referencia", "diagnosticos", "referencias", "id_alta_laboral", "dt_registro", "id_usuario", "estado"
    ];
 
    //TODO: validar campos no coincidentes
+   //dt_registro, id_usuario, estado
+   data['id_hoja_especialista'] = $("#id_hoja_especialista").val(); //id_hoja_especialista
+   data['id_sexo'] = $("#id_sexo").val(); // id_sexo
+   data['num_cedula'] = $("#num_cedula").val(); // num_cedula
+   data['edad'] = $("#edad").val(); //edad
+   data['nombre_empresa'] = $("#nombre_empresa").val(); // nombre_empresa
+   data['num_patronal'] = $("#num_patronal").val(); // num_patronal
+   data['id_tipo_empresa'] = $("#id_tipo_empresa").val(); // id_tipo_empresa
+   data['id_tamano_empresa'] = $("#id_tamano_empresa").val(); // id_tamano_empresa
+   data['id_actividad_economica'] = $("#id_actividad_economica").val(); // id_actividad_economica
+   data['id_tipo_asegurado'] = $("#id_tipo_asegurado").val(); // id_tipo_asegurado
+   data['id_tipo_atencion'] = $("#id_tipo_atencion").val(); // id_tipo_atencion
+   data['id_tipo_consulta'] = $("#id_tipo_consulta").val(); // id_tipo_consulta
+   data['id_corregimiento'] = $("#id_corregimiento").val(); // id_corregimiento
+   data['incapacidad'] = $("#incapacidad").val(); // incapacidad
+   data['dias_incapacidad'] = $("#dias_incapacidad").val() // dias_incapacidad
+   data['json_diagnosticos '] = diagnostico; // json_diagnosticos
+   data['id_referencia'] = $("#id_referencia").val(); // id_referencia
+   data['json_referencias'] = referencia; // json_referencias
+   data['id_alta_laboral'] = $("#id_alta_laboral").val(); // id_alta_laboral
+   data['estado'] = 1; // estado
 
-   data['id_hoja_especialista'] = $("#id_hoja_especialista").val();
-   data['id_sexo'] = $("#id_sexo").val();
-   data['num_cedula'] = $("#num_cedula").val();
-   data['edad'] = $("#edad").val();
-   data['nombre_empresa'] = $("#nombre_empresa").val();
-   data['num_patronal'] = $("#num_patronal").val();
-   data['id_tipo_empresa'] = $("#id_tipo_empresa").val();
-   data['id_tamano_empresa'] = $("#id_tamano_empresa").val();
-   data['id_actividad_economica'] = $("#id_actividad_economica").val();
-   data['id_tipo_asegurado'] = $("#id_tipo_asegurado").val();
-   data['id_tipo_atencion'] = $("#id_tipo_atencion").val();
-   data['id_tipo_consulta'] = $("#id_tipo_consulta").val();
-   data['id_corregimiento'] = $("#id_corregimiento").val();
-   data['cod_diagnostico'] = cod_diagnostico;
-   data['desc_diagnostico'] = desc_diagnostico;
-   data['id_referencia'] = $("#id_referencia").val();
-   data['especialidad'] = especialidad;
-   data['cod_especialidad'] = cod_especialidad;
-   data['id_alta_laboral'] = $("#id_alta_laboral").val();
-   data['incapacidad'] = $("#incapacidad").val();
-   data['dias_incapacidad'] = $("#dias_incapacidad").val();
 
-   console.log(data);
-   $.ajax({
-      url: url + 'atenciones/guardar_atencion',
-      type: 'POST',
-      dataType: 'json',
-      data: data,
-      success: function(res) {
-         console.log(res);
-      },
-      error: function(err) {
-         console.log(err);
-      }
-   });
+
+   $.post(url + 'atenciones/proceso_crear', data)
+           .done((response) => {
+              console.log(response);
+           })
+           .fail((err) => {
+              console.log(err)
+           })
 }

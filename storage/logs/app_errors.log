@@ -428,3 +428,244 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 13:42:35 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, string given(/srv/http/regso/app/views/hojas/crear.php): 30
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/hojas.php(37): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): crear
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[06-Jul-2022 13:42:37 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, string given(/srv/http/regso/app/views/hojas/crear.php): 30
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/hojas.php(37): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): crear
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[06-Jul-2022 13:42:38 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, string given(/srv/http/regso/app/views/hojas/crear.php): 30
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/hojas.php(37): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): crear
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[06-Jul-2022 13:42:38 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, string given(/srv/http/regso/app/views/hojas/crear.php): 30
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/hojas.php(37): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): crear
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(37): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->crear()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[06-Jul-2022 13:52:23 America/Panama] #Exception Method not found: guardar_atencion(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 13:54:35 America/Panama] #Exception Method not found: guardar_atencion(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 13:54:36 America/Panama] #Exception Method not found: guardar_atencion(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 14:02:41 America/Panama] #Exception Controller not found: distrito(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 14:04:37 America/Panama] #Exception Controller not found: distrito(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[06-Jul-2022 15:44:01 America/Panama] PHP Fatal error:  Can't use function return value in write context in /srv/http/regso/app/controllers/atenciones.php on line 55
+[06-Jul-2022 16:07:08 America/Panama] #Exception Method not found: index(/srv/http/regso/core/router.php): 19
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

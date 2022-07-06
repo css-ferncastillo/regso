@@ -6,8 +6,8 @@ class Regatenciones {
 
    public static function insertar($data = []) {
       if (!empty($data)) {
-         $sql = "INSERT INTO t_reg_atenciones(id_hoja_especialista, id_sexo, num_cedula, edad, nombre_empresa, num_patronal, id_tipo_empresa, id_actividad_economica, id_tamano_empresa, id_tipo_asegurado, id_tipo_atencion, id_tipo_consulta, id_corregimiento, incapacidad, dias_incapacidad, id_referencia, json_diagnosticos, json_referencias, id_alta_laboral, dt_registro, id_usuario, estado) "
-                 . "VALUES(:id_hoja_especialista, :id_sexo, :num_cedula, :edad, :nombre_empresa, :num_patronal, :id_tipo_empresa, id_actividad_economica, :id_tamano_empresa, :id_tipo_asegurado, :id_tipo_atencion, :id_tipo_consulta, :id_corregimiento, :incapacidad, :dias_incapacidad, :id_referencia, :json_diagnosticos, :json_referencias, :id_alta_laboral, :dt_registro, :id_usuario, :estado)";
+         $sql = "INSERT INTO t_reg_atenciones(`id_hoja_especialista`, `id_sexo`, `num_cedula`, `edad`, `nombre_empresa`, `num_patronal`, `id_tipo_empresa`, `id_actividad_economica`, `id_tamano_empresa`, `id_tipo_asegurado`, `id_tipo_atencion`, `id_tipo_consulta`, `id_corregimiento`, `incapacidad`, `dias_incapacidad`, `id_referencia`, `json_diagnosticos`, `json_referencias`, `id_alta_laboral`, `dt_registro`, `id_usuario`, `estado`) "
+                 . "VALUES(:id_hoja_especialista, :id_sexo, :num_cedula, :edad, :nombre_empresa, :num_patronal, :id_tipo_empresa, :id_actividad_economica, :id_tamano_empresa, :id_tipo_asegurado, :id_tipo_atencion, :id_tipo_consulta, :id_corregimiento, :incapacidad, :dias_incapacidad, :id_referencia, :json_diagnosticos, :json_referencias, :id_alta_laboral, :dt_registro, :id_usuario, :estado)";
          try {
             $con = \Core\Model::getInstance();
             $result = $con->consulta($sql, $data);
