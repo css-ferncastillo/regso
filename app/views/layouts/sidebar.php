@@ -16,7 +16,7 @@
             </li>
 
             <li class="nav-main-item">
-               <a class="nav-main-link" href="<?= APP_URI; ?>atenciones">
+               <a class="nav-main-link" href="<?= APP_URI; ?>hojas">
                   <i class="nav-main-link-icon si si-directions"></i>
                   <span class="nav-main-link-name">Atenciones</span>
                </a>
@@ -28,64 +28,64 @@
                   <span class="nav-main-link-name">Actividades</span>
                </a>
             </li>
+            <?php if (\App\Libs\Auth::haveAccess()) { ?>
+               <li class="nav-main-item">
+                  <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                     <i class="nav-main-link-icon si si-equalizer"></i>
+                     <span class="nav-main-link-name">Administraci&oacute;n</span>
+                  </a>
+                  <ul class="nav-main-submenu">
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/usuarios">
+                           <span class="nav-main-link-name">Usuarios</span>
+                        </a>
+                     </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/actividad_economica">
+                           <span class="nav-main-link-name">Actividad Econ&oacute;mica</span>
+                        </a>
+                     </li>
 
-            <li class="nav-main-item">
-               <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-               <i class="nav-main-link-icon si si-equalizer"></i>
-                  <span class="nav-main-link-name">Administraci&oacute;n</span>
-               </a>
-               <ul class="nav-main-submenu">
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/usuarios">
-                        <span class="nav-main-link-name">Usuarios</span>
-                     </a>
-                  </li>
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/actividad_economica">
-                        <span class="nav-main-link-name">Actividad Econ&oacute;mica</span>
-                     </a>
-                  </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/alta_laboral">
+                           <span class="nav-main-link-name">Alta Laboral</span>
+                        </a>
+                     </li>
 
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/alta_laboral">
-                        <span class="nav-main-link-name">Alta Laboral</span>
-                     </a>
-                  </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/ref_empresas">
+                           <span class="nav-main-link-name">Referencia de Empresas</span>
+                        </a>
+                     </li>
 
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/ref_empresas">
-                        <span class="nav-main-link-name">Referencia de Empresas</span>
-                     </a>
-                  </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/tipo_actividad">
+                           <span class="nav-main-link-name">Tipo de Actividad</span>
+                        </a>
+                     </li>
 
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/tipo_actividad">
-                        <span class="nav-main-link-name">Tipo de Actividad</span>
-                     </a>
-                  </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/tipo_servicio">
+                           <span class="nav-main-link-name">Tipo de Servicio</span>
+                        </a>
+                     </li>
 
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/tipo_servicio">
-                        <span class="nav-main-link-name">Tipo de Servicio</span>
-                     </a>
-                  </li>
+                     <li class="nav-main-item">
+                        <a class="nav-main-link" href="<?= APP_URI ?>admin/servicios">
+                           <span class="nav-main-link-name">Servicios</span>
+                        </a>
+                     </li>
 
-                  <li class="nav-main-item">
-                     <a class="nav-main-link" href="<?=APP_URI?>administracion/servicios">
-                        <span class="nav-main-link-name">Servicios</span>
-                     </a>
-                  </li>
-            
-               </ul>
-            </li>
+                  </ul>
+               </li>
 
-            <li class="nav-main-item">
-               <a class="nav-main-link" href="<?= APP_URI; ?>reportes">
-                  <i class="nav-main-link-icon si si-chart"></i>
-                  <span class="nav-main-link-name">Reportes</span>
-               </a>
-            </li>
-
+               <li class="nav-main-item">
+                  <a class="nav-main-link" href="<?= APP_URI; ?>reportes">
+                     <i class="nav-main-link-icon si si-chart"></i>
+                     <span class="nav-main-link-name">Reportes</span>
+                  </a>
+               </li>
+            <?php } ?> 
          </ul>
       </div>
    </div>

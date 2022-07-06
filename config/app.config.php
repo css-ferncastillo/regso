@@ -40,22 +40,27 @@ if (APP_DEBUG) {
    error_reporting(E_ALL);
 }
 
-define('LOGIN', 'AUTH');
+define('APP_SESSION_NAME', strtoupper(str_replace(' ', '', APP_NAME)));
 define('SECRET_KEY', sha1(md5('1q2w3e4r5t')));
 define('memory_limit', '-1');
+define('DEFAULT_PASS', '12345678');
 
 ini_set('log_errors', 1);
 ini_set('error_log', LOGS . 'app_errors.log');
 
 const DATABASE = [
-    'driver'   => 'mysql',
+    'driver' => 'mysql',
     'hostname' => '127.0.0.1',
     'database' => 'encuestas_sso',
     'username' => 'root',
     'password' => 'hola2020',
 ];
 
-require_once ROOT . 'config/app.config.php';
+if (!session_start()) {
+   session_start();
+   $_SESSION[APP_SESSION_NAME] = [];
+}
+
+// require_once ROOT . 'config/app.config.php';
 
 // var path to log file
-

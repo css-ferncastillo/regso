@@ -7,7 +7,7 @@
             <?= $code ?>
           </h1>
           <h2 class="h4 fw-normal text-muted mb-5">
-            <?= $mensaje ?>
+          <strong> <?= $mensaje ?></strong>
           </h2>
           <form action="be_pages_generic_search.html" method="POST">
             <div class="row justify-content-center mb-4">

@@ -27,12 +27,12 @@ class Engine {
 
 			\Core\Template::getHeader();
 			\Core\Template::topBody();
-			\Core\Template::getNavbar();
+			isset($_SESSION[APP_SESSION_NAME]) ? \Core\Template::getNavbar() : '';
 			echo "<main id='main-container'>";
-			\Core\Template::getSidebar();
+			isset($_SESSION[APP_SESSION_NAME]) ? \Core\Template::getSidebar(): '';
 			echo $str;
 			echo "</main>";
-			\Core\Template::getFooter();
+			isset($_SESSION[APP_SESSION_NAME]) ? \Core\Template::getFooter() : '';
 			\Core\Template::bottomBody();
 
 		} else {

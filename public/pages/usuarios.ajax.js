@@ -1,48 +1,27 @@
 $(document).ready(() => {
-  
-   getProvincias();
-   getTipoUsuario();
+
    $("#id_provincia").change(() => {
       getUnidades();
    })
    $("#tbl-usuarios").on("click", ".btn-editar", cargarDatos);
    $("#tbl-usuarios").on("click", ".btn-eliminar", eliminarUsuario);
-   
+
 })
 
-function getProvincias() {
-   $.ajax({
-      url: baseUrl + '/provincia/listar',
-      type: 'GET',
-      dataType: 'json',
-      success: function (data) {
-         $('#id_provincia').empty();
-         $('#id_provincia').append('<option value="">Seleccione una provincia</option>');
-         $.each(data['data'], function (key, value) {
-            $('#id_provincia').append('<option value="' + value.id + '">' + value.desc_prov + '</option>');
-         });
-
-      },
-      error: function (data) {
-         console.log(data);
-      }
-   });
-}
-
-function getUnidades(unidad=null){
+function getUnidades(unidad = null) {
    let params = $("#id_provincia").val();
    $.ajax({
-      url: baseUrl + '/unidad/filtrar/' + params,
+      url: baseUrl + '/listfilters/filter_unidad/' + params,
       type: 'GET',
       dataType: 'json',
       success: function (data) {
          $('#id_unidad').empty();
          $('#id_unidad').append('<option value="">Seleccione una unidad</option>');
          $.each(data['data'], function (key, value) {
-            if(unidad != null && unidad == value.id){
+            if (unidad != null && unidad == value.id) {
                $('#id_unidad').append('<option value="' + value.id + '" selected>' + value.desc_unidad + '</option>');
-            } else{
-               $('#id_unidad').append('<option value="' + value.id + '">' + value.tipo +" - "+ value.desc_unidad + '</option>');
+            } else {
+               $('#id_unidad').append('<option value="' + value.id + '">' + value.tipo + " - " + value.desc_unidad + '</option>');
             }
          });
       },
@@ -52,25 +31,8 @@ function getUnidades(unidad=null){
    })
 }
 
-function getTipoUsuario(){
-   $.ajax({
-      url: baseUrl + '/tipo_usuario/listar',
-      type: 'GET',
-      dataType: 'json',
-      success: function (data) {
-         $('#id_tipo_usuario').empty();
-         $('#id_tipo_usuario').append('<option value="">Seleccione un tipo de usuario</option>');
-         $.each(data['data'], function (key, value) {
-            $('#id_tipo_usuario').append('<option value="' + value.id + '">' + value.tipo_usuario + '</option>');
-         });
-      },
-      error: function (data) {
-         console.log(data);
-      }
-   });
-}
 
-function cargarDatos(){
+function cargarDatos() {
    var currentRow = $(this).closest("tr");
    var id = currentRow.find("button.btn-editar").val();
    $.ajax({
@@ -78,7 +40,7 @@ function cargarDatos(){
       type: 'GET',
       dataType: 'json',
       success: function (data) {
-         const {id, nombre1, apellido1, id_tipo_usuario, correo, id_provincia, id_unidad, estado} = data['data'][0];
+         const { id, nombre1, apellido1, id_tipo_usuario, correo, id_provincia, id_unidad, estado } = data['data'][0];
          $("#id").val(id);
          $("#nombre1").val(nombre1);
          $("#apellido1").val(apellido1);
@@ -95,18 +57,18 @@ function cargarDatos(){
    });
 }
 
-function eliminarUsuario(){
+function eliminarUsuario() {
    var currentRow = $(this).closest("tr");
    var id = currentRow.find("button.btn-editar").val();
    const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
-        confirmButton: 'btn btn-alt-success',
-        cancelButton: 'btn btn-alt-danger'
+         confirmButton: 'btn btn-alt-success',
+         cancelButton: 'btn btn-alt-danger'
       },
       buttonsStyling: false
-    })
-    
-    swalWithBootstrapButtons.fire({
+   })
+
+   swalWithBootstrapButtons.fire({
       title: 'Desea eliminar este usuario?',
       text: "Al ser eliminado no podrá recuperarlo!",
       icon: 'warning',
@@ -114,7 +76,7 @@ function eliminarUsuario(){
       confirmButtonText: 'Si, eliminar!',
       cancelButtonText: 'No, cancelar!',
       reverseButtons: true
-    }).then((result) => {
+   }).then((result) => {
       if (result.isConfirmed) {
 
          $.ajax({
@@ -122,33 +84,34 @@ function eliminarUsuario(){
             type: 'DELETE',
             dataType: 'json',
             success: function (data) {
-               swalWithBootstrapButtons.fire(
-                  `${data['title']}!`,
-                  `${data['message']}`,
-                  `${data['type']}`
-                )
-                location.reload()
+               swalWithBootstrapButtons.fire({
+                  title: `${data['title']}!`,
+                  text: `${data['message']}`,
+                  showCancelButton: false,
+                  confirmButtonText: 'Aceptar!',
+               }).then(rst => {
+                  location.reload();
+               })
             },
             error: function (data) {
-              
                swalWithBootstrapButtons.fire(
                   `${data['title']}!`,
                   `${data['message']}`,
                   `${data['type']}`
-                )
+               )
             },
          })
 
-        
+
       } else if (
-        /* Read more about handling dismissals below */
-        result.dismiss === Swal.DismissReason.cancel
+         /* Read more about handling dismissals below */
+         result.dismiss === Swal.DismissReason.cancel
       ) {
-        swalWithBootstrapButtons.fire(
-          'Cancelado',
-          'La acción no ha sido procesada :)',
-          'info'
-        )
+         swalWithBootstrapButtons.fire(
+            'Cancelado',
+            'La acción no ha sido procesada :)',
+            'info'
+         )
       }
-    })
+   })
 }

@@ -1,1593 +1,516 @@
-1655733734 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655733751 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655733907 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655733926 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655733936 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655733952 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655734087 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734364 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734400 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655734400 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655734409 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734428 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655734434 [ip] 127.0.0.1 [text] \App\Controllers\homeva
-1655734439 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734452 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734466 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734649 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734706 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734763 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734764 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734814 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734893 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655734973 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735258 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735258 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735413 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735414 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735477 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735640 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735641 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735643 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735643 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735643 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735664 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735676 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735684 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735699 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655735750 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655739514 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655739515 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655739515 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655739516 [ip] 127.0.0.1 [text] \App\Controllers\homevalidar
-1655823540 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655824055 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825019 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825022 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825025 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825028 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825047 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825050 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825053 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825056 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825059 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825062 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825082 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825084 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655825088 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825098 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825110 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825111 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825113 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825114 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825115 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655825115 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825320 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825360 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825361 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825362 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825363 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825364 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655825365 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825511 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825513 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655825514 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825532 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825532 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655825534 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655825535 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825537 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825538 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825564 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655825566 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825685 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655825686 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825693 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825837 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825871 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825895 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825919 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655825947 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826009 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826037 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826070 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826210 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826233 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826234 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826235 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826235 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826409 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826432 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826490 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826699 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826737 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826762 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655826797 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827049 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827050 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827052 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827053 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827054 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827055 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827056 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827057 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827072 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827073 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827074 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827075 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827076 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827077 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827078 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827365 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655827366 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827374 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827384 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655827387 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827390 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655827616 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655827617 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827618 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827619 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655827620 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827901 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827912 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655827951 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655828000 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655828039 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655828109 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655828140 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655828141 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655828146 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655828146 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655828432 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655830374 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655830424 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655830425 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655830427 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830542 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830686 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830701 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830865 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830890 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830938 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655830979 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831027 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831028 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655831029 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831031 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655831031 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831091 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831091 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655831096 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831160 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655831162 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655831163 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655831212 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831885 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831908 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655831910 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655831997 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655836471 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655836472 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655836473 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655836476 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655836499 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655836506 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655836507 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655836507 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655836508 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655836509 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655839250 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655839252 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655839254 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655839255 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655839256 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655839256 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655839257 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655839258 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655839258 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655839263 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655839267 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655842298 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655842625 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655842658 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655842850 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655842961 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655842998 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843039 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843070 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843332 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843366 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843475 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843479 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843479 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843479 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843480 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843480 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843480 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843480 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843510 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843511 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843556 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843558 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843730 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843750 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843751 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655843852 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655843987 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844016 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844017 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844018 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844048 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844104 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844117 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844303 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844318 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844343 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844362 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844371 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655844388 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844389 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844472 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844495 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844549 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655844632 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655844633 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844709 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844782 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844905 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844906 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844907 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844923 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844956 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844989 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844989 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655844989 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845013 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845014 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845015 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845035 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845044 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845094 [ip] 127.0.0.1 [text] \App\Controllers\administracionindex
-1655845097 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845148 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845185 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845196 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845255 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845298 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845377 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845521 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845529 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845529 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845578 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845578 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845578 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845579 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845579 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845580 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845595 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655845700 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655845701 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655845702 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655845709 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655846518 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655846589 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655846596 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1655846758 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655846796 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655910096 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655910098 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655910101 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655910102 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1655910109 [ip] 127.0.0.1 [text] \App\Controllers\reportesindex
-1655910110 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655910154 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655910174 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655910214 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655910250 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655910253 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910297 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910384 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655910405 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910446 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910474 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910487 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910533 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910673 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910710 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910723 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910752 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910774 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910836 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910884 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910885 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655910919 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911048 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911141 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911177 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911227 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911261 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911309 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911430 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911515 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911546 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911579 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911622 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911662 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911684 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911699 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655911827 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655911829 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912069 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912082 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912320 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912417 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912486 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912513 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912589 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912847 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912898 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655912957 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655913013 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655913051 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655913208 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655913321 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655913416 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655913419 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655914118 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655914120 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914128 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914155 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914215 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914257 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914273 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914281 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914318 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914330 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914807 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914935 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655914951 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915133 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915197 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915324 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915392 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915415 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915478 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915490 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915502 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915541 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915559 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915578 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915595 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915700 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915782 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915804 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915832 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915845 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915854 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915864 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915882 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915894 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655915928 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916043 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916084 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916222 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916665 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916728 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916740 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916760 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916783 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916784 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916814 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916824 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916825 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655916838 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917038 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917059 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917085 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917110 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917127 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917135 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917168 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917276 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917310 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917454 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917500 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917553 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917595 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917838 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655917845 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655917846 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655917933 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655917935 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655918000 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655919465 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655919509 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655919589 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655919723 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655919873 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920121 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920173 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920337 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920373 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920376 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920526 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920619 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920793 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920812 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655920896 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921006 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921127 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921156 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921259 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921528 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921552 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921573 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921592 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921601 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921608 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921623 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921666 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921670 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921671 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921671 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921671 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921673 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921735 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921854 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921934 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921967 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921980 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921982 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655921989 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922004 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922022 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922044 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922096 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922157 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922213 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655922299 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655922301 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655922606 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655922607 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655922612 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655922614 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655924370 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655924376 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655924381 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655924525 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655924546 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655924560 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655924597 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655924648 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1655924701 [ip] 127.0.0.1 [text] \App\Controllers\atencionesdetalle_hoja
-1655924771 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1655924894 [ip] 127.0.0.1 [text] \App\Controllers\atencionesdetalle_hoja
-1655924905 [ip] 127.0.0.1 [text] \App\Controllers\atencionesdetalle_hoja
-1655930887 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1655930894 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1655947460 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655947914 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947935 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947936 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947937 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947937 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947982 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947983 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947983 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655947984 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655948003 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655948054 [ip] 127.0.0.1 [text] \App\Controllers\restactividad_economica
-1655955103 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655957053 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655957104 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655957239 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicacrear
-1655957601 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655958203 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicacrear
-1655958218 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655958573 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655958876 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicacrear
-1655960926 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655960937 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960941 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960943 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960943 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960944 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960945 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960946 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960979 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960980 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960981 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960982 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960983 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655960984 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961028 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961090 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961124 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961173 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961370 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961384 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961386 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961389 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961391 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961392 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961394 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655961395 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985741 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985742 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985743 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985744 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985745 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985875 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985905 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655985929 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655986147 [ip] 127.0.0.1 [text] \App\Controllers\homemetodo
-1655987766 [ip] 127.0.0.1 [text] \App\Controllers\homeprueba
-1655987805 [ip] 10.18.47.103 [text] \App\Controllers\homeprueba
-1655987867 [ip] 192.168.50.2 [text] \App\Controllers\homeprueba
-1655988274 [ip] 10.18.47.103 [text] \App\Controllers\homeindex
-1655988278 [ip] 10.18.47.103 [text] \App\Controllers\atencionesindex
-1655988280 [ip] 10.18.47.103 [text] \App\Controllers\atencionesnueva_hoja
-1655988283 [ip] 10.18.47.103 [text] \App\Controllers\atencionesindex
-1655988284 [ip] 10.18.47.103 [text] \App\Controllers\atencionesnueva_atencion
-1655988288 [ip] 10.18.47.103 [text] \App\Controllers\homeindex
-1655988290 [ip] 10.18.47.103 [text] \App\Controllers\atencionesindex
-1655988296 [ip] 10.18.47.103 [text] \App\Controllers\atencionesnueva_atencion
-1655988301 [ip] 10.18.47.103 [text] \App\Controllers\atencionesindex
-1655988315 [ip] 10.18.47.103 [text] \App\Controllers\actividadesindex
-1655988321 [ip] 10.18.47.103 [text] \App\Controllers\reportesindex
-1655988323 [ip] 10.18.47.103 [text] \App\Controllers\homeindex
-1655988328 [ip] 10.18.47.103 [text] \App\Controllers\atencionesindex
-1655995082 [ip] 127.0.0.1 [text] \App\Controllers\actividadeslistar
-1655995099 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655995110 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655995134 [ip] 127.0.0.1 [text] \App\Controllers\actividad_economicalistar
-1655995527 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1655995531 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655995656 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655995718 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655995884 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655995993 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996069 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996249 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996355 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996356 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996368 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996404 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996535 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996683 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996717 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996841 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655996877 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1655999918 [ip] 127.0.0.1 [text] \App\Controllers\distritolistar
-1656000070 [ip] 127.0.0.1 [text] \App\Controllers\distritolistar
-1656000142 [ip] 127.0.0.1 [text] \App\Controllers\distritolistar
-1656000186 [ip] 127.0.0.1 [text] \App\Controllers\distritofiltrar
-1656000257 [ip] 127.0.0.1 [text] \App\Controllers\distritofiltrar
-1656000263 [ip] 127.0.0.1 [text] \App\Controllers\distritofiltrar
-1656000467 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656000663 [ip] 127.0.0.1 [text] \App\Controllers\serviciolistar
-1656000895 [ip] 127.0.0.1 [text] \App\Controllers\tipo_actividadlistar
-1656000988 [ip] 127.0.0.1 [text] \App\Controllers\tipo_aseguradolistar
-1656001360 [ip] 127.0.0.1 [text] \App\Controllers\tipo_atencionlistar
-1656001465 [ip] 127.0.0.1 [text] \App\Controllers\tipo_consultalistar
-1656001554 [ip] 127.0.0.1 [text] \App\Controllers\tipo_empresalistar
-1656001749 [ip] 127.0.0.1 [text] \App\Controllers\tipo_referencialistar
-1656001841 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656002006 [ip] 127.0.0.1 [text] \App\Controllers\unidadlistar
-1656002025 [ip] 127.0.0.1 [text] \App\Controllers\unidadlistar
-1656002122 [ip] 127.0.0.1 [text] \App\Controllers\unidadlistar
-1656003301 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar
-1656003396 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656003398 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003509 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003529 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003530 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003530 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003531 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003532 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003556 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003580 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003619 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656003621 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003688 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003769 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003785 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003871 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003873 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003880 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003884 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656003921 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656003925 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004105 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004106 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004107 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004107 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004209 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004222 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004222 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004278 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004278 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004414 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004414 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004419 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004432 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004432 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004439 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004563 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004563 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004639 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004639 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004646 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004654 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004654 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004660 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004708 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004708 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004714 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004737 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004737 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004741 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004745 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004798 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004818 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004819 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004822 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004843 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004844 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004849 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004868 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004869 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004872 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004872 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004876 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656004921 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656004921 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656004927 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656005070 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005070 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005081 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005081 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005085 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656005294 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005295 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005301 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656005363 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005364 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005367 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656005382 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005382 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005386 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656005405 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656005405 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656005410 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656007539 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656007544 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656007726 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656007726 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656007749 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656007750 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656007750 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656007767 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656007769 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008458 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656008458 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656008458 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656008492 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656008492 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656008492 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656008498 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008506 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008861 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656008861 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656008861 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656008888 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008888 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008929 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656008930 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656008930 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656008941 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656008941 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656008941 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656008948 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656008957 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009291 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009380 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009441 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009549 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009714 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009772 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009806 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009840 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656009961 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010075 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010102 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010132 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010237 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656010238 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656010238 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656010241 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656010241 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656010241 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656010248 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010292 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010293 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010294 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010294 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010295 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010295 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010295 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010295 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010296 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010296 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010296 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010296 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010297 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010298 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656010308 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010360 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656010394 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656010394 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656010394 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656011523 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656011524 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656011524 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656011532 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656011532 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656011532 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656011557 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011558 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011558 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011559 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011559 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011559 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011560 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011560 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011576 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656011576 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656011576 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656011576 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656011658 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011659 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011659 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011659 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011660 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011660 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011660 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011661 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011661 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656011674 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656011674 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656011674 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656011674 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012264 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012264 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012264 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012286 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656012296 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656012296 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012296 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012296 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012452 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656012464 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656012464 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012464 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012464 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012726 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012726 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012726 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012765 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012765 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012765 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656012935 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656012935 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656012935 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013087 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013087 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013087 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013562 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013562 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013562 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013564 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno1
-1656013575 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013575 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013575 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013578 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013579 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013585 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013587 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013587 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013587 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013589 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013591 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013616 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013616 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013616 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013619 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013621 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013622 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013622 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013622 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013623 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013623 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013623 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013624 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013624 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013624 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013625 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013625 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013632 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013675 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013675 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013675 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013677 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013717 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013717 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013717 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013720 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013720 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013720 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013722 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013737 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013738 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013738 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013740 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013758 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013758 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013758 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013760 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013913 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013914 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013914 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013915 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013917 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013919 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013934 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013935 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013935 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013937 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013939 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013941 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013943 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013956 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013956 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013956 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013960 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656013987 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656013987 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656013987 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656013990 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014034 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014034 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014034 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014037 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014088 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014088 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014088 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014094 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014094 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014103 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014103 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014105 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014105 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014131 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014131 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014131 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014133 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014133 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014143 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014143 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014282 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014282 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014282 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014307 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014307 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014307 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014312 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014312 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014314 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014314 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014322 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014322 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014425 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014430 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656014430 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014430 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014430 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014445 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014446 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014449 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014459 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656014459 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014459 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014459 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014463 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014463 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014463 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014557 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014597 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014598 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014599 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014609 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014610 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656014612 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1656014613 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014613 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014613 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014623 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014623 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014623 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014648 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014648 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014648 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014675 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014675 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014675 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014690 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014691 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014691 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014692 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014692 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014692 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014728 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014728 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014728 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014737 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014737 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014741 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014741 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014749 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014749 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014753 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014753 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014762 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656014762 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014762 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014763 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014821 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014821 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014826 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656014892 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656014950 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014950 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014950 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014954 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014954 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014954 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014955 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014955 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014955 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014958 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656014958 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656014958 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656014962 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656014962 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656014967 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656015125 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656015502 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656015561 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016084 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016135 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016201 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016323 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016373 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016403 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016403 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656016403 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656016403 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656016409 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656016409 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656016412 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656016416 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016416 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656016416 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656016416 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656016427 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656016427 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656016435 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656016435 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656016435 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656016435 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656017290 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656017290 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656017290 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656017386 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656017386 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656017386 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656017413 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656017413 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656017413 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656017415 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656017415 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656017415 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656174805 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656174807 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1656174808 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656174812 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1656174822 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656174823 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_hoja
-1656174835 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656174837 [ip] 127.0.0.1 [text] \App\Controllers\atencionesnueva_atencion
-1656174845 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656174846 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656174847 [ip] 127.0.0.1 [text] \App\Controllers\actividadesindex
-1656174852 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175113 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175114 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175151 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175154 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175179 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175180 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175180 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175185 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656175187 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656175190 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656175194 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656175196 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175359 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175359 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175359 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175364 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656175364 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656175376 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656175376 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175377 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175377 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175381 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656175381 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656175389 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656175389 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175389 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175389 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175403 [ip] 127.0.0.1 [text] \App\Controllers\atencionesindex
-1656175406 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656175409 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175409 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175409 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175770 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175770 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175770 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175775 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656175820 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656175930 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656175936 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656175936 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656175936 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656175940 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656175965 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656175974 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656176008 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176009 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176009 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176012 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656176065 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176065 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176065 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176069 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656176183 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176183 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176183 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176188 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656176243 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176243 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176243 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176246 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656176284 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176362 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176362 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176362 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176380 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176381 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176382 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176392 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656176392 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176393 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176393 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176397 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176397 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176397 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176510 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176510 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176510 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176533 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176546 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656176546 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176546 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176546 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176686 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176686 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176686 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176809 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176809 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176809 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176826 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176826 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176826 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176836 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176836 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176836 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176849 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176849 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176859 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656176859 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176859 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176859 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176923 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176923 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176923 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176933 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176938 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656176938 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176938 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176938 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176967 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176967 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176967 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656176978 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656176982 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656176982 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656176982 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656176982 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656177053 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656177053 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656177053 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656177063 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656177067 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656177067 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656177067 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656177067 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656177225 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656177225 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656177225 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656177234 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656177239 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656177239 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656177239 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656177239 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656177246 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656177246 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656177256 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656177260 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656177260 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656177260 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656177260 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656179435 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179436 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656179436 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656179459 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656179459 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656179467 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656179467 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179513 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179618 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179619 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179645 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179645 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656179645 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656179705 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179705 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656179705 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656179724 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656179725 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656179730 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656179730 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656179731 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656179731 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180047 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180047 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180047 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180065 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180086 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180087 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180087 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180087 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180087 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180087 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180094 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656180094 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180094 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180094 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180146 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180146 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180146 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180167 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180167 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180167 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180167 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180167 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180168 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180169 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180175 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656180176 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180176 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180176 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180253 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180254 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180254 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180277 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180277 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180278 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180278 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656180285 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656180285 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180285 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180285 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180529 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180529 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180529 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656180625 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656180625 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656180625 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181001 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181001 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181001 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181002 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181029 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181030 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181031 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181031 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181032 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181032 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181032 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181033 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181041 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181041 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181041 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181041 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181108 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181108 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181108 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181108 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181114 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181114 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181114 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181114 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181142 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181142 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181142 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181142 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181143 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181143 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181146 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181186 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181192 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181192 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181193 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181193 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181223 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181224 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181224 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181232 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181232 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181232 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181249 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181249 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181249 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181252 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181252 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181252 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181298 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181298 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181298 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181298 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181377 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181377 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181380 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181380 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181381 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181381 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181397 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181397 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181402 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181402 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181402 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181402 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181408 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181408 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181412 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181412 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181412 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181412 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181419 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181419 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181422 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181422 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181422 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181422 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181430 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181430 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181433 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181433 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181433 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181433 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181601 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181601 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181601 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181603 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181603 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181606 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181606 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181606 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181606 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181744 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181744 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181744 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181745 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181745 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656181745 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181750 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181750 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181752 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181752 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656181753 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656181758 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656181759 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656181759 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656181759 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182028 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182028 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182028 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182031 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182031 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182035 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182035 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182035 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182035 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182045 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182045 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182048 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182048 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182048 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182048 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182373 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182373 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182373 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182376 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182376 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182379 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182379 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182379 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182379 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182471 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182471 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182471 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182475 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182475 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182478 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182478 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182479 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182479 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182495 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182495 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182495 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182497 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182497 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182500 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182500 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182501 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182501 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182592 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182592 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182592 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182594 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182594 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182597 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182598 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182598 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182598 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182607 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182607 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656182607 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182609 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656182609 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656182612 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656182612 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656182612 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656182612 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656184394 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656184394 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656184394 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270180 [ip] 127.0.0.1 [text] \App\Controllers\homeindex
-1656270188 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270188 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270188 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270512 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270512 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270512 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270513 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270513 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270513 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270532 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270532 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270532 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270533 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270576 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270577 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270577 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270658 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270658 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270658 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270721 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270721 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270721 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270722 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270722 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270722 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270728 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270728 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270728 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270760 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270760 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270760 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270855 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270856 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270856 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270991 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270992 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270992 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656270992 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656270993 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656270993 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271017 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271017 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271017 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271078 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271078 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271078 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271136 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656271136 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271136 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271136 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271144 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656271144 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271144 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271144 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271160 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271160 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271160 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271160 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271162 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271162 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271163 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271163 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271249 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271249 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271249 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271252 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271252 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271252 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271252 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271255 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271255 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271255 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271255 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271257 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271257 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271257 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271257 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271410 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271410 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271410 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271410 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271415 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271415 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271415 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271415 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271418 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271418 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271418 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271418 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271422 [ip] 127.0.0.1 [text] \App\Controllers\usuariolistar_uno
-1656271422 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656271430 [ip] 127.0.0.1 [text] \App\Controllers\unidadfiltrar
-1656271454 [ip] 127.0.0.1 [text] \App\Controllers\usuariocreate_or_update
-1656271454 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271454 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271454 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656271491 [ip] 127.0.0.1 [text] \App\Controllers\usuarioeliminar
-1656271491 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656271492 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656271492 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656272640 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656272642 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656272644 [ip] 127.0.0.1 [text] \App\Controllers\administracionref_empresas
-1656272794 [ip] 127.0.0.1 [text] \App\Controllers\administracionref_empresas
-1656272801 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656272876 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656272878 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656272880 [ip] 127.0.0.1 [text] \App\Controllers\administracionref_empresas
-1656272881 [ip] 127.0.0.1 [text] \App\Controllers\administraciontipo_actividad
-1656272884 [ip] 127.0.0.1 [text] \App\Controllers\administraciontipo_servicio
-1656272885 [ip] 127.0.0.1 [text] \App\Controllers\administracionservicios
-1656273006 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273217 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273259 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273277 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273317 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273318 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273352 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273365 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273389 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273413 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656273413 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656273413 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656273416 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273418 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656273418 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656273418 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656273420 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656273420 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656273420 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656273423 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656273423 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656273423 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656273563 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656273563 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656273563 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656273566 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656273581 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656273643 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656273645 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273668 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656273698 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656274315 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656274316 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656274423 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656275035 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656275039 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656275040 [ip] 127.0.0.1 [text] \App\Controllers\administracionusuarios
-1656275040 [ip] 127.0.0.1 [text] \App\Controllers\provincialistar
-1656275040 [ip] 127.0.0.1 [text] \App\Controllers\tipo_usuariolistar
-1656275043 [ip] 127.0.0.1 [text] \App\Controllers\administraciontipo_actividad
-1656275044 [ip] 127.0.0.1 [text] \App\Controllers\administracionservicios
-1656275137 [ip] 127.0.0.1 [text] \App\Controllers\administracionactividad_economica
-1656275140 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
-1656275204 [ip] 127.0.0.1 [text] \App\Controllers\administracionalta_laboral
+1657047841 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657047928 [ip] 127.0.0.1 [UID] 6 [text] []
+1657047930 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657047930 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657047934 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/crear"}
+1657047966 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/procesar_creacion","id_unidad":"118","id_servicio":"4","dt_atencion":"2022-07-05","nombre_profecional":"Empresa Bruja 1","lugar_atencion":"1","h_contratadas":"10","h_trabajadas":"5","h_administrativas":"3","num_vacaciones":"3","num_licencias":"2","num_permiso":"2","num_incapacidad":"1","num_fortuitas":"2","carga_laboral":"1","cupo_utilizado":"1","cupo_disponible":"1","cupo_ausente":"1","cupo_no_solicitado":"2"}
+1657047966 [ip] 127.0.0.1 [UID] 6 [text] {"url":"atenciones\/crear\/3"}
+1657048082 [ip] 127.0.0.1 [UID] 6 [text] {"url":"atenciones\/crear\/3"}
+1657048332 [ip] 127.0.0.1 [UID] 6 [text] {"url":"atenciones\/crear\/3"}
+1657049329 [ip] 127.0.0.1 [UID] 6 [text] []
+1657049329 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657049329 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657049335 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/crear"}
+1657049341 [ip] 127.0.0.1 [UID] 6 [text] []
+1657049342 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657049342 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657049346 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/detalles\/3"}
+1657049416 [ip] 127.0.0.1 [UID] 6 [text] []
+1657049419 [ip] 127.0.0.1 [UID] 6 [text] {"url":"actividades"}
+1657049421 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657049421 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657049424 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/detalles\/3"}
+1657049441 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/detalles\/3"}
+1657049489 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657049489 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657049588 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657049590 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/crear"}
+1657049632 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/procesar_creacion","id_unidad":"38","id_servicio":"2","dt_atencion":"2022-06-29","nombre_profecional":"Empresa de Prueba 3","lugar_atencion":"1","h_contratadas":"24","h_trabajadas":"24","h_administrativas":"24","num_vacaciones":"1","num_licencias":"1","num_permiso":"1","num_incapacidad":"1","num_fortuitas":"1","carga_laboral":"1","cupo_utilizado":"1","cupo_disponible":"1","cupo_ausente":"1","cupo_no_solicitado":"1"}
+1657049632 [ip] 127.0.0.1 [UID] 6 [text] {"url":"atenciones\/crear\/4"}
+1657050405 [ip] 127.0.0.1 [UID] 6 [text] []
+1657050407 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657050407 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657050412 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657051754 [ip] 127.0.0.1 [UID] 6 [text] []
+1657051755 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657051755 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657051890 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/alta_laboral"}
+1657051960 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/alta_laboral"}
+1657051962 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657051964 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657051965 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/alta_laboral"}
+1657051967 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657051970 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/tipo_actividad"}
+1657051973 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/tipo_servicio"}
+1657052205 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052215 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052247 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052290 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052324 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052383 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052467 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052476 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052489 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657052529 [ip] 127.0.0.1 [UID] 6 [text] []
+1657052530 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657052530 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657052541 [ip] 127.0.0.1 [UID] 6 [text] {"url":"actividades"}
+1657052545 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657052550 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052554 [ip] 127.0.0.1 [UID] 6 [text] {"url":"actividades"}
+1657052555 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657052555 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657052558 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657052626 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052819 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657052819 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657052820 [ip] 127.0.0.1 [UID] 6 [text] {"url":"actividades"}
+1657052822 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657052844 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657052846 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/actividad_economica"}
+1657052848 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/alta_laboral"}
+1657052850 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/ref_empresas"}
+1657052852 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/tipo_actividad"}
+1657052854 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/tipo_servicio"}
+1657052855 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657052855 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657052860 [ip] 127.0.0.1 [UID] 6 [text] {"url":"actividades"}
+1657052860 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657052861 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657073041 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657073089 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657073089 [ip] 127.0.0.1 [UID] 6 [text] []
+1657073099 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657073107 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657073118 [ip] 127.0.0.1 [UID] 6 [text] {"url":"usuario\/listar_uno\/6"}
+1657073118 [ip] 127.0.0.1 [UID] 6 [text] {"url":"listfilters\/filter_unidad\/6"}
+1657073127 [ip] 127.0.0.1 [UID] 6 [text] {"url":"usuario\/create_or_update","id":"6","nombre1":"Usuario","apellido1":"Prueba","id_tipo_usuario":"2","correo":"usuario@css.gob.pa","id_provincia":"6","id_unidad":"61","clave":"","estado":"1"}
+1657073127 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657073135 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657073135 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657073147 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657073147 [ip] 127.0.0.1 [UID] 6 [text] []
+1657073704 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657073704 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657114041 [ip] 127.0.0.1 [UID] 6 [text] []
+1657114045 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657114045 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114068 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657114068 [ip] 127.0.0.1 [UID] 6 [text] []
+1657114071 [ip] 127.0.0.1 [UID] 6 [text] []
+1657114074 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657114075 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114246 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114275 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114317 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114318 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114318 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114333 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114334 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114347 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114347 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114349 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114355 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114447 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114468 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114497 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114508 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114511 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657114511 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114752 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657114752 [ip] 127.0.0.1 [UID] 6 [text] []
+1657114753 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657114753 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657114755 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/crear"}
+1657114765 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114802 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657114802 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114815 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657114933 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo","clave":"Admin123"}
+1657114933 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657116527 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657116540 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657116540 [ip] 127.0.0.1 [UID] 6 [text] []
+1657116676 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657116676 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657116689 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117088 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657117088 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117096 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117096 [ip] 127.0.0.1 [UID] 6 [text] []
+1657117134 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657117134 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117211 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117217 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117217 [ip] 127.0.0.1 [UID] 6 [text] []
+1657117220 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657117220 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117231 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117236 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"12345"}
+1657117236 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117237 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657117237 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117240 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117297 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117307 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117307 [ip] 127.0.0.1 [UID] 6 [text] []
+1657117309 [ip] 127.0.0.1 [UID] 6 [text] []
+1657117312 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657117312 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117767 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117776 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117776 [ip] 127.0.0.1 [UID] 6 [text] []
+1657117969 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657117969 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657117977 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657117977 [ip] 127.0.0.1 [UID] 6 [text] []
+1657118204 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657118204 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657118214 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657118221 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657118221 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657118235 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"etroesh@css.gob.pa","clave":"123456"}
+1657118235 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657118252 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"etroesh@css.gob.pa","clave":"123456"}
+1657118252 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657118268 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"123456"}
+1657118268 [ip] 127.0.0.1 [UID] 6 [text] []
+1657118269 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas"}
+1657118269 [ip] 127.0.0.1 [UID] 6 [text] {"url":"hojas\/listar"}
+1657118278 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657118286 [ip] 127.0.0.1 [UID] 6 [text] {"url":"usuario\/listar_uno\/7"}
+1657118286 [ip] 127.0.0.1 [UID] 6 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657118294 [ip] 127.0.0.1 [UID] 6 [text] {"url":"usuario\/create_or_update","id":"7","nombre1":"Eugenio","apellido1":"Troesh","id_tipo_usuario":"1","correo":"etroesh@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"","estado":"1"}
+1657118294 [ip] 127.0.0.1 [UID] 6 [text] {"url":"admin\/usuarios"}
+1657118299 [ip] 127.0.0.1 [UID] 6 [text] {"url":"auth\/logout"}
+1657118299 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657118311 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"etroesh@css.gob.pa","clave":"123456"}
+1657118312 [ip] 127.0.0.1 [UID] 7 [text] []
+1657118315 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas"}
+1657118315 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118386 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118440 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118477 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118525 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118550 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118565 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118584 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/crear"}
+1657118615 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/procesar_creacion","id_unidad":"54","id_servicio":"7","dt_atencion":"2022-07-05","nombre_profecional":"Especialista Troesh","lugar_atencion":"1","h_contratadas":"11","h_trabajadas":"13","h_administrativas":"10","num_vacaciones":"8","num_licencias":"11","num_permiso":"4","num_incapacidad":"3","num_fortuitas":"1","carga_laboral":"1","cupo_utilizado":"2","cupo_disponible":"1","cupo_ausente":"2","cupo_no_solicitado":"2"}
+1657118615 [ip] 127.0.0.1 [UID] 7 [text] {"url":"atenciones\/crear\/5"}
+1657118629 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas"}
+1657118629 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118642 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118871 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118965 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657118996 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119001 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119001 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119011 [ip] 127.0.0.1 [UID] 7 [text] {"url":"actividades"}
+1657119012 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas"}
+1657119012 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119061 [ip] 127.0.0.1 [UID] 7 [text] []
+1657119062 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas"}
+1657119062 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119065 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/servicios"}
+1657119068 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/tipo_servicio"}
+1657119070 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/tipo_actividad"}
+1657119071 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/alta_laboral"}
+1657119073 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/actividad_economica"}
+1657119221 [ip] 127.0.0.1 [UID] 7 [text] []
+1657119223 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas"}
+1657119223 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119251 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119254 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/listar"}
+1657119372 [ip] 127.0.0.1 [UID] 7 [text] {"url":"hojas\/crear"}
+1657119377 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/usuarios"}
+1657119382 [ip] 127.0.0.1 [UID] 7 [text] {"url":"usuario\/eliminar\/1"}
+1657119394 [ip] 127.0.0.1 [UID] 7 [text] {"url":"admin\/usuarios"}
+1657119544 [ip] 127.0.0.1 [UID] 7 [text] {"url":"auth\/logout"}
+1657119544 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657119551 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657119551 [ip] 127.0.0.1 [UID] 1 [text] []
+1657119560 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119565 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/6"}
+1657119565 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/6"}
+1657119565 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/6"}
+1657119566 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/6"}
+1657119568 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/eliminar\/6"}
+1657119569 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119571 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/eliminar\/7"}
+1657119572 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119576 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/1"}
+1657119576 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/1"}
+1657119585 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657119592 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"1","nombre1":"Administrador","apellido1":"General","id_tipo_usuario":"1","correo":"admin@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"","estado":"1"}
+1657119592 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119685 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119714 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119721 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119758 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119762 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/1"}
+1657119762 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657119763 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/1"}
+1657119763 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657119972 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657119993 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120314 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120364 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120433 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120445 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120477 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120496 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120526 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120609 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120609 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120848 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120848 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120868 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657120873 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657121163 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657121181 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657121200 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657121201 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657121322 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657122079 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657122097 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/1"}
+1657122098 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/2"}
+1657122098 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/3"}
+1657122100 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657122101 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/9"}
+1657122102 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657122124 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"210690","estado":"1"}
+1657122124 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657122293 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/eliminar\/8"}
+1657122294 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657122357 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657122377 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/1"}
+1657122377 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657122393 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122615 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122857 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122873 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122901 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122916 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122937 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657122965 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123048 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123116 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123351 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123428 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"1","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123437 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657123478 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657123492 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Eugenio","apellido1":"Troesh","id_tipo_usuario":"1","correo":"etroesh@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123504 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"","nombre1":"Eugenio","apellido1":"Troesh","id_tipo_usuario":"1","correo":"etroesh@css.gob.pa","id_provincia":"8","id_unidad":"97","clave":"123456","estado":"1"}
+1657123504 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657123672 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657126132 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126214 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126222 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126266 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126282 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126374 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/1"}
+1657126551 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126626 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126696 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126700 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126701 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126701 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126704 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126865 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126884 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126885 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126886 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/cambiar_clave\/19"}
+1657126888 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19","clave":"","clave_a":"","clave_b":""}
+1657126888 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657126925 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657126972 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127005 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127008 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127008 [ip] 127.0.0.1 [UID] 1 [text] []
+1657127013 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127028 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127091 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127091 [ip] 127.0.0.1 [UID] 1 [text] []
+1657127167 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127169 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127200 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127265 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127267 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127284 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127287 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127287 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127335 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127335 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127429 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127429 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127522 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127522 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127600 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127602 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127602 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127703 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127706 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657127706 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657127738 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657127738 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657127751 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657127751 [ip] 127.0.0.1 [UID] 19 [text] []
+1657128054 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128054 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128065 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657128065 [ip] 127.0.0.1 [UID] 1 [text] []
+1657128071 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128073 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128073 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128098 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128112 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128112 [ip] 127.0.0.1 [UID] 19 [text] []
+1657128210 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128210 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128215 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128215 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128223 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128288 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128288 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128298 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128298 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128305 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128305 [ip] 127.0.0.1 [UID] 19 [text] []
+1657128347 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128347 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128358 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128358 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128361 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128502 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128502 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128508 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128625 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657128625 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657128629 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128629 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128636 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128636 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave"}
+1657128690 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave"}
+1657128695 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657128695 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657128702 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657128702 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657128854 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clave_a":"spin210690","clave_b":"spin210690"}
+1657128854 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657130714 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/listar_uno\/19"}
+1657130714 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_unidad\/8"}
+1657130721 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/create_or_update","id":"19","nombre1":"Fernando","apellido1":"Castillo","id_tipo_usuario":"2","correo":"ferncastillo@css.gob.pa","id_provincia":"8","id_unidad":"97","estado":"1"}
+1657130721 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657130731 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657130731 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657130737 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657130737 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657130748 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657130748 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657130782 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clave_a":"spin210690","clave_b":"spin210690"}
+1657130782 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657130869 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657130870 [ip] 127.0.0.1 [UID] 19 [text] []
+1657130871 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657130871 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657130873 [ip] 127.0.0.1 [UID] 19 [text] {"url":"actividades"}
+1657130875 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657131036 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131054 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657131059 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657131061 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657131061 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657131066 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657131066 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131085 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657131085 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131098 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clave_a":"spin210690","clave_b":"spin210690"}
+1657131098 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657131170 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657131170 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131180 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657131180 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657131189 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657131189 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131232 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131248 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clave_a":"spin210690","clave_b":"spin210690"}
+1657131248 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131284 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clave_a":"spin210690","clave_b":"spin210690"}
+1657131370 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657131370 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657131373 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657131373 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131381 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"12345678"}
+1657131381 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131395 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clavea":"spin210690","claveb":"spin210690"}
+1657131438 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clavea":"spin210690","claveb":"spin210690"}
+1657131438 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657131490 [ip] 127.0.0.1 [UID] 1 [text] {"url":"usuario\/cambiar_clave\/19"}
+1657131490 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131511 [ip] 127.0.0.1 [UID] 19 [text] {"url":"usuario\/cambiar_clave\/19","clave":"12345678","clavea":"spin210690","claveb":"spin210690"}
+1657131511 [ip] 127.0.0.1 [UID] 19 [text] []
+1657131840 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657131843 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132153 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132191 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132194 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132205 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132207 [ip] 127.0.0.1 [UID] 19 [text] {"url":"actividades"}
+1657132208 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657132208 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657132210 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132214 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132255 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132256 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132256 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132257 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132257 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132257 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132258 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132258 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132260 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132262 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132268 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin"}
+1657132274 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132306 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132308 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132309 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132309 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132309 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin"}
+1657132311 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132313 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin"}
+1657132316 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132320 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132328 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132355 [ip] 127.0.0.1 [UID] 19 [text] {"url":"admin\/usuarios"}
+1657132355 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132383 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657132384 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657132422 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657132431 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132432 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657132432 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657132452 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657132452 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132460 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"spin210690"}
+1657132460 [ip] 127.0.0.1 [UID] 19 [text] []
+1657132608 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657132608 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132609 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657132609 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132637 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin","clave":"123456"}
+1657132637 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132647 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin","clave":"12345678"}
+1657132647 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132655 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657132655 [ip] 127.0.0.1 [UID] 1 [text] []
+1657132659 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657132660 [ip] 127.0.0.1 [UID] 1 [text] {"url":"admin\/usuarios"}
+1657132666 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657132666 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132673 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.paw","clave":"123456789"}
+1657132673 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657132715 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"1234rtyu"}
+1657132715 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}

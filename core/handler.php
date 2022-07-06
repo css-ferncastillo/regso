@@ -110,8 +110,8 @@ class Handler
       $filename = LOGS . "app_access.log";
       $date = date('Y-m-d H:i:s');
       $ip = $_SERVER['REMOTE_ADDR'] ? $_SERVER['REMOTE_ADDR'] : 0;
-
-      $log    = time() . " [ip] " . $ip . " [text] " . $controller . $method . PHP_EOL;
+      $uid = isset($_SESSION[\APP_SESSION_NAME]['user_info']['id']) ? $_SESSION[\APP_SESSION_NAME]['user_info']['id'] : 0;
+      $log    = time() . " [ip] " . $ip . " [UID] " . $uid ." [text] " . json_encode($_REQUEST) . PHP_EOL ;
       try{
          file_put_contents($filename, $log, FILE_APPEND);
       } catch (\Exception $e){

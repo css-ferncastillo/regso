@@ -9,7 +9,8 @@ class Model{
       $options = [
           \PDO::ATTR_PERSISTENT => TRUE,
           \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
-          \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC
+          \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
+          \PDO::ATTR_AUTOCOMMIT => FALSE,
       ];
       $this->dsn = DATABASE['driver'] . ":host=" . DATABASE['hostname'] . ";dbname=" . DATABASE['database'];
       
@@ -60,17 +61,20 @@ class Model{
       if (strpos($sql, 'INSERT') !== FALSE) {
          $id = $link->lastInsertId();
          $link->commit();
+         $link = null;
          return $id;
          die();
       }
 
       if (strpos($sql, 'SELECT') !== FALSE) {
          $result = $query->rowCount() > 0 ? $query->fetchAll() : false;
+         $link->commit();
          return $result;
       }
 
       if (strpos($sql, 'UPDATE') !== FALSE) {
          $link->commit();
+         $link = null;
          return true;
          die();
       }
@@ -78,14 +82,17 @@ class Model{
       if (strpos($sql, 'DELETE') !== FALSE) {
          if ($query->rowCount() > 0) {
             $link->commit();
+            $link = null;
             return true;
             die();
          }
          $link->rollBack();
+         $link = null;
          return false;
       }
 
       $link->commit();
+      $link = null;
       return true;
       die();
    }

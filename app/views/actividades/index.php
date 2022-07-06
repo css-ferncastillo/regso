@@ -1,5 +1,14 @@
 <div class="content">
-   <h1><?= $title_page ?></h1>
+   <div class="block block-rounded bg-transparent bg-image" style="background-image: url('<?= APP_URI ?>public/assets/media/photos/actividad_ban.jpg');">
+      <div class="block-content block-content-full bg-primary-dark-op">
+         <div class="py-4 text-center">
+            <h1 class="h3 text-white fw-bold mb-2">
+               <?= $title_page ?>
+            </h1>
+         </div>
+      </div>
+   </div>
+   <!-- <h1></h1> -->
    <div class="block block-rounded block-mode-loading-oneui h-100 mb-2">
       <div class="block-header block-header-default">
          <h3 class="block-title">Actividades</h3>
