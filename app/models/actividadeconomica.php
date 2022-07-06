@@ -13,6 +13,7 @@ class Actividadeconomica
 			try {
 				$con = \Core\Model::getInstance();
 				$result = $con->consulta($sql, $data);
+				$con->cerrar();
 				if (!empty($result)) {
 					$data = [
 						"title" => "Success",

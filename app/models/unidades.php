@@ -39,10 +39,11 @@ class Unidades {
 	}
 
 	public static function listar(){
-		$sql = 'SELECT tu.id_provincia, tp.desc_prov, tu.desc_unidad_alterno, tu.desc_unidad, tu.20latitud, tu.longitud, tu.estado, tu.tipo FROM t_unidades tu LEFT JOIN t_provincias tp ON tp.id = tu.id_provincia';
+		$sql = 'SELECT tu.id, tu.id_provincia, tp.desc_prov, tu.desc_unidad_alterno, tu.desc_unidad, tu.20latitud, tu.longitud, tu.estado, tu.tipo FROM t_unidades tu LEFT JOIN t_provincias tp ON tp.id = tu.id_provincia ORDER BY tu.id_provincia';
 		try {
 			$con = \Core\Model::getInstance();
 			$result = $con->consulta($sql);
+			
 			if (!empty($result)) {
 				$data = [
 					"title" => "Success",

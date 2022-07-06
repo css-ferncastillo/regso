@@ -76,7 +76,7 @@ class Corregimientos {
 		$sql = 'SELECT * FROM t_corregimientos WHERE id_distrito = :id_distrito ;';
 		try {
 			$con = \Core\Model::getInstance();
-			$result = $con->consulta($sql);
+			$result = $con->consulta($sql, $data);
 			if (!empty($result)) {
 				$data = [
 					"title" => "Success",
