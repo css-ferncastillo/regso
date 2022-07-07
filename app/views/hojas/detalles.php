@@ -96,7 +96,7 @@
       <div class="block-header block-header-default">
          <h3 class="block-title">Detalle de Atenciones</h3>
          <div class="block-options">
-            <a href="<?= APP_URI ?>atenciones/nueva_hoja" type="button" class="btn-block-option text-primary">
+            <a href="<?= APP_URI ?>atenciones/crear/<?= $data['id'] ?>" type="button" class="btn-block-option text-primary">
                <i class="si si-plus"></i>
                Nuevo Registro
             </a>
@@ -122,13 +122,25 @@
                   for ($a = 0; $a < count($row); $a++) {
                      ?>
                      <tr>
-                        <td><?= $row['id'] ?></td>
-                        <td><?= $row['num_cedula'] ?></td>
-                        <td><?= $row['nombre_empresa'] ?></td>
-                        <td><?= $row['tipo_empresa'] ?></td>
-                        <td><?= $row[''] ?></td>
-                        <td><?= $row[''] ?></td>
-                        <td><?= $row[''] ?></td>
+                        <td><?= $row[$a]['id'] ?></td>
+                        <td><?= $row[$a]['num_cedula'] ?></td>
+                        <td><?= $row[$a]['nombre_empresa'] ?></td>
+                        <td><?= $row[$a]['tipo_empresa'] ?></td>
+                        <td><?= $row[$a]['actividad_economica'] ?></td>
+                        <td><?= $row[$a]['tipo_asegurado'] ?></td>
+                        <td>
+                           <div class="btn-group btn-group-sm me-2 mb-2" role="group">
+                              <button type="button" value="<?= $row[$a]['id'] ?>" class="btn rounded-pill btn-alt-danger mx-sm-1 btn-eliminar">
+                                 <i class="si si-trash"></i>
+                              </button>
+                              <a href="<?= APP_URI ?>atenciones/editar/<?= $row[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-success mx-sm-1">
+                                 <i class="si si-pencil"></i>
+                              </a>
+                              <a href="<?= APP_URI ?>hojas/detalles/<?= $row[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-secondary mx-sm-1">
+                                 <i class="si si-list"></i>
+                              </a>
+                           </div>
+                        </td>
                      </tr>
                      <?php
                   }

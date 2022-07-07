@@ -21,7 +21,7 @@ class Hojaespecialista {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no creada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -31,7 +31,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al crear la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage(),
                 "code" => $e->getCode(),
                 "line" => $e->getLine(),
@@ -60,7 +60,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -70,7 +70,7 @@ class Hojaespecialista {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -94,7 +94,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -104,7 +104,7 @@ class Hojaespecialista {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -128,7 +128,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -138,7 +138,7 @@ class Hojaespecialista {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -162,7 +162,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -172,7 +172,7 @@ class Hojaespecialista {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -196,7 +196,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -206,7 +206,7 @@ class Hojaespecialista {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -231,7 +231,7 @@ class Hojaespecialista {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no modificada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -241,7 +241,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al obtener la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage(),
                 "query" => $sql
             ];
@@ -268,7 +268,7 @@ class Hojaespecialista {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no eliminada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -278,7 +278,7 @@ class Hojaespecialista {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al eliminar la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;

@@ -1,6 +1,9 @@
 <?php
+
 namespace Core;
-class Model{
+
+class Model {
+
    private $connect;
    private $dsn;
    private static $instance;
@@ -13,13 +16,12 @@ class Model{
           \PDO::ATTR_AUTOCOMMIT => FALSE,
       ];
       $this->dsn = DATABASE['driver'] . ":host=" . DATABASE['hostname'] . ";dbname=" . DATABASE['database'];
-      
+
       try {
          $this->connect = new \PDO($this->dsn, DATABASE['username'], DATABASE['password'], $options);
          $this->connect->exec("SET CHARACTER SET UTF8");
-
       } catch (\PDOException $e) {
-         
+
          $result = [
              'response' => false,
              'class' => 'danger',
@@ -27,7 +29,6 @@ class Model{
              'mensjae' => $e->getMessage(),
              'data' => $e->getTraceAsString(),
          ];
-         
       }
    }
 
@@ -37,11 +38,11 @@ class Model{
     * @param type $params
     * @return boolean
     */
-   public function consulta($sql="", $params = []) {
+   public function consulta($sql = "", $params = []) {
       $link = $this->connect;
       $link->beginTransaction();
       $query = $link->prepare($sql);
-      
+
       if ($params) {
          if (!$query->execute($params)) {
             $link->rollBack();
@@ -112,6 +113,7 @@ class Model{
    public function __clone() {
       trigger_error("La clonacion de este objeto no esta permitida", E_USER_ERROR);
    }
+
 }
 
 /**

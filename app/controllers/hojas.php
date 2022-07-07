@@ -126,7 +126,8 @@ class Hojas {
       $data = [];
       \Core\Engine::set('title_page', 'Detalles Hoja');
       $data['hoja'] = \App\Models\Hojaespecialista::filtrarByID([':id' => $hoja])['data'];
-      // $data['atenciones'] = \App\Models\Regatenciones::filterByHoja([':id_hoja_especialista' => $hoja])['data'];
+      $data['atenciones'] = \App\Models\Regatenciones::filterByHoja([':id_hoja_especialista' => $hoja])['data'];
+      $data['id'] = $hoja;
       \Core\Engine::set('data', $data);
       \Core\Engine::render();
    }

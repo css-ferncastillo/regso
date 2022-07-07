@@ -619,3 +619,682 @@
 1657141628 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
 1657141629 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
 1657141629 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148690 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657148703 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657148703 [ip] 127.0.0.1 [UID] 1 [text] []
+1657148713 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657148713 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148715 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657148717 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657148717 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148724 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657148750 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/procesar_creacion","id_unidad":"52","id_servicio":"16","dt_atencion":"2022-07-06","nombre_profecional":"Prueba","lugar_atencion":"1","h_contratadas":"8","h_trabajadas":"5","h_administrativas":"7","num_vacaciones":"5","num_licencias":"2","num_permiso":"2","num_incapacidad":"1","num_fortuitas":"1","carga_laboral":"1","cupo_utilizado":"1","cupo_disponible":"1","cupo_ausente":"1","cupo_no_solicitado":"1"}
+1657148750 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657148788 [ip] 127.0.0.1 [UID] 1 [text] []
+1657148789 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657148789 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148791 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/editar\/2"}
+1657148819 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/procesar_edicion","id":"2","id_unidad":"69","id_servicio":"7","dt_atencion":"2022-06-29","nombre_profecional":"Nombre Especialista1","lugar_atencion":"2","h_contratadas":"8","h_trabajadas":"5","h_administrativas":"7","num_vacaciones":"5","num_licencias":"2","num_permiso":"2","num_incapacidad":"1","num_fortuitas":"1","carga_laboral":"1","cupo_utilizado":"1","cupo_disponible":"1","cupo_ausente":"1","cupo_no_solicitado":"1"}
+1657148819 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657148819 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148829 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657148853 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/nueva_hoja"}
+1657148856 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657148888 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657148890 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear"}
+1657148981 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657148981 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657148982 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array key"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/fonts\/simple-line-icon\/css\/simple-line-icon.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/fonts\/fontawesome\/css\/all.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/css\/oneui.min-5.2.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/css\/animate.min.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/datatables\/jquery.dataTables.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/bootstrap-datepicker\/css\/bootstrap-datepicker3.min.css"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/lib\/jquery.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/main.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/pages\/nueva_atencion.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/oneui.app.min-5.2.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/sweetalert2\/sweetalert2.all.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/bootstrap-notify\/bootstrap-notify.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/datatables\/jquery.dataTables.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/bootstrap-datepicker\/js\/bootstrap-datepicker.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/datatables\/jquery.dataTables.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/media\/photos\/white_logo.jpg"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/js\/plugins\/sweetalert2\/sweetalert2.all.min.js"}
+1657148984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/<b>Error desconocido<\/b> [2] Undefined array keypublic\/assets\/media\/favicons\/favicon.png"}
+1657148986 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657148993 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657149036 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657149179 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657149182 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657151401 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657151402 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/1"}
+1657151403 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/2"}
+1657151403 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/3"}
+1657151405 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657151405 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657151405 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/4"}
+1657151405 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/5"}
+1657151406 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/29"}
+1657151406 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/30"}
+1657151468 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657151471 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-222-222","edad":"21","nombre_empresa":"Empresa Loca","num_patronal":"dfghjkl","id_tipo_empresa":"3","id_tamano_empresa":"1","id_actividad_economica":"6","id_tipo_asegurado":"5","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"850","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"EEE1","codigo":"E1"},{"diagnostico":"EEE2","codigo":"E2"}],"id_referencia":"1","json_referencias":[{"especialidad":"SERVICIO 1","codigo":"SERVICIO 1"},{"especialidad":"SERVICIO 2","codigo":"SERVICIO 2"}],"id_alta_laboral":"1","estado":"1"}
+1657151647 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657151677 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657151677 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657151677 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657151678 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/10"}
+1657151715 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"3","id_tamano_empresa":"3","id_actividad_economica":"6","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"698","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":"[object Object],[object Object]","id_referencia":"2","json_referencias":"[object Object],[object Object]","id_alta_laboral":"1","estado":"1"}
+1657151861 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"3","id_tamano_empresa":"3","id_actividad_economica":"6","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"698","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":"[object Object],[object Object]","id_referencia":"2","json_referencias":"[object Object],[object Object]","id_alta_laboral":"1","estado":"1"}
+1657151866 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657151886 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657151886 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/1"}
+1657151888 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657151891 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/4"}
+1657151891 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/5"}
+1657151892 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/6"}
+1657151892 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/7"}
+1657151892 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/6"}
+1657151925 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152019 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152225 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152235 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152235 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152286 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152302 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152307 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152363 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152365 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152476 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152478 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152479 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152485 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152544 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152548 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152628 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152732 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"4","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"6","id_corregimiento":"673","incapacidad":"","dias_incapacidad":"2","json_diagnosticos_":[{"diagnostico":"6789","codigo":"erty"},{"diagnostico":"7890","codigo":"fghjkl"}],"id_referencia":"1","json_referencias":[{"especialidad":"1qwert","codigo":"wer"},{"especialidad":"2erty","codigo":"sdfgh"}],"id_alta_laboral":"1","estado":"1"}
+1657152737 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657152740 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657152763 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657152768 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657152849 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657152917 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657152924 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657152984 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153006 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153035 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153230 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657153230 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657153230 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657153231 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/4"}
+1657153231 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/5"}
+1657153232 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/6"}
+1657153232 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/7"}
+1657153233 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/38"}
+1657153233 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/39"}
+1657153261 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"2","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"4","id_tamano_empresa":"3","id_actividad_economica":"1","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"918","incapacidad":"","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"sdfdgj","codigo":"21"},{"diagnostico":"sdfhgvhkj","codigo":"21312"}],"id_referencia":"2","json_referencias":[{"especialidad":"j,mhgfvcas","codigo":"1231"},{"especialidad":"sdadfdhfjgh","codigo":"9876"}],"id_alta_laboral":"1","estado":"1"}
+1657153313 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"2","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"4","id_tamano_empresa":"3","id_actividad_economica":"1","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"918","incapacidad":"","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"sdfdgj","codigo":"21"},{"diagnostico":"sdfhgvhkj","codigo":"21312"}],"id_referencia":"2","json_referencias":[{"especialidad":"j,mhgfvcas","codigo":"1231"},{"especialidad":"sdadfdhfjgh","codigo":"9876"}],"id_alta_laboral":"1","estado":"1"}
+1657153354 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"2","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"4","id_tamano_empresa":"3","id_actividad_economica":"1","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"918","incapacidad":"","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"sdfdgj","codigo":"21"},{"diagnostico":"sdfhgvhkj","codigo":"21312"}],"id_referencia":"2","json_referencias":[{"especialidad":"j,mhgfvcas","codigo":"1231"},{"especialidad":"sdadfdhfjgh","codigo":"9876"}],"id_alta_laboral":"1","estado":"1"}
+1657153373 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"2","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"4","id_tamano_empresa":"3","id_actividad_economica":"1","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"7","id_corregimiento":"918","incapacidad":"","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"sdfdgj","codigo":"21"},{"diagnostico":"sdfhgvhkj","codigo":"21312"}],"id_referencia":"2","json_referencias":[{"especialidad":"j,mhgfvcas","codigo":"1231"},{"especialidad":"sdadfdhfjgh","codigo":"9876"}],"id_alta_laboral":"1","estado":"1"}
+1657153414 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657153438 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657153439 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/47"}
+1657153471 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"2","num_cedula":"2-1756-087","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_tipo_empresa":"3","id_tamano_empresa":"3","id_actividad_economica":"2","id_tipo_asegurado":"1","id_tipo_atencion":"3","id_tipo_consulta":"1","id_corregimiento":"1003","incapacidad":"on","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"23456","codigo":"fghjkl"},{"diagnostico":"fghjkl\u00f1{","codigo":"tyuio"}],"id_referencia":"3","json_referencias":[{"especialidad":"qwertyu","codigo":"esdrtyu"},{"especialidad":"qewretry","codigo":"erdhgj"}],"id_alta_laboral":"1","estado":"1"}
+1657153570 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657153578 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"1","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153602 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"1","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153754 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657153755 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657153759 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657153761 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"0","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153772 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"1","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657153853 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657153854 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657153854 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657153854 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657153855 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/4"}
+1657153856 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/5"}
+1657153911 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"1234567","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"ABC-123","id_tipo_empresa":"1","id_tamano_empresa":"3","id_actividad_economica":"6","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"661","incapacidad":"1","dias_incapacidad":"3","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"CODD1"},{"diagnostico":"Diagnostico 12","codigo":"CODD12"}],"id_referencia":"3","json_referencias":[{"especialidad":"Servicio 1","codigo":"SRV1"},{"especialidad":"Servicio 5","codigo":"SRV5"}],"id_alta_laboral":"1","estado":"1"}
+1657153935 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657153935 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657153937 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154013 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154035 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154153 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154283 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154410 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154497 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154513 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154600 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154634 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657154656 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657154656 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657154719 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657154773 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657154829 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657154829 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657154869 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657154873 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657155180 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657155217 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657155218 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657155218 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657155219 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657155220 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/4"}
+1657155220 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/5"}
+1657155220 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/6"}
+1657155287 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"}],"id_alta_laboral":"1","estado":"1"}
+1657155360 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"}],"id_alta_laboral":"1","estado":"1"}
+1657158029 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657158052 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657158053 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/48"}
+1657158073 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"1234","edad":"5634","nombre_empresa":"qsdgsd","num_patronal":"aDADas","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"2","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"9","id_corregimiento":"1025","incapacidad":"1","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"zxcvxcz","codigo":"erwer"}],"id_referencia":"1","json_referencias":[{"especialidad":"zxczx","codigo":"vcbcvx"}],"id_alta_laboral":"1","estado":"1"}
+1657158242 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657158244 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"0","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657166906 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"0","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657167133 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657167136 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"0","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657167137 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657167145 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657167147 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"0","num_cedula":"","edad":"","nombre_empresa":"","num_patronal":"","id_tipo_empresa":"0","id_tamano_empresa":"0","id_actividad_economica":"0","id_tipo_asegurado":"0","id_tipo_atencion":"0","id_tipo_consulta":"0","id_corregimiento":"0","incapacidad":"0","dias_incapacidad":"","json_diagnosticos":[{"diagnostico":"","codigo":""}],"id_referencia":"0","json_referencias":[{"especialidad":"","codigo":""}],"id_alta_laboral":"0","estado":"1"}
+1657167147 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657167185 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/9"}
+1657167187 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/54"}
+1657167208 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_hoja_especialista":"2","id_sexo":"1","num_cedula":"1234567","edad":"34","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_tipo_empresa":"3","id_tamano_empresa":"3","id_actividad_economica":"6","id_tipo_asegurado":"5","id_tipo_atencion":"3","id_tipo_consulta":"10","id_corregimiento":"1083","incapacidad":"1","dias_incapacidad":"2","json_diagnosticos":[{"diagnostico":"hadkjas","codigo":"COD1"}],"id_referencia":"1","json_referencias":[{"especialidad":"adsfsgfdg","codigo":"sdfgjhj"}],"id_alta_laboral":"1","estado":"1"}
+1657167209 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657167242 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657167243 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657167246 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/fonts\/simple-line-icon\/css\/simple-line-icon.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/fonts\/fontawesome\/css\/all.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/css\/oneui.min-5.2.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/css\/animate.min.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/datatables\/jquery.dataTables.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/bootstrap-datepicker\/css\/bootstrap-datepicker3.min.css"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/lib\/jquery.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/main.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/media\/photos\/white_logo.jpg"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/oneui.app.min-5.2.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/sweetalert2\/sweetalert2.all.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/bootstrap-notify\/bootstrap-notify.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/datatables\/jquery.dataTables.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/bootstrap-datepicker\/js\/bootstrap-datepicker.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/datatables\/jquery.dataTables.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/main.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/media\/photos\/white_logo.jpg"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/oneui.app.min-5.2.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/sweetalert2\/sweetalert2.all.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/bootstrap-notify\/bootstrap-notify.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/datatables\/jquery.dataTables.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/bootstrap-datepicker\/js\/bootstrap-datepicker.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/datatables\/jquery.dataTables.min.js"}
+1657167324 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/js\/plugins\/sweetalert2\/sweetalert2.all.min.js"}
+1657167325 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/<b>Error desconocido<\/b> [2] Undefined variable $atencion en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139<b>Error desconocido<\/b> [2] Trying to access array offset on value of type null en \/srv\/http\/regso\/app\/views\/hojas\/detalles.php en la linea 139public\/assets\/media\/favicons\/favicon.png"}
+1657167327 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657167354 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657167376 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657167412 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657167412 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167428 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"spin210690"}
+1657167428 [ip] 127.0.0.1 [UID] 19 [text] []
+1657167715 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657167715 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657167720 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657167721 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167729 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"12345678"}
+1657167729 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167769 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167776 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"1234567"}
+1657167776 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167779 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167875 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167880 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657167880 [ip] 127.0.0.1 [UID] 1 [text] []
+1657167956 [ip] 127.0.0.1 [UID] 1 [text] []
+1657167958 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657167958 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657167963 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"1234568"}
+1657167963 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168103 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168103 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168106 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168108 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168108 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168193 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168193 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168362 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168362 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168475 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168475 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168477 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168478 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168480 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168480 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168522 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168524 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168524 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168562 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168563 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"","clave":""}
+1657168563 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168576 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657168576 [ip] 127.0.0.1 [UID] 1 [text] []
+1657168607 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657168612 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657168612 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657168630 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"spin210690"}
+1657168630 [ip] 127.0.0.1 [UID] 19 [text] []
+1657196534 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657196543 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657196543 [ip] 127.0.0.1 [UID] 1 [text] []
+1657196550 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657196550 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657196553 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657196673 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657196754 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657196756 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657196770 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657196824 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657196878 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197073 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197091 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197196 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197247 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197304 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197328 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197432 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197511 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197587 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197610 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197686 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197776 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657197913 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657198651 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657198719 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657198864 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199017 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199049 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199082 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199140 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199216 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199314 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199357 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199428 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199429 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199576 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199627 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199628 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199653 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199678 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199683 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/4"}
+1657199687 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657199927 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200056 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200478 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200516 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200615 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200678 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200705 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200740 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200852 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200939 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200959 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657200966 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201045 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201052 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201238 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201372 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201766 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201798 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657201827 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202396 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202532 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202589 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202676 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202694 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202860 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202884 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657202903 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657202908 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657202908 [ip] 127.0.0.1 [UID] 1 [text] []
+1657202914 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657202914 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657202921 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657202926 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203023 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203059 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203118 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203180 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203212 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203224 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203256 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203288 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203337 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203353 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203366 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203409 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203423 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203483 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203651 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203671 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203782 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203783 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203783 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203800 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203923 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657203952 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657204139 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657204171 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657204211 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/5"}
+1657204217 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657204221 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204268 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204300 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204567 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204570 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657204570 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204572 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204611 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204613 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204624 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204722 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204727 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204743 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204745 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204745 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204779 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204782 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204785 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204785 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204826 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204828 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204828 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204840 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204843 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657204843 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204896 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657204898 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657204900 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657204900 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657205154 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657205157 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657205334 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657205344 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657205637 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/proceso_crear","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"},{"especialidad":"Especialidad 3","codigo":"esp3"}],"id_alta_laboral":"1","estado":"1"}
+1657205637 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657205638 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/procesar_editar","id":"<b>Error desconocido<\/b> [2] Undefined array key ","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"}],"id_alta_laboral":"1","estado":"1"}
+1657206026 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657206026 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/procesar_editar","id":"<b>Error desconocido<\/b> [2] Undefined array key ","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"}],"id_alta_laboral":"1"}
+1657206033 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657206033 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/procesar_editar","id":"<b>Error desconocido<\/b> [2] Undefined array key ","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"}],"id_alta_laboral":"1"}
+1657206053 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657206067 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/procesar_editar","id":"<b>Error desconocido<\/b> [2] Undefined array key ","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"},{"especialidad":"Especialidad 3","codigo":"esp3"}],"id_alta_laboral":"1"}
+1657206144 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657206155 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/procesar_editar\/<b>Error desconocido<\/b> [2] Undefined array key","id":"<b>Error desconocido<\/b> [2] Undefined array key ","id_sexo":"2","num_cedula":"2-725-927","edad":"32","nombre_empresa":"Don Andres","num_patronal":"123-456","id_tipo_empresa":"1","id_tamano_empresa":"1","id_actividad_economica":"1","id_tipo_asegurado":"1","id_tipo_atencion":"1","id_tipo_consulta":"4","id_corregimiento":"672","incapacidad":"1","dias_incapacidad":"1","json_diagnosticos":[{"diagnostico":"Diagnostico 1","codigo":"cod_dia_1"},{"diagnostico":"Diagnostico 2","codigo":"cod_dia_2"}],"id_referencia":"2","json_referencias":[{"especialidad":"Especialidad 1","codigo":"esp1"},{"especialidad":"Especialidad 2","codigo":"esp2"},{"especialidad":"Especialidad 3","codigo":"esp3"}],"id_alta_laboral":"1"}
+1657206155 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/2"}
+1657206336 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657206336 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206347 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657206347 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657206384 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"usuario@css.gob.pa","clave":"12345"}
+1657206384 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657206395 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657206395 [ip] 127.0.0.1 [UID] 1 [text] []
+1657206410 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657206410 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206420 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657206446 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206457 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657206466 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657206466 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206471 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657206502 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/crear\/2"}
+1657206512 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657206512 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206514 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657206542 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/1"}
+1657206547 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657206554 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657206554 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657206652 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657206718 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657206718 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657206899 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657207120 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657207127 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657207127 [ip] 127.0.0.1 [UID] 1 [text] []
+1657207129 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657207129 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657207165 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657207219 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657207219 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657207220 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657207309 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657207312 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657207312 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657207317 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657207821 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657207838 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657208107 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657208393 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657208418 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657208822 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657208971 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209140 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209187 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209263 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209442 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209504 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209747 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209862 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209905 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209994 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209995 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657209995 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210041 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210070 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657210070 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657210076 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210113 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210457 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210486 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210573 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210632 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210650 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210664 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657210746 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211128 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211151 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211213 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211228 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211363 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657211480 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213747 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213775 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213778 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213778 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213781 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213813 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213834 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657213919 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214304 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214307 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657214354 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214354 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214364 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214370 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657214459 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214463 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657214534 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657214537 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/8"}
+1657214539 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/48"}
+1657216054 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216126 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216127 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216128 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216440 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216441 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216442 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216496 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216550 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216587 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216781 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216802 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216931 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216934 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657216942 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/7"}
+1657216944 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/40"}
+1657217437 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657217490 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657217490 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657217491 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657217492 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657217494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/4"}
+1657217494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/5"}
+1657217494 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/6"}
+1657217677 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657217741 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657217742 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657217743 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657217743 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/4"}
+1657217743 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/5"}
+1657217743 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/6"}
+1657217744 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/5"}
+1657217746 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/29"}
+1657217807 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/procesar_crear","id_unidad":"72","id_servicio":"5","dt_visita":"2022-07-02","htrabajadas":"9","nombre_profecional":"Nombre Especialista","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_actividad_economica":"5","id_referencia":"3","num_empleados":"9","num_hombres":"4","num_mujeres":"5","num_beneficiados":"2","id_provincia":"5","id_distrito":"29","id_corregimiento":"834","json_acrividades":"26"}
+1657217876 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/procesar_crear","id_unidad":"72","id_servicio":"5","dt_visita":"2022-07-02","htrabajadas":"9","nombre_profecional":"Nombre Especialista","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_actividad_economica":"5","id_referencia":"3","num_empleados":"9","num_hombres":"4","num_mujeres":"5","num_beneficiados":"2","id_provincia":"5","id_distrito":"29","id_corregimiento":"834","json_acrividades":"26"}
+1657217884 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657218095 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657218100 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657218100 [ip] 127.0.0.1 [UID] 1 [text] []
+1657218106 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657218106 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657218108 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657218145 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657218145 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657218147 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657218149 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657218351 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657219261 [ip] 127.0.0.1 [UID] 1 [text] []
+1657219263 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219263 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219270 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657219270 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657219272 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219272 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219279 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219279 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219290 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219332 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657219332 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657219341 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219341 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219352 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219412 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/crear"}
+1657219417 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657219417 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657219431 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657219431 [ip] 127.0.0.1 [UID] 1 [text] []
+1657219447 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657219452 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657219452 [ip] 127.0.0.1 [UID] 1 [text] []
+1657219455 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219455 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219463 [ip] 127.0.0.1 [UID] 1 [text] {"url":"auth\/logout"}
+1657219463 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657219482 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"ferncastillo@css.gob.pa","clave":"spin210690"}
+1657219482 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/cambiar_clave\/19"}
+1657219490 [ip] 127.0.0.1 [UID] 19 [text] []
+1657219491 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657219491 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657219494 [ip] 127.0.0.1 [UID] 19 [text] []
+1657219511 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657219511 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657219553 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/crear"}
+1657219557 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657219557 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657219561 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/editar\/1"}
+1657219585 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas"}
+1657219585 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657219591 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/detalles\/1"}
+1657219601 [ip] 127.0.0.1 [UID] 19 [text] {"url":"hojas\/listar"}
+1657219604 [ip] 127.0.0.1 [UID] 19 [text] {"url":"auth\/logout"}
+1657219604 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657219608 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657219608 [ip] 127.0.0.1 [UID] 1 [text] []
+1657219610 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219610 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219614 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657219625 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657219655 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219655 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219657 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657219665 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219665 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219678 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657219678 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657219683 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657219803 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657219803 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657219808 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/detalles\/2"}
+1657219811 [ip] 127.0.0.1 [UID] 1 [text] {"url":"atenciones\/editar\/1"}
+1657219845 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657219845 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657219848 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657219978 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657219979 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220117 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220117 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220118 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220148 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657220149 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657220149 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657220150 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/10"}
+1657220150 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/11"}
+1657220150 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/12"}
+1657220242 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220266 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657220267 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657220267 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657220268 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/10"}
+1657220268 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/11"}
+1657220279 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/procesar_crear","id_unidad":"53","id_servicio":"17","dt_visita":"06\/29\/2022","htrabajadas":"3","nombre_profecional":"Prueba","nombre_empresa":"Empresa bruja 1","num_patronal":"dfghj3456789","id_actividad_economica":"6","id_referencia":"4","num_empleados":"2","num_hombres":"3","num_mujeres":"3","num_beneficiados":"3","id_provincia":"3","id_distrito":"11","id_corregimiento":"712","json_acrividades":"24"}
+1657220410 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220413 [ip] 127.0.0.1 [UID] 1 [text] []
+1657220633 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657220633 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657220634 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657220634 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657220636 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220733 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657220770 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657220770 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657220770 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657220771 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/10"}
+1657220771 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/11"}
+1657220777 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/procesar_crear","id_unidad":"69","id_servicio":"5","dt_visita":"2022-07-06","htrabajadas":"2","nombre_profecional":"Profesional de Prueba","nombre_empresa":"Empresa de prueba","num_patronal":"1234 456","id_actividad_economica":"6","id_referencia":"1","num_empleados":"7","num_hombres":"4","num_mujeres":"3","num_beneficiados":"3","id_corregimiento":"712"}
+1657220777 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657221011 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657221038 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/1"}
+1657221038 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/2"}
+1657221038 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_distrito\/3"}
+1657221039 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/10"}
+1657221040 [ip] 127.0.0.1 [UID] 1 [text] {"url":"listfilters\/filter_corregimiento\/11"}
+1657221055 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/procesar_crear","id_unidad":"4","id_servicio":"5","dt_visita":"2022-07-13","htrabajadas":"2","nombre_profecional":"Fernando Castillo","nombre_empresa":"Empresa bruja 1","num_patronal":"1234567","id_actividad_economica":"6","id_referencia":"1","num_empleados":"3","num_hombres":"3","num_mujeres":"2","num_beneficiados":"2","id_corregimiento":"712","json_actividades":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29"]}
+1657221464 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/login"}
+1657221470 [ip] 127.0.0.1 [UID] 0 [text] {"url":"auth\/procesar_auth","correo":"admin@css.gob.pa","clave":"123456"}
+1657221471 [ip] 127.0.0.1 [UID] 1 [text] []
+1657221473 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657221473 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657221539 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657221539 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657221540 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}
+1657221645 [ip] 127.0.0.1 [UID] 1 [text] []
+1657221646 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas"}
+1657221646 [ip] 127.0.0.1 [UID] 1 [text] {"url":"hojas\/listar"}
+1657221649 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades"}
+1657221649 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/listar"}
+1657221651 [ip] 127.0.0.1 [UID] 1 [text] {"url":"actividades\/crear"}

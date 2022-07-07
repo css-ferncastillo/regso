@@ -22,7 +22,7 @@ class Regatenciones {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no creada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -32,7 +32,7 @@ class Regatenciones {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al crear la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -106,7 +106,7 @@ LEFT JOIN t_usuarios tu ON tu.id = tra.id_usuario;';
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -116,7 +116,7 @@ LEFT JOIN t_usuarios tu ON tu.id = tra.id_usuario;';
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -148,7 +148,9 @@ LEFT JOIN t_usuarios tu ON tu.id = tra.id_usuario;';
    ttc.tipo_consulta,
    tra.id_corregimiento, 
    tc.desc_correg,
+   tc.id_distrito,
    td.desc_dist,
+   td.id_provincia,
    tp.desc_prov,
    tra.incapacidad,
    tra.dias_incapacidad,
@@ -176,10 +178,10 @@ LEFT JOIN t_provincias tp ON tp.id = td.id_provincia
 LEFT JOIN t_tipo_referencias ttr ON ttr.id  = tra.id_referencia 
 LEFT JOIN t_alta_laboral tal ON tal.id = tra.id_alta_laboral 
 LEFT JOIN t_usuarios tu ON tu.id = tra.id_usuario
-WHERE tra.id = :id';
+WHERE tra.id = :id AND tra.id_usuario = :id_usuario';
          try {
             $con = \Core\Model::getInstance();
-            $result = $con->consulta($sql);
+            $result = $con->consulta($sql, $data);
             if (!empty($result)) {
                $data = [
                    "title" => "Success",
@@ -191,7 +193,7 @@ WHERE tra.id = :id';
                $data = [
                    "title" => "Warning",
                    "message" => "Información no encontrada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -201,7 +203,7 @@ WHERE tra.id = :id';
             $data = [
                 "title" => "Warning",
                 "message" => "Error al obtener la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -265,7 +267,7 @@ LEFT JOIN t_usuarios tu ON tu.id = tra.id_usuario
 WHERE tra.id_hoja_especialista = :id_hoja_especialista';
          try {
             $con = \Core\Model::getInstance();
-            $result = $con->consulta($sql);
+            $result = $con->consulta($sql, $data);
             if (!empty($result)) {
                $data = [
                    "title" => "Success",
@@ -277,7 +279,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
                $data = [
                    "title" => "Warning",
                    "message" => "Información no encontrada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -287,7 +289,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
             $data = [
                 "title" => "Warning",
                 "message" => "Error al obtener la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -298,7 +300,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
 
    public static function editar(array $data): array {
       if (!empty($data)) {
-         $sql = "UPDATE t_reg_atenciones SET id_hoja_especialista, id_sexo = :id_sexo, num_cedula = :num_cedula, edad = :edad, nombre_empresa = :nombre_empresa, num_patronal = :num_patronal, id_tipo_empresa = :id_tipo_empresa, id_actividad_economica = :id_actividad_economica, id_tamano_empresa = :id_tamano_empresa, id_tipo_asegurado = :id_tipo_asegurado, id_tipo_atencion = :id_tipo_atencion, id_tipo_consulta = :id_tipo_consulta, id_corregimiento = :id_corregimiento, incapacidad = :incapacidad, dias_incapacidad = :dias_incapacidad, id_referencia = :id_referencia, json_diagnosticos = :json_diagnosticos, json_referencias = :json_referencias, id_alta_laboral = :id_alta_laboral, dt_registro = :dt_registro, id_usuario = :id_usuario, estado = :estado WHERE id = :id";
+         $sql = "UPDATE t_reg_atenciones SET id_sexo = :id_sexo, num_cedula = :num_cedula, edad = :edad, nombre_empresa = :nombre_empresa, num_patronal = :num_patronal, id_tipo_empresa = :id_tipo_empresa, id_actividad_economica = :id_actividad_economica, id_tamano_empresa = :id_tamano_empresa, id_tipo_asegurado = :id_tipo_asegurado, id_tipo_atencion = :id_tipo_atencion, id_tipo_consulta = :id_tipo_consulta, id_corregimiento = :id_corregimiento, incapacidad = :incapacidad, dias_incapacidad = :dias_incapacidad, id_referencia = :id_referencia, json_diagnosticos = :json_diagnosticos, json_referencias = :json_referencias, id_alta_laboral = :id_alta_laboral WHERE id = :id";
          try {
             $con = \Core\Model::getInstance();
             $result = $con->consulta($sql, $data);
@@ -313,7 +315,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
                $data = [
                    "title" => "Warning",
                    "message" => "Información no modificada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -323,7 +325,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
             $data = [
                 "title" => "Warning",
                 "message" => "Error al obtener la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -349,7 +351,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
                $data = [
                    "title" => "Warning",
                    "message" => "Información no eliminada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -359,7 +361,7 @@ WHERE tra.id_hoja_especialista = :id_hoja_especialista';
             $data = [
                 "title" => "Warning",
                 "message" => "Error al eliminar la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;

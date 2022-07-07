@@ -53,14 +53,7 @@ class Usrflash {
             $message = $flash[$f]['message'];
             $str = '<script type="text/javascript">';
             $str .= '$(document).ready(function(){';
-            $str .= '$.notify("' . $message . '", {';
-            $str .= 'type: "' . $type . '",';
-            $str .= 'allow_dismiss: true,';
-            $str .= 'placement: {';
-            $str .= 'from: "bottom",';
-            $str .= 'align: "right",';
-            $str .= '},';
-            $str .= '});';
+            $str .= "$.notify('{$message}', '{$type}', {globalPosition: 'bottom right'})";
             $str .= '});';
             $str .= '</script>';
             echo $str;

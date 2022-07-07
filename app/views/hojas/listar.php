@@ -48,16 +48,16 @@
 
                         <td class="text-center">
                            <div class="btn-group btn-group-sm me-2 mb-2" role="group" aria-label="Small Primary Second group">
-                              <button type="button" class="btn btn-eliminar rounded-pill btn-danger" data-bs-toggle="popover" data-bs-placement="top" title="Eliminar" data-bs-content=" ">
+                              <button type="button" class="btn btn-eliminar rounded-pill btn-alt-danger">
                                  <i class="si si-trash"></i>
                               </button>
-                              <a href="<?= APP_URI ?>hojas/editar/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-success mx-sm-1" data-bs-toggle="popover" data-bs-placement="top" title="Editar" data-bs-content=" ">
+                              <a href="<?= APP_URI ?>hojas/editar/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-success mx-sm-1">
                                  <i class="si si-pencil"></i>
                               </a>
-                              <a href="<?= APP_URI ?>hojas/detalles/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-secondary mx-sm-1" data-bs-toggle="popover" data-bs-placement="top" title="Detalles" data-bs-content=" ">
+                              <a href="<?= APP_URI ?>hojas/detalles/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-secondary mx-sm-1">
                                  <i class="si si-list"></i>
                               </a>
-                              <a href="<?= APP_URI ?>atenciones/crear/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-primary" data-bs-toggle="popover" data-bs-placement="top" title="Crear" data-bs-content=" ">
+                              <a href="<?= APP_URI ?>atenciones/crear/<?= $atencion[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-primary">
                                  <i class="si si-plus"></i>
                               </a>
                            </div>

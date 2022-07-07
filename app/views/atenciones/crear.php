@@ -113,7 +113,7 @@
                </div>
                <div class="col-md-3">
                   <label for="id_provincia" class="form-label">Provincia</label>
-                  <select class="form-select" aria-label="Ubicacion Provincia" id="id_provincia" name="id_provincia">
+                  <select class="form-select"  id="id_provincia" name="id_provincia">
                      <option value="0">Seleccione</option>
                      <?php
                      $provincia = $data['provincia'];
@@ -207,7 +207,7 @@
                   </select>
                </div>
                <div class="col-md-3 align-self-center">
-                  <input class="form-check-input" type="checkbox" value="" id="incapacidad">
+                  <input class="form-check-input" type="checkbox" id="incapacidad">
                   <label class="form-check-label" for="incapacidad">
                      Recibi&oacute; incapacidad?
                   </label>

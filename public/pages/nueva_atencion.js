@@ -9,6 +9,8 @@ $(document).ready(function () {
    $("#id_provincia").on('change', getDistritos);
    $("#id_distrito").on('change', getCorregimientos);
    $("#submit").on('click', submitForm);
+   $("#update").on('click', submitUpdateForm);
+   $("#incapacidad").on('click', dias_incapacidad);
 
 })
 
@@ -35,6 +37,15 @@ function add_row_diagnostico() {
 function remove_row_diagnostico() {
    $(this).closest('#diagnostico_row').remove();
 }
+
+function dias_incapacidad(){
+   if($("#incapacidad").is(':checked')){
+      $("#dias_incapacidad").prop('disabled', false);;
+   } else{
+      $("#dias_incapacidad").prop('disabled', true);;
+   }
+}
+
 
 function add_row_referencia() {
    var html = "";
@@ -106,7 +117,7 @@ function submitForm() {
 
    let diagnostico = [];
    let referencia = [];
-   
+
 
    // TODO: agregar tipos a un solo array
 
@@ -117,7 +128,6 @@ function submitForm() {
       diagnostico.push(dia);
    }
 
-  
 
    for (let i = 0; i < $(".especialidad").length; i++) {
       var esp = {}
@@ -125,12 +135,6 @@ function submitForm() {
       esp.codigo = $(".cod_especialidad").eq(i).val();
       referencia.push(esp);
    }
-
-   
-
-   var t = [
-      "id", "id_hoja_especialista", "id_sexo", "num_cedula", "edad", "nombre_empresa", "num_patronal", "id_tipo_empresa", "id_actividad_economica", "id_tamano_empresa", "id_tipo_asegurado", "id_tipo_atencion", "id_tipo_consulta", "id_corregimiento", "incapacidad", "dias_incapacidad", "id_referencia", "diagnosticos", "referencias", "id_alta_laboral", "dt_registro", "id_usuario", "estado"
-   ];
 
    //TODO: validar campos no coincidentes
    //dt_registro, id_usuario, estado
@@ -147,9 +151,9 @@ function submitForm() {
    data['id_tipo_atencion'] = $("#id_tipo_atencion").val(); // id_tipo_atencion
    data['id_tipo_consulta'] = $("#id_tipo_consulta").val(); // id_tipo_consulta
    data['id_corregimiento'] = $("#id_corregimiento").val(); // id_corregimiento
-   data['incapacidad'] = $("#incapacidad").val(); // incapacidad
+   data['incapacidad'] = $("#incapacidad").is(':checked') ? 1 : 0; // incapacidad
    data['dias_incapacidad'] = $("#dias_incapacidad").val() // dias_incapacidad
-   data['json_diagnosticos '] = diagnostico; // json_diagnosticos
+   data['json_diagnosticos'] = diagnostico; // json_diagnosticos
    data['id_referencia'] = $("#id_referencia").val(); // id_referencia
    data['json_referencias'] = referencia; // json_referencias
    data['id_alta_laboral'] = $("#id_alta_laboral").val(); // id_alta_laboral
@@ -158,10 +162,99 @@ function submitForm() {
 
 
    $.post(url + 'atenciones/proceso_crear', data)
-           .done((response) => {
-              console.log(response);
+           .done((res) => {
+              location.reload();
+             console.log(res);
            })
            .fail((err) => {
-              console.log(err)
+              $.notify("Se ha generado un error", {
+                 type: 'warning',
+                 allow_dismiss: true,
+                 placement: {
+                    from: "bottom",
+                    align: "right"
+                 }
+              });
            })
 }
+
+function submitUpdateForm() {
+   let data = {};
+
+   let diagnostico = [];
+   let referencia = [];
+
+
+   // TODO: agregar tipos a un solo array
+
+   for (let i = 0; i < $(".cod_diagnostico").length; i++) {
+      var dia = {};
+      dia.diagnostico = $(".desc_diagnostico").eq(i).val();
+      dia.codigo = $(".cod_diagnostico").eq(i).val();
+      diagnostico.push(dia);
+   }
+
+
+   for (let i = 0; i < $(".especialidad").length; i++) {
+      var esp = {}
+      esp.especialidad = $(".especialidad").eq(i).val();
+      esp.codigo = $(".cod_especialidad").eq(i).val();
+      referencia.push(esp);
+   }
+
+   //TODO: validar campos no coincidentes
+  
+   data['id'] = $("#id").val(); //id_hoja_especialista
+   //id_sexo = :id_sexo, 
+   data['id_sexo'] = $("#id_sexo").val(); // id_sexo
+   //num_cedula = :num_cedula, 
+   data['num_cedula'] = $("#num_cedula").val(); // num_cedula
+   //edad = :edad, 
+   data['edad'] = $("#edad").val(); //edad
+   //nombre_empresa = :nombre_empresa, 
+   data['nombre_empresa'] = $("#nombre_empresa").val(); // nombre_empresa
+   //num_patronal = :num_patronal, 
+   data['num_patronal'] = $("#num_patronal").val(); // num_patronal
+   //id_tipo_empresa = :id_tipo_empresa, 
+   data['id_tipo_empresa'] = $("#id_tipo_empresa").val(); // id_tipo_empresa
+   //id_tamano_empresa = :id_tamano_empresa, 
+   data['id_tamano_empresa'] = $("#id_tamano_empresa").val(); // id_tamano_empresa
+   //id_actividad_economica = :id_actividad_economica,
+   data['id_actividad_economica'] = $("#id_actividad_economica").val(); // id_actividad_economica
+   //id_tipo_asegurado = :id_tipo_asegurado, 
+   data['id_tipo_asegurado'] = $("#id_tipo_asegurado").val(); // id_tipo_asegurado
+   //id_tipo_atencion = :id_tipo_atencion, 
+   data['id_tipo_atencion'] = $("#id_tipo_atencion").val(); // id_tipo_atencion
+   //id_tipo_consulta = :id_tipo_consulta, 
+   data['id_tipo_consulta'] = $("#id_tipo_consulta").val(); // id_tipo_consulta
+   //id_corregimiento = :id_corregimiento, 
+   data['id_corregimiento'] = $("#id_corregimiento").val(); // id_corregimiento
+   //incapacidad = :incapacidad, 
+   data['incapacidad'] = $("#incapacidad").is(':checked') ? 1 : 0; // incapacidad
+   //dias_incapacidad = :dias_incapacidad, 
+   data['dias_incapacidad'] = $("#dias_incapacidad").val() // dias_incapacidad
+   //json_diagnosticos = :json_diagnosticos, 
+   data['json_diagnosticos'] = diagnostico; // json_diagnosticos
+   //id_referencia = :id_referencia,
+   data['id_referencia'] = $("#id_referencia").val(); // id_referencia
+   //json_referencias = :json_referencias, 
+   data['json_referencias'] = referencia; // json_referencias
+   //id_alta_laboral = :id_alta_laboral
+   data['id_alta_laboral'] = $("#id_alta_laboral").val(); // id_alta_laboral
+   $.post(url + 'atenciones/procesar_editar/' + data['id'] , data)
+           .done((res) => {
+              location.reload();
+             console.log(res);
+           })
+           .fail((err) => {
+              $.notify("Se ha generado un error", {
+                 type: 'warning',
+                 allow_dismiss: true,
+                 placement: {
+                    from: "bottom",
+                    align: "right"
+                 }
+              });
+           })
+}
+

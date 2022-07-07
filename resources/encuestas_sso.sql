@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 25-06-2022 a las 16:30:46
+-- Tiempo de generación: 07-07-2022 a las 19:11:46
 -- Versión del servidor: 10.8.3-MariaDB
 -- Versión de PHP: 8.1.7
 
@@ -11,7 +11,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-USE encuestas_sso;
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -27,7 +27,7 @@ USE encuestas_sso;
 -- Estructura de tabla para la tabla `t_actividades`
 --
 
-CREATE TABLE IF NOT EXISTS `t_actividades` (
+CREATE TABLE `t_actividades` (
   `id` int(11) NOT NULL,
   `tipo_actividad` int(11) NOT NULL,
   `descripcion` varchar(120) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -75,7 +75,7 @@ INSERT INTO `t_actividades` (`id`, `tipo_actividad`, `descripcion`, `estado`) VA
 -- Estructura de tabla para la tabla `t_act_economica`
 --
 
-CREATE TABLE IF NOT EXISTS `t_act_economica` (
+CREATE TABLE `t_act_economica` (
   `id` int(11) NOT NULL,
   `actividad_economica` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -101,7 +101,7 @@ INSERT INTO `t_act_economica` (`id`, `actividad_economica`) VALUES
 -- Estructura de tabla para la tabla `t_alta_laboral`
 --
 
-CREATE TABLE IF NOT EXISTS `t_alta_laboral` (
+CREATE TABLE `t_alta_laboral` (
   `id` int(11) NOT NULL,
   `alta_laboral` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -121,7 +121,7 @@ INSERT INTO `t_alta_laboral` (`id`, `alta_laboral`) VALUES
 -- Estructura de tabla para la tabla `t_control_usuario`
 --
 
-CREATE TABLE IF NOT EXISTS `t_control_usuario` (
+CREATE TABLE `t_control_usuario` (
   `id` int(11) NOT NULL,
   `id_usuario` int(11) NOT NULL,
   `ultimo_acceso` datetime NOT NULL,
@@ -130,13 +130,21 @@ CREATE TABLE IF NOT EXISTS `t_control_usuario` (
   `actualizado_por` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `t_control_usuario`
+--
+
+INSERT INTO `t_control_usuario` (`id`, `id_usuario`, `ultimo_acceso`, `ip_acceso`, `ultimo_update`, `actualizado_por`) VALUES
+(1, 19, '2022-07-06 23:37:10', '127.0.0.1', '2022-07-06 00:00:00', '19'),
+(2, 21, '1990-01-01 00:00:00', '127.0.0.1', '1990-01-01 00:00:00', '1');
+
 -- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `t_corregimientos`
 --
 
-CREATE TABLE IF NOT EXISTS `t_corregimientos` (
+CREATE TABLE `t_corregimientos` (
   `id` int(11) NOT NULL,
   `cod_correg` smallint(6) DEFAULT NULL,
   `id_distrito` int(11) NOT NULL,
@@ -786,7 +794,7 @@ INSERT INTO `t_corregimientos` (`id`, `cod_correg`, `id_distrito`, `desc_correg`
 -- Estructura de tabla para la tabla `t_distritos`
 --
 
-CREATE TABLE IF NOT EXISTS `t_distritos` (
+CREATE TABLE `t_distritos` (
   `id` int(11) NOT NULL,
   `cod_dist` smallint(6) DEFAULT NULL,
   `id_provincia` int(11) NOT NULL,
@@ -882,7 +890,7 @@ INSERT INTO `t_distritos` (`id`, `cod_dist`, `id_provincia`, `desc_dist`) VALUES
 -- Estructura de tabla para la tabla `t_hoja_especialista`
 --
 
-CREATE TABLE IF NOT EXISTS `t_hoja_especialista` (
+CREATE TABLE `t_hoja_especialista` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_servicio` int(11) NOT NULL,
@@ -893,6 +901,8 @@ CREATE TABLE IF NOT EXISTS `t_hoja_especialista` (
   `h_trabajadas` int(11) NOT NULL,
   `h_administrativas` int(11) NOT NULL,
   `num_vacaciones` int(11) NOT NULL,
+  `num_licencias` int(11) NOT NULL,
+  `num_permiso` int(11) NOT NULL,
   `num_incapacidad` int(11) NOT NULL,
   `num_fortuitas` int(11) NOT NULL,
   `carga_laboral` int(11) NOT NULL,
@@ -905,13 +915,21 @@ CREATE TABLE IF NOT EXISTS `t_hoja_especialista` (
   `estado` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `t_hoja_especialista`
+--
+
+INSERT INTO `t_hoja_especialista` (`id`, `id_unidad`, `id_servicio`, `dt_atencion`, `nombre_profecional`, `lugar_atencion`, `h_contratadas`, `h_trabajadas`, `h_administrativas`, `num_vacaciones`, `num_licencias`, `num_permiso`, `num_incapacidad`, `num_fortuitas`, `carga_laboral`, `cupo_utilizado`, `cupo_disponible`, `cupo_ausente`, `cupo_no_solicitado`, `dt_creacion`, `id_usuario`, `estado`) VALUES
+(1, 73, 1, '2022-07-05 00:00:00', 'Especialista de Prueba', 1, 5, 3, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, '2022-07-06 13:43:57', 19, 1),
+(2, 69, 7, '2022-06-29 00:00:00', 'Nombre Especialista1', 2, 8, 5, 7, 5, 2, 2, 1, 1, 1, 1, 1, 1, 1, '2022-07-06 18:05:50', 1, 1);
+
 -- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `t_provincias`
 --
 
-CREATE TABLE IF NOT EXISTS `t_provincias` (
+CREATE TABLE `t_provincias` (
   `id` int(11) NOT NULL,
   `cod_prov` smallint(6) DEFAULT NULL,
   `desc_prov` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -943,7 +961,7 @@ INSERT INTO `t_provincias` (`id`, `cod_prov`, `desc_prov`, `estado`) VALUES
 -- Estructura de tabla para la tabla `t_ref_empresas`
 --
 
-CREATE TABLE IF NOT EXISTS `t_ref_empresas` (
+CREATE TABLE `t_ref_empresas` (
   `id` int(11) NOT NULL,
   `ref_empresa` varchar(35) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -964,7 +982,7 @@ INSERT INTO `t_ref_empresas` (`id`, `ref_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_reg_actividades`
 --
 
-CREATE TABLE IF NOT EXISTS `t_reg_actividades` (
+CREATE TABLE `t_reg_actividades` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_servicio` int(11) NOT NULL,
@@ -991,7 +1009,7 @@ CREATE TABLE IF NOT EXISTS `t_reg_actividades` (
 -- Estructura de tabla para la tabla `t_reg_atenciones`
 --
 
-CREATE TABLE IF NOT EXISTS `t_reg_atenciones` (
+CREATE TABLE `t_reg_atenciones` (
   `id` int(11) NOT NULL,
   `id_hoja_especialista` int(11) NOT NULL,
   `id_sexo` int(11) NOT NULL,
@@ -1000,6 +1018,7 @@ CREATE TABLE IF NOT EXISTS `t_reg_atenciones` (
   `nombre_empresa` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `num_patronal` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL,
   `id_tipo_empresa` int(11) NOT NULL,
+  `id_actividad_economica` int(11) NOT NULL,
   `id_tamano_empresa` int(11) NOT NULL,
   `id_tipo_asegurado` int(11) NOT NULL,
   `id_tipo_atencion` int(11) NOT NULL,
@@ -1008,13 +1027,24 @@ CREATE TABLE IF NOT EXISTS `t_reg_atenciones` (
   `incapacidad` int(11) NOT NULL,
   `dias_incapacidad` int(11) DEFAULT NULL,
   `id_referencia` int(11) NOT NULL,
-  `diagnosticos` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`diagnosticos`)),
-  `referencias` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`referencias`)),
+  `json_diagnosticos` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `json_referencias` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   `id_alta_laboral` int(11) NOT NULL,
   `dt_registro` date NOT NULL,
   `id_usuario` int(11) NOT NULL,
   `estado` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `t_reg_atenciones`
+--
+
+INSERT INTO `t_reg_atenciones` (`id`, `id_hoja_especialista`, `id_sexo`, `num_cedula`, `edad`, `nombre_empresa`, `num_patronal`, `id_tipo_empresa`, `id_actividad_economica`, `id_tamano_empresa`, `id_tipo_asegurado`, `id_tipo_atencion`, `id_tipo_consulta`, `id_corregimiento`, `incapacidad`, `dias_incapacidad`, `id_referencia`, `json_diagnosticos`, `json_referencias`, `id_alta_laboral`, `dt_registro`, `id_usuario`, `estado`) VALUES
+(1, 2, 1, '1234567', 34, 'Empresa bruja 1', 'ABC-123', 1, 6, 3, 1, 1, 4, 661, 1, 3, 3, '[{\"diagnostico\":\"Diagnostico 1\",\"codigo\":\"CODD1\"},{\"diagnostico\":\"Diagnostico 12\",\"codigo\":\"CODD12\"}]', '[{\"especialidad\":\"Servicio 1\",\"codigo\":\"SRV1\"},{\"especialidad\":\"Servicio 5\",\"codigo\":\"SRV5\"}]', 1, '2022-07-06', 1, 1),
+(2, 2, 1, '2-725-927', 32, 'Don Andres', '123-456', 1, 1, 1, 1, 1, 4, 672, 1, 1, 2, '[{\"diagnostico\":\"Diagnostico 1\",\"codigo\":\"cod_dia_1\"},{\"diagnostico\":\"Diagnostico 2\",\"codigo\":\"cod_dia_2\"}]', '[{\"especialidad\":\"Especialidad 1\",\"codigo\":\"esp1\"},{\"especialidad\":\"Especialidad 2\",\"codigo\":\"esp2\"}]', 1, '2022-07-06', 1, 1),
+(3, 2, 1, '2-725-927', 32, 'Don Andres', '123-456', 1, 1, 1, 1, 1, 4, 672, 1, 1, 2, '[{\"diagnostico\":\"Diagnostico 1\",\"codigo\":\"cod_dia_1\"},{\"diagnostico\":\"Diagnostico 2\",\"codigo\":\"cod_dia_2\"}]', '[{\"especialidad\":\"Especialidad 1\",\"codigo\":\"esp1\"},{\"especialidad\":\"Especialidad 2\",\"codigo\":\"esp2\"}]', 1, '2022-07-06', 1, 1),
+(4, 2, 1, '1234', 5634, 'qsdgsd', 'aDADas', 1, 2, 1, 5, 3, 9, 1025, 1, 2, 1, '[{\"diagnostico\":\"zxcvxcz\",\"codigo\":\"erwer\"}]', '[{\"especialidad\":\"zxczx\",\"codigo\":\"vcbcvx\"}]', 1, '2022-07-06', 1, 1),
+(5, 2, 1, '1234567', 34, 'Empresa bruja 1', '1234567', 3, 6, 3, 5, 3, 10, 1083, 1, 2, 1, '[{\"diagnostico\":\"hadkjas\",\"codigo\":\"COD1\"}]', '[{\"especialidad\":\"adsfsgfdg\",\"codigo\":\"sdfgjhj\"}]', 1, '2022-07-06', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -1022,7 +1052,7 @@ CREATE TABLE IF NOT EXISTS `t_reg_atenciones` (
 -- Estructura de tabla para la tabla `t_servicios`
 --
 
-CREATE TABLE IF NOT EXISTS `t_servicios` (
+CREATE TABLE `t_servicios` (
   `id` int(11) NOT NULL,
   `desctipcion` varchar(35) COLLATE utf8mb4_unicode_ci NOT NULL,
   `estado` int(11) NOT NULL
@@ -1059,7 +1089,7 @@ INSERT INTO `t_servicios` (`id`, `desctipcion`, `estado`) VALUES
 -- Estructura de tabla para la tabla `t_tamano_empresa`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tamano_empresa` (
+CREATE TABLE `t_tamano_empresa` (
   `id` int(11) NOT NULL,
   `tamano_empresa` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1080,7 +1110,7 @@ INSERT INTO `t_tamano_empresa` (`id`, `tamano_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_actividad`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_actividad` (
+CREATE TABLE `t_tipo_actividad` (
   `id` int(11) NOT NULL,
   `tipo_actividad` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1101,7 +1131,7 @@ INSERT INTO `t_tipo_actividad` (`id`, `tipo_actividad`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_asegurado`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_asegurado` (
+CREATE TABLE `t_tipo_asegurado` (
   `id` int(11) NOT NULL,
   `tipo_asegurado` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1123,7 +1153,7 @@ INSERT INTO `t_tipo_asegurado` (`id`, `tipo_asegurado`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_atencion`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_atencion` (
+CREATE TABLE `t_tipo_atencion` (
   `id` int(11) NOT NULL,
   `tipo_atencion` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1143,7 +1173,7 @@ INSERT INTO `t_tipo_atencion` (`id`, `tipo_atencion`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_consulta`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_consulta` (
+CREATE TABLE `t_tipo_consulta` (
   `id` int(11) NOT NULL,
   `tipo_consulta` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1172,7 +1202,7 @@ INSERT INTO `t_tipo_consulta` (`id`, `tipo_consulta`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_empresa`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_empresa` (
+CREATE TABLE `t_tipo_empresa` (
   `id` int(11) NOT NULL,
   `tipo_empresa` varchar(75) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1193,7 +1223,7 @@ INSERT INTO `t_tipo_empresa` (`id`, `tipo_empresa`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_referencias`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_referencias` (
+CREATE TABLE `t_tipo_referencias` (
   `id` int(11) NOT NULL,
   `tipo_referencia` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1214,7 +1244,7 @@ INSERT INTO `t_tipo_referencias` (`id`, `tipo_referencia`) VALUES
 -- Estructura de tabla para la tabla `t_tipo_usuario`
 --
 
-CREATE TABLE IF NOT EXISTS `t_tipo_usuario` (
+CREATE TABLE `t_tipo_usuario` (
   `id` int(11) NOT NULL,
   `tipo_usuario` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1233,7 +1263,7 @@ INSERT INTO `t_tipo_usuario` (`id`, `tipo_usuario`) VALUES
 -- Estructura de tabla para la tabla `t_unidades`
 --
 
-CREATE TABLE IF NOT EXISTS `t_unidades` (
+CREATE TABLE `t_unidades` (
   `id` int(11) NOT NULL,
   `id_provincia` int(11) NOT NULL,
   `desc_unidad_alterno` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -1378,7 +1408,7 @@ INSERT INTO `t_unidades` (`id`, `id_provincia`, `desc_unidad_alterno`, `desc_uni
 -- Estructura de tabla para la tabla `t_usuarios`
 --
 
-CREATE TABLE IF NOT EXISTS `t_usuarios` (
+CREATE TABLE `t_usuarios` (
   `id` int(11) NOT NULL,
   `id_unidad` int(11) NOT NULL,
   `id_tipo_usuario` int(11) NOT NULL,
@@ -1386,7 +1416,7 @@ CREATE TABLE IF NOT EXISTS `t_usuarios` (
   `clave` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `nombre1` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `apellido1` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `creador` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `creador` int(11) NOT NULL,
   `creacion_dt` datetime NOT NULL,
   `estado` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1396,12 +1426,9 @@ CREATE TABLE IF NOT EXISTS `t_usuarios` (
 --
 
 INSERT INTO `t_usuarios` (`id`, `id_unidad`, `id_tipo_usuario`, `correo`, `clave`, `nombre1`, `apellido1`, `creador`, `creacion_dt`, `estado`) VALUES
-(1, 120, 1, 'usuario@css.gob.pa', '123456789', 'Usuario', 'Prueba', '1', '2022-06-23 09:35:53', 1),
-(2, 73, 2, 'ferncastillo@css.gob.pa', '1q2w3e4r5t', 'Fernando', 'Castillo', 'ferncastillo', '2022-06-23 13:52:40', 1),
-(3, 76, 2, 'etroesh@css.gob.pa', '123456789', 'Eugenio', 'Troesh', 'ferncastillo', '2022-06-23 14:12:56', 1),
-(4, 22, 2, 'jaquiros@css.gob.pa', '123456789', 'Javier', 'Quiros', 'ferncastillo', '2022-06-23 14:14:34', 0),
-(5, 51, 2, 'otro@css.gob.pa', '123456789', 'Otro', 'Usuario', 'ferncastillo', '2022-06-23 14:24:56', 0),
-(6, 58, 2, 'ferncastillo2@css.gob.pa', 'b25Vd3ZzN3B6eDY0VWtNTjRSRzJaUT09OjrySLcnrH0+LHvKoq1AzhYo', 'Fernando 2', 'Castillo Valdes', 'ferncastillo', '2022-06-23 14:27:44', 1);
+(1, 97, 1, 'admin@css.gob.pa', 'anNpeUJLbXNQUE5sb0g4ZzNBOVRXdz09Ojpb1XkSOlNAZlQaxqa3S9f5', 'Administrador', 'General', 1, '2022-06-27 11:58:47', 1),
+(19, 97, 2, 'ferncastillo@css.gob.pa', 'UHIyWCsvN0x3T1h2OGp5dWd2U3Bjdz09Ojq4XGdoAZujX5EQtAzVn90q', 'Fernando', 'Castillo', 1, '2022-07-06 11:02:31', 1),
+(21, 97, 1, 'etroesh@css.gob.pa', 'TkV2b0FwL1pXMEtjNGF3RHV1bDR6QT09OjoQFeg6/rPyunSNw3f78XNV', 'Eugenio', 'Troesh', 1, '2022-07-06 11:04:52', 1);
 
 --
 -- Índices para tablas volcadas
@@ -1500,7 +1527,8 @@ ALTER TABLE `t_reg_atenciones`
   ADD KEY `fk_rat_empresa` (`id_tipo_empresa`),
   ADD KEY `fk_rat_` (`id_usuario`),
   ADD KEY `fk_rat_referencias` (`id_referencia`),
-  ADD KEY `fk_rat_altalab` (`id_alta_laboral`);
+  ADD KEY `fk_rat_altalab` (`id_alta_laboral`),
+  ADD KEY `fk_rat_actividad_economica` (`id_actividad_economica`);
 
 --
 -- Indices de la tabla `t_servicios`
@@ -1576,7 +1604,8 @@ ALTER TABLE `t_usuarios`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `correo` (`correo`),
   ADD KEY `fk_u_tipo_usuario` (`id_tipo_usuario`),
-  ADD KEY `fk_u_unidad` (`id_unidad`);
+  ADD KEY `fk_u_unidad` (`id_unidad`),
+  ADD KEY `fk_u_creador` (`creador`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -1604,7 +1633,7 @@ ALTER TABLE `t_alta_laboral`
 -- AUTO_INCREMENT de la tabla `t_control_usuario`
 --
 ALTER TABLE `t_control_usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `t_corregimientos`
@@ -1622,7 +1651,7 @@ ALTER TABLE `t_distritos`
 -- AUTO_INCREMENT de la tabla `t_hoja_especialista`
 --
 ALTER TABLE `t_hoja_especialista`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `t_provincias`
@@ -1646,7 +1675,7 @@ ALTER TABLE `t_reg_actividades`
 -- AUTO_INCREMENT de la tabla `t_reg_atenciones`
 --
 ALTER TABLE `t_reg_atenciones`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `t_servicios`
@@ -1712,7 +1741,7 @@ ALTER TABLE `t_unidades`
 -- AUTO_INCREMENT de la tabla `t_usuarios`
 --
 ALTER TABLE `t_usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- Restricciones para tablas volcadas
@@ -1766,6 +1795,7 @@ ALTER TABLE `t_reg_actividades`
 --
 ALTER TABLE `t_reg_atenciones`
   ADD CONSTRAINT `fk_rat_` FOREIGN KEY (`id_usuario`) REFERENCES `t_usuarios` (`id`),
+  ADD CONSTRAINT `fk_rat_actividad_economica` FOREIGN KEY (`id_actividad_economica`) REFERENCES `t_act_economica` (`id`),
   ADD CONSTRAINT `fk_rat_altalab` FOREIGN KEY (`id_alta_laboral`) REFERENCES `t_alta_laboral` (`id`),
   ADD CONSTRAINT `fk_rat_consulta` FOREIGN KEY (`id_tipo_consulta`) REFERENCES `t_tipo_consulta` (`id`),
   ADD CONSTRAINT `fk_rat_corregimiento` FOREIGN KEY (`id_corregimiento`) REFERENCES `t_corregimientos` (`id`),
@@ -1786,6 +1816,7 @@ ALTER TABLE `t_unidades`
 -- Filtros para la tabla `t_usuarios`
 --
 ALTER TABLE `t_usuarios`
+  ADD CONSTRAINT `fk_u_creador` FOREIGN KEY (`creador`) REFERENCES `t_usuarios` (`id`),
   ADD CONSTRAINT `fk_u_tipo_usuario` FOREIGN KEY (`id_tipo_usuario`) REFERENCES `t_tipo_usuario` (`id`),
   ADD CONSTRAINT `fk_u_unidad` FOREIGN KEY (`id_unidad`) REFERENCES `t_unidades` (`id`);
 COMMIT;

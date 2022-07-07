@@ -22,7 +22,7 @@ class Controlusuario {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no creada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -32,7 +32,7 @@ class Controlusuario {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al crear la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -57,7 +57,7 @@ class Controlusuario {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -67,7 +67,7 @@ class Controlusuario {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -91,7 +91,7 @@ class Controlusuario {
             $data = [
                 "title" => "Warning",
                 "message" => "Información no encontrada, datos vacios",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $result
             ];
          }
@@ -101,7 +101,7 @@ class Controlusuario {
          $data = [
              "title" => "Warning",
              "message" => "Error al obtener la información",
-             "type" => "warning",
+             "type" => "warn",
              "data" => $e->getMessage()
          ];
          return $data;
@@ -126,7 +126,7 @@ class Controlusuario {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no modificada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -136,7 +136,7 @@ class Controlusuario {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al obtener la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
@@ -162,7 +162,7 @@ class Controlusuario {
                $data = [
                    "title" => "Warning",
                    "message" => "Información no eliminada, datos vacios",
-                   "type" => "warning",
+                   "type" => "warn",
                    "data" => $result
                ];
             }
@@ -172,7 +172,7 @@ class Controlusuario {
             $data = [
                 "title" => "Warning",
                 "message" => "Error al eliminar la información",
-                "type" => "warning",
+                "type" => "warn",
                 "data" => $e->getMessage()
             ];
             return $data;
