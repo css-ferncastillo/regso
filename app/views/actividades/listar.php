@@ -19,7 +19,7 @@
          </div>
       </div>
       <div class="block-content block-content-full">
-         <table id="tbl_hojas" class="table table-sm table-striped table-hover table-borderless table-vcenter fs-sm mb-2">
+         <table id="tbl-actividades" class="table table-sm table-striped table-hover table-borderless table-vcenter fs-sm mb-2">
             <thead>
                <tr class="text-uppercase">
                   <th class="fw-bold  text-center">ID</th>
@@ -27,14 +27,43 @@
                   <th class="fw-bold  text-center">Servicio</th>
                   <th class="fw-bold  text-center">Fecha de Atenci&oacute;n</th>
                   <th class="fw-bold  text-center">Especialista</th>
-                  <th class="fw-bold  text-center">Atenciones</th>
+                  <th class="fw-bold  text-center">Empresa</th>
                   <th class="fw-bold  text-center">Acciones</th>
                </tr>
             </thead>
             <tbody>
+               <?php
+               $actividad = $data['actividad'];
+               if($actividad){
+               for ($a = 0; $a < count($actividad); $a++) {
+                  ?>
+                  <tr>
+                     <td><?= $actividad[$a]['id'] ?></td>
+                     <td><?= $actividad[$a]['desc_unidad'] ?></td>
+                     <td><?= $actividad[$a]['desctipcion'] ?></td>
+                     <td><?= $actividad[$a]['dt_visita'] ?></td>
+                     <td><?= $actividad[$a]['nombre_profecional'] ?></td>
+                     <td><?= $actividad[$a]['nombre_empresa'] ?></td>
+                     <td class="text-center">
+                        <div class="btn-group btn-group-sm me-2 mb-2" role="group" aria-label="Small Primary Second group">
+                           <button value="<?= $actividad[$a]['id'] ?>" type="button" class="btn btn-eliminar rounded-pill btn-alt-danger btn-eliminar"> <!-- Llama un evento jquery -->
+                              <i class="si si-trash"></i>
+                           </button>
+                           <a href="<?= APP_URI ?>actividades/editar/<?= $actividad[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-success mx-sm-1">
+                              <i class="si si-pencil"></i>
+                           </a>
+                           <a href="<?= APP_URI ?>actividades/detalles/<?= $actividad[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-secondary mx-sm-1">
+                              <i class="si si-list"></i>
+                           </a>
 
+                        </div>
+                     </td>
+                  </tr>
+               <?php } }?>
             </tbody>
          </table>
       </div>
    </div>
 </div>
+
+<<script src="<?= APP_URI ?>public/pages/actividades.js"></script>

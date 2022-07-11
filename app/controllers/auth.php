@@ -23,6 +23,7 @@ class Auth {
 
          if (count($post) > 0) {
             $data = \App\Models\Usuarios::auth([':correo' => $post[':correo']]);
+            var_dump($data);
             if ($data['type'] == "success") {
                if (isset($data['data'][0]['clave'])) {
                   if (\App\Libs\Auth::validate_password($data['data'][0]['clave'], $post[':clave'])) {
@@ -53,6 +54,14 @@ class Auth {
                            \Helpers\Helpers::redirect('');
                         }
                      } else {
+                        $cuser = [
+                            ':id_usuario' => $data['data'][0]['id'],
+                            ':ultimo_acceso' => date("Y-m-d H:i:s"),
+                            ':ip_acceso' => $_SERVER['REMOTE_ADDR'],
+                            ':ultimo_update' => date('Y-m-d'),
+                            ':actualizado_por' => $data['data'][0]['id']
+                        ];
+
                         \Helpers\UsrFlash::setFlash($data['type'], $data['message']);
                         \Helpers\UsrFlash::setFlash('warning', 'Session de usuario no actualizada o no existe');
                         \Helpers\Usrflash::sendFlash();

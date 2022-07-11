@@ -222,7 +222,7 @@
                   <button class="btn btn-alt-primary" id="submit" type="button"> <i class="si si-disc"></i> REGISTRAR</button>
                </div>
                <div class="d-grid col-3 mx-auto">
-                  <button class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</button>
+                  <a href="javascript:history.back()" class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</a>
                </div>
             </div>
          </form>

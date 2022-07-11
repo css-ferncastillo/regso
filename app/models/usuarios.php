@@ -109,7 +109,7 @@ class Usuarios {
    }
 
    public static function auth($data = []) {
-      $sql = 'SELECT tu.id, tu.id_unidad, tun.desc_unidad, tp.desc_prov, tun.id_provincia, tu.id_tipo_usuario, ttu.tipo_usuario, tu.correo, tu.clave, tu.nombre1, tu.apellido1, tu.creador, tu.creacion_dt, tu.estado FROM t_usuarios tu LEFT JOIN t_unidades tun ON tun.id = tu.id_unidad LEFT JOIN t_provincias tp ON tp.id = tun.id_provincia LEFT JOIN t_tipo_usuario ttu ON ttu.id = tu.id_tipo_usuario WHERE tu.correo = :correo;';
+      $sql = 'SELECT tu.id, tu.id_unidad, tun.desc_unidad, tp.desc_prov, tun.id_provincia, tu.id_tipo_usuario, ttu.tipo_usuario, tu.correo, tu.clave, tu.nombre1, tu.apellido1, tu.creador, tu.creacion_dt, tu.estado FROM t_usuarios tu LEFT JOIN t_unidades tun ON tun.id = tu.id_unidad LEFT JOIN t_provincias tp ON tp.id = tun.id_provincia LEFT JOIN t_tipo_usuario ttu ON ttu.id = tu.id_tipo_usuario WHERE tu.correo = :correo OR SUBSTRING_INDEX(correo,"@",1) = :correo;';
       try {
          $con = \Core\Model::getInstance();
          $result = $con->consulta($sql, $data);

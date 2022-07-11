@@ -54,7 +54,6 @@
                                        <a type="button" href="<?= APP_URI ?>usuario/cambiar_clave/<?= $usuarios[$i]['id'] ?>" class="btn rounded-pill btn-alt-info mx-sm-1">
                                           <i class="si si-key"></i>
                                        </a>
-
                                     </div>
                                  </td>
                               </tr>
@@ -129,16 +128,11 @@
 
                      </select>
                   </div>
-
-                  <!--<div class="mb-2">
-                     <label class="form-label" for="clave">Contrase&ntilde;a</label>
-                     <input type="password" class="form-control" id="clave" name="clave" placeholder="Contrase&ntilde;a">
-                  </div>-->
                   <div class="mb-2">
                      <label class="form-label" for="estado">Estado Usuario</label>
                      <select class="form-select" id="estado" name="estado">
                         <option value="1">Activo</option>
-                        <option value="0">Inactivo</option>
+                        <option value="2">Inactivo</option>
                      </select>
                   </div>
                   <div class="mb-2 text-center">

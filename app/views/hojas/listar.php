@@ -42,7 +42,7 @@
                         <td><span class="fw-semibold"><?= $atencion[$a]['id'] ?></span></td>
                         <td class="d-none d-sm-table-cell"><?= $atencion[$a]['desc_unidad'] ?></td>
                         <td class="d-none d-sm-table-cell"><?= $atencion[$a]['desctipcion'] ?></td>
-                        <td class="d-none d-sm-table-cell"><?= $atencion[$a]['dt_atencion'] ?></td>
+                        <td class="d-none d-sm-table-cell"><?= date('Y-m-d',strtotime($atencion[$a]['dt_atencion'])) ?></td>
                         <td class="d-none d-sm-table-cell"><?= $atencion[$a]['nombre_profecional'] ?></td>
                         <td class="d-none d-sm-table-cell"><?= $atencion[$a]['atenciones'] ?></td>
 

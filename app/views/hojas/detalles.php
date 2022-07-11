@@ -5,88 +5,160 @@
       </div>
       <div class="block-content block-content-full">
          <?php $hoja = count($data['hoja']) > 0 ? $data['hoja'][0] : null; ?>
-         <div class="row g-3 mb-4">
+         <div class="row mb-2">
             <!-- ROW 1 -->
-            <div class="col">
-               Unidad Ejecutora
-               <p class="text-muted"><?= $hoja['desc_unidad'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Unidad Ejecutora
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['desc_unidad'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Servicio
-               <p class="text-muted"><?= $hoja['desctipcion'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Servicio
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['desctipcion'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Fecha de Atenci&oacute;n
-               <p class="text-muted"><?= $hoja['dt_atencion'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Fecha de Atenci&oacute;n
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['dt_atencion'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">procesar
-               Nombre Especialista
-               <p class="text-muted"><?= $hoja['nombre_profecional'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Nombre Especialista
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['nombre_profecional'] ?>
+                  </strong>
+               </p>
             </div>
          </div>
          <!-- ROW 2 -->
-         <div class="row g-3 mb-4">
-            <div class="col">
-               Lugar de Atencion
-               <p class="text-muted"><?= $hoja['lugar_atencion'] == 1 ? "Sede" : "Extramuro" ?></p>
+         <div class="row mb-2">
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Lugar de Atencion
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['lugar_atencion'] == 1 ? "Sede" : "Extramuro" ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Horas Administrativas
-               <p class="text-muted"><?= $hoja['h_administrativas'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Horas Administrativas
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['h_administrativas'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Horas Contratadas
-               <p class="text-muted"><?= $hoja['h_contratadas'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Horas Contratadas
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['h_contratadas'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Horas Utilizadas
-               <p class="text-muted"><?= $hoja['h_trabajadas'] ?></p>
+            <div class="col-sm-6 col-md-3">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Horas Utilizadas
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['h_trabajadas'] ?>
+                  </strong>
+               </p>
             </div>
          </div>
          <!-- ROW 3 -->
-         <div class="row g-3 mb-4">
-            <div class="col">
-               Vacaciones
-               <p class="text-muted"><?= $hoja['num_vacaciones'] ?></p>
+         <div class="row mb-2">
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Vacaciones
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['num_vacaciones'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Licencias
-               <p class="text-muted"><?= $hoja['num_licencias'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Licencias
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['num_licencias'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Permisos
-               <p class="text-muted"><?= $hoja['num_permiso'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Permisos
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['num_permiso'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Incapacidades
-               <p class="text-muted"><?= $hoja['num_incapacidad'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Incapacidades
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['num_incapacidad'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Fortuitos
-               <p class="text-muted"><?= $hoja['num_fortuitas'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Fortuitos
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['num_fortuitas'] ?>
+                  </strong>
+               </p>
             </div>
          </div>
          <!-- ROW 4 -->
-         <div class="row g-3 mb-4">
-            <div class="col">
-               Carga Laboral
-               <p class="text-muted"><?= $hoja['carga_laboral'] ?></p>
+         <div class="row mb-2">
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Descarga Laboral
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['carga_laboral'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Cupos Utilizados
-               <p class="text-muted"><?= $hoja['cupo_utilizado'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Cupos Utilizados
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['cupo_utilizado'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Cuppos Disponibles
-               <p class="text-muted"><?= $hoja['cupo_disponible'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Cupos Disponibles
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['cupo_disponible'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Cupos No Acudi&oacute;
-               <p class="text-muted"><?= $hoja['cupo_ausente'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Cupos No Acudi&oacute;
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['cupo_ausente'] ?>
+                  </strong>
+               </p>
             </div>
-            <div class="col">
-               Cupos No Solicitados
-               <p class="text-muted"><?= $hoja['cupo_no_solicitado'] ?></p>
+            <div class="col-md-2">
+               <p class="pb-3 mb-0 small lh-sm">
+                  Cupos No Solicitados
+                  <strong class="d-block text-gray-dark">
+                     <?= $hoja['cupo_no_solicitado'] ?>
+                  </strong>
+               </p>
             </div>
          </div>
       </div>
@@ -103,7 +175,7 @@
          </div>
       </div>
       <div class="block-content block-content-full">
-         <table class="table">
+         <table class="table table-responsive table-sm" id="tbl-atenciones">
             <thead>
                <tr>
                   <th>ID</th>
@@ -117,7 +189,7 @@
             </thead>
             <tbody>
                <?php
-               if (isset($data['atenciones'])) {
+               if (($data['atenciones'])) {
                   $row = $data['atenciones'];
                   for ($a = 0; $a < count($row); $a++) {
                      ?>
@@ -136,7 +208,7 @@
                               <a href="<?= APP_URI ?>atenciones/editar/<?= $row[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-success mx-sm-1">
                                  <i class="si si-pencil"></i>
                               </a>
-                              <a href="<?= APP_URI ?>hojas/detalles/<?= $row[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-secondary mx-sm-1">
+                              <a href="<?= APP_URI ?>atenciones/detalles/<?= $row[$a]['id'] ?>" type="button" class="btn rounded-pill btn-alt-secondary mx-sm-1">
                                  <i class="si si-list"></i>
                               </a>
                            </div>
@@ -151,3 +223,4 @@
       </div>
    </div>
 </div>
+<<script src="<?= APP_URI ?>public/pages/nueva_atencion.js"></script>

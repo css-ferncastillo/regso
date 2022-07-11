@@ -316,11 +316,12 @@ $atencion = $data['atencion'][0];
                </div>
             </div>
             <div class="row">
-               <div class="d-grid gap-2 col-3 mx-auto">
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
                   <button class="btn btn-alt-primary" id="update" type="button"> <i class="si si-disc"></i> REGISTRAR</button>
                </div>
-               <div class="d-grid col-3 mx-auto">
-                  <button class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</button>
+               <div class="col-md-3">
+               <a href="javascript:history.back()" class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</a>
                </div>
             </div>
          </form>

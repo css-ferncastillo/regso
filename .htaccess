@@ -10,7 +10,8 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-l
 
+     RewriteCond %{REQUEST_URI} !^/?(public)/
     # Redirecciona la peticion al index
     RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
 
-</IfModule> 
+</IfModule>

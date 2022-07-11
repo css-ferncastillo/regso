@@ -104,7 +104,7 @@
                </div>
                <div class="col-md-3">
                   <label for="id_provincia">Provincia</label>
-                  <select class="form-select"  id="id_provincia" name="id_provincia">
+                  <select class="form-select" id="id_provincia" name="id_provincia">
                      <option value="0">Seleccione</option>
                      <?php
                      $provincia = $data['provincia'];
@@ -120,7 +120,7 @@
                </div>
                <div class="col-md-3">
                   <label for="id_corregimiento">Corregimiento</label>
-                  <select  id="id_corregimiento" name="id_corregimiento" class="form-control"></select>
+                  <select id="id_corregimiento" name="id_corregimiento" class="form-control"></select>
                </div>
             </div>
 
@@ -129,7 +129,7 @@
                $tipo_actividad = $data['tipo_actividad'];
                $desc_actividades = $data['desc_actividades'];
                for ($ac = 0; $ac < count($tipo_actividad); $ac++) {
-                  ?>
+               ?>
                   <div class="col-md-6">
                      <div class="block block-rounded block-themed">
                         <div class="block-header bg-flat-dark">
@@ -142,12 +142,12 @@
                            for ($da = 0; $da < count($desc_actividades); $da++) {
                               echo "<div class='space-y-2'>";
                               if ($desc_actividades[$da]['tipo_actividad'] == $tipo_actividad[$ac]['id']) {
-                                 ?>
+                           ?>
                                  <div class="form-check">
-                                    <input class="form-check-input check-actividad" type="checkbox" value="<?= $desc_actividades[$da]['id'] ?>" id="json_acrividades" name="json_acrividades" >
-                                    <label class="form-check-label" ><?= $desc_actividades[$da]['descripcion'] ?>.</label>
+                                    <input class="form-check-input check-actividad" type="checkbox" value="<?= $desc_actividades[$da]['id'] ?>" id="json_acrividades" name="json_acrividades">
+                                    <label class="form-check-label"><?= $desc_actividades[$da]['descripcion'] ?>.</label>
                                  </div>
-                                 <?php
+                           <?php
                               }
                               echo '</div>';
                            }
@@ -155,14 +155,17 @@
                         </div>
                      </div>
                   </div>
-                  <?php
+               <?php
                }
                ?>
             </div>
             <div class="row mt-2 mb-2">
-               <div class="col-md-4"></div>
-               <div class="col-md-4">
-                  <button id="submit-actividad" type="button" class="btn btn-lg btn-block btn-alt-primary" >Registrar Actividad</button>
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <button id="submit-actividad" type="button" class="btn btn-lg btn-block btn-alt-primary">Registrar Actividad</button>
+               </div>
+               <div class="col-md-3">
+               <a href="javascript:history.back()" class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</a>
                </div>
             </div>
          </form>
@@ -171,11 +174,11 @@
 </div>
 
 <script type="text/javascript">
-   $(document).ready(function () {
+   $(document).ready(function() {
       $("#dt_visita").datepicker({
-         todayHighlight: true, format: "yyyy-mm-dd"
-      }
-      );
+         todayHighlight: true,
+         format: "yyyy-mm-dd"
+      });
    })
 </script>
 <script src="<?= APP_URI ?>public/pages/actividades.js"></script>

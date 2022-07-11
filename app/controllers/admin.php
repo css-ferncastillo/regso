@@ -89,6 +89,8 @@ class Admin {
          \Helpers\Helpers::redirect('');
          die();
       }
+      $data = \App\Models\TipoActividad::listar();
+      \Core\Engine::set('data', $data['data']);
       \Core\Engine::set('title_page', 'Tipo Actividad');
       \Core\Engine::render();
    }
@@ -100,6 +102,8 @@ class Admin {
          \Helpers\Helpers::redirect('');
          die();
       }
+      $data = \App\Models\Servicios::listar();
+      \Core\Engine::set('data', $data['data']);
       \Core\Engine::set('title_page', 'Tipo Servicio');
       \Core\Engine::render();
    }

@@ -30,7 +30,7 @@ class Usuario {
       } else {
          $data = [
              "title" => "Error",
-             "message" => "Solicitud <?php 
+             "message" => "Solicitud <?php
             namespace App\Controllers;incorrecta",
              "class" => "alert-danger"
          ];
@@ -123,7 +123,8 @@ class Usuario {
 
          if ($post[":id"] != "" || $post[":id"] != null) {
             $data = \App\Models\Usuarios::editar($post);
-            \Helpers\UsrFlash::setFlash($data['type'], $data['message']);
+            \Helpers\UsrFlash::setFlash($data['type'], strtolower($data['message']));
+            \Helpers\UsrFlash::sendFlash();
          } else {
             // TODO: Cambiar el usuario por la sesion
             unset($post[":id"]);
@@ -225,7 +226,7 @@ class Usuario {
    }
 
    public static function eliminar(int $id) {
-      if ($_SERVER['REQUEST_METHOD'] == 'DELETE') {
+      if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          $filter = ["id" => $id];
          $data = \App\Models\Usuarios::eliminar($filter);
          header('Content-Type: appliction/json');

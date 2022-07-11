@@ -1,11 +1,11 @@
 <div class="content">
-   
+
    <div class="block block-rounded block-mode-loading-oneui h-100 mb-0">
       <div class="block-header block-header-default">
          <h3 class="block-title">Registro de Hoja de Atenci&oacute;n</h3>
       </div>
       <div class="block-content block-content-full">
-         <form id="frm-nueva-hoja" action="<?=APP_URI?>hojas/procesar_creacion" method="POST">
+         <form id="frm-nueva-hoja" action="<?= APP_URI ?>hojas/procesar_creacion" method="POST">
             <div class="row g-3 mb-4">
                <!-- ROW 1 -->
                <div class="col">
@@ -14,8 +14,8 @@
                      <option selected value="">Selecciona una Unidad</option>
                      <?php
                      $unidades = $data['unidades'];
-                     for($u = 0; $u < count($unidades); $u++) {
-                        echo '<option value="'.$unidades[$u]['id'].'">'.$unidades[$u]['desc_prov'] . ' - '.$unidades[$u]['desc_unidad'].'</option>';
+                     for ($u = 0; $u < count($unidades); $u++) {
+                        echo '<option value="' . $unidades[$u]['id'] . '">' . $unidades[$u]['desc_prov'] . ' - ' . $unidades[$u]['desc_unidad'] . '</option>';
                      }
                      ?>
                   </select>
@@ -27,8 +27,8 @@
                      <option selected value="">Selecciona un Servicio</option>
                      <?php
                      $servicios = $data['servicios'];
-                     for($s = 0; $s < count($servicios); $s++) {
-                        echo '<option value="'.$servicios[$s]['id'].'">'.$servicios[$s]['desctipcion'].'</option>';
+                     for ($s = 0; $s < count($servicios); $s++) {
+                        echo '<option value="' . $servicios[$s]['id'] . '">' . $servicios[$s]['desctipcion'] . '</option>';
                      }
                      ?>
                   </select>
@@ -118,11 +118,16 @@
                   <input type="number" class="form-control" placeholder="Cupos No Solicitados" aria-label="Last name" id="cupo_no_solicitado" name="cupo_no_solicitado">
                </div>
             </div>
-
-            <div class="d-grid gap-2 col-3 mx-auto">
-               <button id="btn-nueva-hoja" class="btn btn-alt-primary" type="button">INICIAR</button>
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <button id="btn-nueva-hoja" class="btn btn-alt-primary" type="button">INICIAR</button>
+               </div>
+               <div class="col-md-3">
+                  <a href="javascript:history.back()" class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</a>
+               </div>
+               <div class="col-md-3"></div>
             </div>
-            
          </form>
       </div>
    </div>

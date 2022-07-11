@@ -16,14 +16,7 @@
                         Sistema de Registro Estad&iacute;stico
                         </h2>
                   </div>
-                  <?php if (isset($error)) { ?>
-                     <div class="alert <?= $error['class'] ?> alert-dismissible" role="alert">
-                        <p class="mb-0">
-                           <?= $error['message'] ?>!
-                        </p>
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"><i class="fa-solid fa-times"></i></button>
-                     </div>
-                  <?php } ?>
+                 
                   <form class="js-validation-signin" action="<?= APP_URI ?>auth/procesar_auth" method="POST">
                      <div class="py-3">
                         <div class="mb-4">

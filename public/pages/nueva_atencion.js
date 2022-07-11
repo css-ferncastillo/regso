@@ -11,7 +11,7 @@ $(document).ready(function () {
    $("#submit").on('click', submitForm);
    $("#update").on('click', submitUpdateForm);
    $("#incapacidad").on('click', dias_incapacidad);
-
+   $("#tbl-atenciones").on("click", ".btn-eliminar", eliminar_atencion);
 })
 
 function add_row_diagnostico() {
@@ -38,11 +38,13 @@ function remove_row_diagnostico() {
    $(this).closest('#diagnostico_row').remove();
 }
 
-function dias_incapacidad(){
-   if($("#incapacidad").is(':checked')){
-      $("#dias_incapacidad").prop('disabled', false);;
-   } else{
-      $("#dias_incapacidad").prop('disabled', true);;
+function dias_incapacidad() {
+   if ($("#incapacidad").is(':checked')) {
+      $("#dias_incapacidad").prop('disabled', false);
+      ;
+   } else {
+      $("#dias_incapacidad").prop('disabled', true);
+      ;
    }
 }
 
@@ -164,7 +166,7 @@ function submitForm() {
    $.post(url + 'atenciones/proceso_crear', data)
            .done((res) => {
               location.reload();
-             console.log(res);
+              console.log(res);
            })
            .fail((err) => {
               $.notify("Se ha generado un error", {
@@ -203,48 +205,48 @@ function submitUpdateForm() {
    }
 
    //TODO: validar campos no coincidentes
-  
+
    data['id'] = $("#id").val(); //id_hoja_especialista
-   //id_sexo = :id_sexo, 
+   //id_sexo = :id_sexo,
    data['id_sexo'] = $("#id_sexo").val(); // id_sexo
-   //num_cedula = :num_cedula, 
+   //num_cedula = :num_cedula,
    data['num_cedula'] = $("#num_cedula").val(); // num_cedula
-   //edad = :edad, 
+   //edad = :edad,
    data['edad'] = $("#edad").val(); //edad
-   //nombre_empresa = :nombre_empresa, 
+   //nombre_empresa = :nombre_empresa,
    data['nombre_empresa'] = $("#nombre_empresa").val(); // nombre_empresa
-   //num_patronal = :num_patronal, 
+   //num_patronal = :num_patronal,
    data['num_patronal'] = $("#num_patronal").val(); // num_patronal
-   //id_tipo_empresa = :id_tipo_empresa, 
+   //id_tipo_empresa = :id_tipo_empresa,
    data['id_tipo_empresa'] = $("#id_tipo_empresa").val(); // id_tipo_empresa
-   //id_tamano_empresa = :id_tamano_empresa, 
+   //id_tamano_empresa = :id_tamano_empresa,
    data['id_tamano_empresa'] = $("#id_tamano_empresa").val(); // id_tamano_empresa
    //id_actividad_economica = :id_actividad_economica,
    data['id_actividad_economica'] = $("#id_actividad_economica").val(); // id_actividad_economica
-   //id_tipo_asegurado = :id_tipo_asegurado, 
+   //id_tipo_asegurado = :id_tipo_asegurado,
    data['id_tipo_asegurado'] = $("#id_tipo_asegurado").val(); // id_tipo_asegurado
-   //id_tipo_atencion = :id_tipo_atencion, 
+   //id_tipo_atencion = :id_tipo_atencion,
    data['id_tipo_atencion'] = $("#id_tipo_atencion").val(); // id_tipo_atencion
-   //id_tipo_consulta = :id_tipo_consulta, 
+   //id_tipo_consulta = :id_tipo_consulta,
    data['id_tipo_consulta'] = $("#id_tipo_consulta").val(); // id_tipo_consulta
-   //id_corregimiento = :id_corregimiento, 
+   //id_corregimiento = :id_corregimiento,
    data['id_corregimiento'] = $("#id_corregimiento").val(); // id_corregimiento
-   //incapacidad = :incapacidad, 
+   //incapacidad = :incapacidad,
    data['incapacidad'] = $("#incapacidad").is(':checked') ? 1 : 0; // incapacidad
-   //dias_incapacidad = :dias_incapacidad, 
+   //dias_incapacidad = :dias_incapacidad,
    data['dias_incapacidad'] = $("#dias_incapacidad").val() // dias_incapacidad
-   //json_diagnosticos = :json_diagnosticos, 
+   //json_diagnosticos = :json_diagnosticos,
    data['json_diagnosticos'] = diagnostico; // json_diagnosticos
    //id_referencia = :id_referencia,
    data['id_referencia'] = $("#id_referencia").val(); // id_referencia
-   //json_referencias = :json_referencias, 
+   //json_referencias = :json_referencias,
    data['json_referencias'] = referencia; // json_referencias
    //id_alta_laboral = :id_alta_laboral
    data['id_alta_laboral'] = $("#id_alta_laboral").val(); // id_alta_laboral
-   $.post(url + 'atenciones/procesar_editar/' + data['id'] , data)
+   $.post(url + 'atenciones/procesar_editar/' + data['id'], data)
            .done((res) => {
               location.reload();
-             console.log(res);
+              console.log(res);
            })
            .fail((err) => {
               $.notify("Se ha generado un error", {
@@ -258,3 +260,61 @@ function submitUpdateForm() {
            })
 }
 
+function eliminar_atencion() {
+   var currentRow = $(this).closest("tr");
+   var id = currentRow.find("button.btn-eliminar").val();
+   const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+         confirmButton: 'btn btn-alt-success',
+         cancelButton: 'btn btn-alt-danger'
+      },
+      buttonsStyling: false
+   })
+
+   swalWithBootstrapButtons.fire({
+      title: 'Desea eliminar este registro?',
+      text: "Al ser eliminado no podrá recuperarlo!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Si, eliminar!',
+      cancelButtonText: 'No, cancelar!',
+      reverseButtons: true
+   }).then((result) => {
+      if (result.isConfirmed) {
+
+         $.ajax({
+            url: url + 'atenciones/eliminar/' + id,
+            type: 'POST',
+            dataType: 'json',
+            success: function (data) {
+               swalWithBootstrapButtons.fire({
+                  title: `${data['title']}!`,
+                  text: `${data['message']}`,
+                  showCancelButton: false,
+                  confirmButtonText: 'Aceptar!',
+               }).then(rst => {
+                  location.reload();
+               })
+            },
+            error: function (data) {
+               swalWithBootstrapButtons.fire(
+                       `${data['title']}!`,
+                       `${data['message']}`,
+                       `${data['type']}`
+                       )
+            },
+         })
+
+
+      } else if (
+              /* Read more about handling dismissals below */
+              result.dismiss === Swal.DismissReason.cancel
+              ) {
+         swalWithBootstrapButtons.fire(
+                 'Cancelado',
+                 'La acción no ha sido procesada :)',
+                 'info'
+                 )
+      }
+   })
+}

@@ -10,12 +10,12 @@ class Model {
 
    public function __construct() {
       $options = [
-          \PDO::ATTR_PERSISTENT => TRUE,
-          \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
-          \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
-          \PDO::ATTR_AUTOCOMMIT => FALSE,
+         \PDO::ATTR_PERSISTENT => TRUE,
+         \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
+         \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
+         \PDO::ATTR_AUTOCOMMIT => FALSE,
       ];
-      $this->dsn = DATABASE['driver'] . ":host=" . DATABASE['hostname'] . ";dbname=" . DATABASE['database'];
+      $this->dsn = DATABASE['driver'] . ":host=" . DATABASE['hostname'] . ':' . DATABASE['port'] . ";dbname=" . DATABASE['database'];
 
       try {
          $this->connect = new \PDO($this->dsn, DATABASE['username'], DATABASE['password'], $options);
@@ -23,17 +23,19 @@ class Model {
       } catch (\PDOException $e) {
 
          $result = [
-             'response' => false,
-             'class' => 'danger',
-             'title' => 'Error de Conexion',
-             'mensjae' => $e->getMessage(),
-             'data' => $e->getTraceAsString(),
+            'response' => false,
+            'class' => 'danger',
+            'title' => 'Error de Conexion',
+            'mensjae' => $e->getMessage(),
+            'data' => $e->getTraceAsString(),
          ];
+
+         echo json_encode($result);
       }
    }
 
    /**
-    * 
+    *
     * @param type $sql
     * @param type $params
     * @return boolean
@@ -86,10 +88,11 @@ class Model {
             $link = null;
             return true;
             die();
+         } else {
+            $link->rollBack();
+            $link = null;
+            return false;
          }
-         $link->rollBack();
-         $link = null;
-         return false;
       }
 
       $link->commit();
@@ -113,9 +116,8 @@ class Model {
    public function __clone() {
       trigger_error("La clonacion de este objeto no esta permitida", E_USER_ERROR);
    }
-
 }
 
 /**
- * 
+ *
  */

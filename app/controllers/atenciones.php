@@ -107,7 +107,6 @@ class Atenciones {
          }
       }
       // dt_registro, id_usuario
-      var_dump($post);
       $result = \App\Models\Regatenciones::editar($post);
       \Helpers\Usrflash::setFlash($result['type'], $result['message']);
       \Helpers\Usrflash::sendFlash();
@@ -115,8 +114,33 @@ class Atenciones {
       echo json_encode($result);
    }
 
-   public function eliminar() {
-      
+   public function detalles($id) {
+      $data = [];
+      $data['atencion'] = \App\Models\Regatenciones::filterById([':id' => $id])['data'];
+      \Core\Engine::set('data', $data);
+
+      \Core\Engine::set('title_page', 'Detalle de Atenciones');
+      \Core\Engine::render();
+   }
+
+   public function eliminar($id) {
+      if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+         $filter = [":id" => $id];
+         $data = \App\Models\Regatenciones::eliminar($filter);
+         header('Content-Type: appliction/json');
+         echo json_encode($data);
+         die();
+      } else {
+         $data = [
+             "title" => "Error",
+             "message" => "Solicitud incorrecta",
+             "class" => "alert-danger"
+         ];
+         header('HTTP/1.1 405 Method Not Allowed');
+         header('Content-Type: appliction/json');
+         echo json_encode($data);
+         die();
+      }
    }
 
 }

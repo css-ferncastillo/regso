@@ -32,7 +32,7 @@ define('VIEWS', ROOT . 'app' . DS . 'views' . DS);
 define('LAYOUTS', VIEWS . 'layouts' . DS);
 
 if (APP_DEBUG) {
-   ini_set('display_errors', 1);
+   ini_set('display_errors', 0);
    error_reporting(E_ALL);
 } else {
    ini_set('display_errors', 1);
@@ -51,9 +51,10 @@ ini_set('error_log', LOGS . 'app_errors.log');
 const DATABASE = [
     'driver' => 'mysql',
     'hostname' => '127.0.0.1',
+    'port' => '3306',
     'database' => 'encuestas_sso',
-    'username' => 'root',
-    'password' => 'hola2020',
+    'username' => 'desarrollo',
+    'password' => '1q2w3e4r',
 ];
 
 if (!session_start()) {

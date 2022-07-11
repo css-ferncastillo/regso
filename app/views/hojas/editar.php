@@ -47,7 +47,7 @@
                </div>
                <div class="col" id="datetime">
                   <label for="dt_atencion" class="form-label">Fecha de Atenci&oacute;n</label>
-                  <input type="text" class="form-control" placeholder="Fecha de Atenci&oacute;n" aria-label="Last name" id="dt_atencion" name="dt_atencion" value="<?= $record['dt_atencion'] ?>">
+                  <input type="text" class="form-control" placeholder="Fecha de Atenci&oacute;n" aria-label="Last name" id="dt_atencion" name="dt_atencion" value="<?= date('Y-m-d', strtotime($record['dt_atencion'])) ?>">
                   <small id="dt_atencion_help" class="form-text text-danger" hidden>Campo requerido</small>
                </div>
                <div class="col">
@@ -134,9 +134,14 @@
                   <input type="number" class="form-control" placeholder="Cupos No Solicitados" aria-label="Last name" id="cupo_no_solicitado" name="cupo_no_solicitado" value="<?= $record['cupo_no_solicitado'] ?>">
                </div>
             </div>
-
-            <div class="d-grid gap-2 col-3 mx-auto">
-               <button id="btn-nueva-hoja" class="btn btn-alt-primary" type="button">MODIFICAR</button>
+            <div class="row">
+               <div class="col-md-3"></div>
+               <div class="col-md-3">
+                  <button id="btn-nueva-hoja" class="btn btn-alt-primary" type="button">MODIFICAR</button>
+               </div>
+               <div class="col-md-3">
+                  <a href="javascript:history.back()" class="btn btn-alt-info" type="button"> <i class="si si-action-undo"></i> VOLVER</a>
+               </div>
             </div>
 
          </form>

@@ -1,0 +1,896 @@
+[08-Jul-2022 07:24:42 America/Panama] #Error Call to a member function beginTransaction() on null(/var/www/html/regso/core/model.php): 43
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /var/www/html/regso/app/models/usuarios.php(115): consulta
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /var/www/html/regso/app/controllers/auth.php(25): auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /var/www/html/regso/core/router.php(17): call_user_func
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[08-Jul-2022 07:40:04 America/Panama] #Error Call to a member function beginTransaction() on null(/var/www/html/regso/core/model.php): 43
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /var/www/html/regso/app/models/usuarios.php(115): consulta
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /var/www/html/regso/app/controllers/auth.php(25): auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /var/www/html/regso/core/router.php(17): call_user_func
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[08-Jul-2022 07:41:16 America/Panama] #Error Call to a member function beginTransaction() on null(/var/www/html/regso/core/model.php): 45
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /var/www/html/regso/app/models/usuarios.php(115): consulta
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /var/www/html/regso/app/controllers/auth.php(25): auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /var/www/html/regso/core/router.php(17): call_user_func
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /var/www/html/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /var/www/html/regso/core/router.php(17): call_user_func()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[08-Jul-2022 09:12:40 America/Panama] #Error Cannot use object of type stdClass as array(/var/www/html/regso/app/views/atenciones/detalles.php): 189
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /var/www/html/regso/core/engine.php(23): require_once
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): render
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): detalles
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/core/engine.php(23): require_once()
+#1 /var/www/html/regso/app/controllers/atenciones.php(123): Core\Engine::render()
+#2 [internal function]: App\Controllers\Atenciones->detalles()
+#3 /var/www/html/regso/core/router.php(23): call_user_func_array()
+#4 /var/www/html/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[08-Jul-2022 12:35:34 America/Panama] PHP Fatal error:  Cannot use [] for reading in /var/www/html/regso/app/views/actividades/editar.php on line 37
+[08-Jul-2022 14:47:46 America/Panama] #Exception Controller not found: reportes(/var/www/html/regso/core/router.php): 29
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[08-Jul-2022 14:55:41 America/Panama] #Exception Controller not found: be_pages_generic_profile.html(/var/www/html/regso/core/router.php): 29
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[08-Jul-2022 15:37:40 America/Panama] #Exception Method not found: eliminar_hoja(/var/www/html/regso/core/router.php): 25
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[08-Jul-2022 16:00:04 America/Panama] #ArgumentCountError Too few arguments to function App\Controllers\Actividades::eliminar(), 0 passed and exactly 1 expected(/var/www/html/regso/app/controllers/actividades.php): 99
+	 #0 [internal function]: App\Controllers\Actividades->eliminar()
+#1 /var/www/html/regso/core/router.php(17): call_user_func()
+#2 /var/www/html/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 (#0 (): eliminar
+	 #0 [internal function]: App\Controllers\Actividades->eliminar()
+#1 /var/www/html/regso/core/router.php(17): call_user_func()
+#2 /var/www/html/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+#1 /var/www/html/regso/core/router.php(17): call_user_func
+	 #0 [internal function]: App\Controllers\Actividades->eliminar()
+#1 /var/www/html/regso/core/router.php(17): call_user_func()
+#2 /var/www/html/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+#2 /var/www/html/regso/index.php(9): run
+	 #0 [internal function]: App\Controllers\Actividades->eliminar()
+#1 /var/www/html/regso/core/router.php(17): call_user_func()
+#2 /var/www/html/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[08-Jul-2022 16:05:05 America/Panama] #Exception Method not found: detalles(/var/www/html/regso/core/router.php): 25
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /var/www/html/regso/index.php(9): run
+	 #0 /var/www/html/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 11:04:39 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 45
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/usuarios.php(115): consulta
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/auth.php(25): auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:07:50 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 45
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/usuarios.php(115): consulta
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/auth.php(25): auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:08:13 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 45
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/usuarios.php(115): consulta
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/auth.php(25): auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:11:00 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 45
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/usuarios.php(115): consulta
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/auth.php(25): auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:11:11 America/Panama] #Error Call to a member function beginTransaction() on null(/srv/http/regso/core/model.php): 45
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/app/models/usuarios.php(115): consulta
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/auth.php(25): auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): procesar_auth
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/models/usuarios.php(115): Core\Model->consulta()
+#1 /srv/http/regso/app/controllers/auth.php(25): App\Models\Usuarios::auth()
+#2 [internal function]: App\Controllers\Auth->procesar_auth()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:22:20 America/Panama] #TypeError date(): Argument #2 ($timestamp) must be of type ?int, string given(/srv/http/regso/app/views/hojas/listar.php): 45
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 (#0 /srv/http/regso/app/views/hojas/listar.php(45): date
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 ()
+#1 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 (string)
+#2 /srv/http/regso/app/controllers/hojas.php(27): render
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 ()
+#3 (): listar
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 ()
+#4 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 ()
+#5 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/app/views/hojas/listar.php(45): date()
+#1 /srv/http/regso/core/engine.php(23): require_once('...')
+#2 /srv/http/regso/app/controllers/hojas.php(27): Core\Engine::render()
+#3 [internal function]: App\Controllers\Hojas->listar()
+#4 /srv/http/regso/core/router.php(17): call_user_func()
+#5 /srv/http/regso/index.php(9): Core\Router::run()
+#6 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#6{main})
+[10-Jul-2022 11:25:52 America/Panama] #Error Undefined constant "correg"(/srv/http/regso/app/views/actividades/editar.php): 157
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/actividades.php(96): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): editar
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:26:00 America/Panama] #Error Undefined constant "correg"(/srv/http/regso/app/views/actividades/editar.php): 157
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/actividades.php(96): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): editar
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 11:26:40 America/Panama] #Exception Method not found: detalles(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 11:26:46 America/Panama] #Error Undefined constant "correg"(/srv/http/regso/app/views/actividades/editar.php): 157
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/actividades.php(96): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): editar
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(96): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->editar()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 13:48:37 America/Panama] #Exception Method not found: eliminar_hoja(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 13:48:51 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, bool given(/srv/http/regso/app/views/hojas/detalles.php): 194
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/hojas.php(132): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): detalles
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/hojas.php(132): Core\Engine::render()
+#2 [internal function]: App\Controllers\Hojas->detalles()
+#3 /srv/http/regso/core/router.php(23): call_user_func_array()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 13:51:11 America/Panama] #Exception Method not found: eliminar_hoja(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 14:17:29 America/Panama] #Exception Method not found: eliminar_hoja(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 15:12:24 America/Panama] #TypeError count(): Argument #1 ($value) must be of type Countable|array, bool given(/srv/http/regso/app/views/actividades/listar.php): 37
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 (#0 /srv/http/regso/core/engine.php(23): require_once
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#1 /srv/http/regso/app/controllers/actividades.php(77): render
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#2 (): listar
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#3 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+#4 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/core/engine.php(23): require_once()
+#1 /srv/http/regso/app/controllers/actividades.php(77): Core\Engine::render()
+#2 [internal function]: App\Controllers\Actividades->listar()
+#3 /srv/http/regso/core/router.php(17): call_user_func()
+#4 /srv/http/regso/index.php(9): Core\Router::run()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[10-Jul-2022 15:20:42 America/Panama] #Exception Method not found: detalles(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 15:32:53 America/Panama] #Exception Method not found: eliminar_hoja(/srv/http/regso/core/router.php): 25
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:36:42 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:41:01 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:41:02 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:41:03 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:41:10 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 16:41:28 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 19:03:08 America/Panama] #Exception Controller not found: reportes(/srv/http/regso/core/router.php): 29
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 (#0 /srv/http/regso/index.php(9): run
+	 #0 /srv/http/regso/index.php(9): Core\Router::run()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

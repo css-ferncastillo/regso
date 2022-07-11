@@ -11,7 +11,7 @@ $(document).ready(() => {
 function getUnidades(unidad = null) {
    let params = $("#id_provincia").val();
    $.ajax({
-      url: baseUrl + '/listfilters/filter_unidad/' + params,
+      url: url + '/listfilters/filter_unidad/' + params,
       type: 'GET',
       dataType: 'json',
       success: function (data) {
@@ -36,11 +36,11 @@ function cargarDatos() {
    var currentRow = $(this).closest("tr");
    var id = currentRow.find("button.btn-editar").val();
    $.ajax({
-      url: baseUrl + '/usuario/listar_uno/' + id,
+      url: url + 'usuario/listar_uno/' + id,
       type: 'GET',
       dataType: 'json',
       success: function (data) {
-         const { id, nombre1, apellido1, id_tipo_usuario, correo, id_provincia, id_unidad, estado } = data['data'][0];
+         const {id, nombre1, apellido1, id_tipo_usuario, correo, id_provincia, id_unidad, estado} = data['data'][0];
          $("#id").val(id);
          $("#nombre1").val(nombre1);
          $("#apellido1").val(apellido1);
@@ -95,23 +95,23 @@ function eliminarUsuario() {
             },
             error: function (data) {
                swalWithBootstrapButtons.fire(
-                  `${data['title']}!`,
-                  `${data['message']}`,
-                  `${data['type']}`
-               )
+                       `${data['title']}!`,
+                       `${data['message']}`,
+                       `${data['type']}`
+                       )
             },
          })
 
 
       } else if (
-         /* Read more about handling dismissals below */
-         result.dismiss === Swal.DismissReason.cancel
-      ) {
+              /* Read more about handling dismissals below */
+              result.dismiss === Swal.DismissReason.cancel
+              ) {
          swalWithBootstrapButtons.fire(
-            'Cancelado',
-            'La acción no ha sido procesada :)',
-            'info'
-         )
+                 'Cancelado',
+                 'La acción no ha sido procesada :)',
+                 'info'
+                 )
       }
    })
 }
