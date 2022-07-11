@@ -894,3 +894,27 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[10-Jul-2022 19:05:37 America/Panama] #Error Call to a member function render() on null(/srv/http/regso/app/controllers/reportes.php): 9
+	 #0 [internal function]: App\Controllers\Reportes->index()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 (#0 (): index
+	 #0 [internal function]: App\Controllers\Reportes->index()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+#1 /srv/http/regso/core/router.php(17): call_user_func
+	 #0 [internal function]: App\Controllers\Reportes->index()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+#2 /srv/http/regso/index.php(9): run
+	 #0 [internal function]: App\Controllers\Reportes->index()
+#1 /srv/http/regso/core/router.php(17): call_user_func()
+#2 /srv/http/regso/index.php(9): Core\Router::run()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
